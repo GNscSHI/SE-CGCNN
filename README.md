@@ -1,19 +1,13 @@
-# Crystal Graph Convolutional Neural Networks
+# Suface-emphasized Crystal Graph Convolutional Neural Networks
+(SE-CGCNN) This is the repository for our work on surface property prediction of crystals. The ideas of surface embedding, GradNorm algorithm (for multi-task learning) and Crystal Graph Convolutional Neural Network are combined to predict surface properties with higher accuracy and efficiency.
 
-This software package implements the Crystal Graph Convolutional Neural Networks (CGCNN) that takes an arbitary crystal structure to predict material properties. 
-
-The package provides two major functions:
-
-- Train a CGCNN model with a customized dataset.
-- Predict material properties of new crystals with a pre-trained CGCNN model.
-
-The following paper describes the details of the CGCNN framework:
-
-[Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties](https://link.aps.org/doi/10.1103/PhysRevLett.120.145301)
-
+The package provides three major functions:
+- Train a SE-CGCNN model with a customized dataset for single/multiple targets.
+- Predict material properties of new crystals with a pre-trained SE-CGCNN model.
+- Transfer the pre-trained model to customized datasets.
 ## Table of Contents
 
-- [How to cite](#how-to-cite)
+- [Important paper referenced](#Important paper referenced)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
   - [Define a customized dataset](#define-a-customized-dataset)
@@ -23,26 +17,10 @@ The following paper describes the details of the CGCNN framework:
 - [Authors](#authors)
 - [License](#license)
 
-## How to cite
-
-Please cite the following work if you want to use CGCNN.
-
-```
-@article{PhysRevLett.120.145301,
-  title = {Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties},
-  author = {Xie, Tian and Grossman, Jeffrey C.},
-  journal = {Phys. Rev. Lett.},
-  volume = {120},
-  issue = {14},
-  pages = {145301},
-  numpages = {6},
-  year = {2018},
-  month = {Apr},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevLett.120.145301},
-  url = {https://link.aps.org/doi/10.1103/PhysRevLett.120.145301}
-}
-```
+## Important paper referenced
+There are two important papers referenced for this work:
+1. Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties (doi:10.1103/PhysRevLett.120.145301).
+2. GradNorm algorithm for balancing the gradient loss of each task (doi: arXiv:1711.02257v4)
 
 ##  Prerequisites
 
