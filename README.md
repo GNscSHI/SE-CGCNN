@@ -7,7 +7,7 @@ The package provides three major functions:
 - Transfer the pre-trained model to customized datasets.
 ## Table of Contents
 
-- [Important paper referenced](#Important paper referenced)
+- [Important paper referenced](#Important-papar-referenced)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
   - [Define a customized dataset](#define-a-customized-dataset)
