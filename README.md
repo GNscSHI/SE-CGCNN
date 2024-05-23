@@ -45,7 +45,7 @@ Before defining a customized dataset, you will need:
 
 You can create a customized dataset by creating a directory `root_dir` with the following files: 
 
-1. `id_prop.csv`: a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file with **two or more** columns. The first column recodes a unique `ID` for each crystal, and the remaining columns recode the values of target properties. If you want to predict material properties with `predict.py`, you can put any number in the remaining column. (The second column is still needed to identify the properties to predict.)
+1. `id_prop.csv`: a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file with **two or more** columns. The first column recodes a unique `ID` for each crystal, and the remaining columns record the values of target properties. If you want to predict material properties with `predict.py`, you can put any number in the remaining column. (The second column is still needed to identify the properties to predict.)
 
 2. `atom_init.json`: a [JSON](https://en.wikipedia.org/wiki/JSON) file that stores the initialization vector for each element. An example of `atom_init.json` is `data/sample-regression/atom_init.json`, which should be good for most applications.
 
