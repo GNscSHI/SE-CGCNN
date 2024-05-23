@@ -19,8 +19,10 @@ The package provides three major functions:
 
 ## Important paper referenced
 There are two important papers referenced for this work:
-1. Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties (https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301).
-2. GradNorm algorithm for balancing the gradient loss of each task (doi: arXiv:1711.02257v4)
+1. Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties
+   (https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301).
+3. GradNorm algorithm for balancing the gradient loss of each task
+   (https://arxiv.org/abs/1711.02257)
 
 ##  Prerequisites
 
