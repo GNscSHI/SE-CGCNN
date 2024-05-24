@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Al12Ru6
+_chemical_formula_sum              "Al12 Ru6"
+_cell_length_a       4.74142
+_cell_length_b       6.48455
+_cell_length_c       29.0577
+_cell_angle_alpha    92.374
+_cell_angle_beta     92.8587
+_cell_angle_gamma    104.706
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.37453  0.28180  0.58763  1.0000
+  Al  Al2       1.0  0.99358  0.85323  0.54001  1.0000
+  Al  Al3       1.0  0.75548  0.71037  0.63525  1.0000
+  Al  Al4       1.0  0.05404  0.24201  0.50761  1.0000
+  Al  Al5       1.0  0.81594  0.09915  0.60285  1.0000
+  Al  Al6       1.0  0.43499  0.67058  0.55523  1.0000
+  Al  Al7       1.0  0.23168  0.99609  0.44477  1.0000
+  Al  Al8       1.0  0.85072  0.56752  0.39715  1.0000
+  Al  Al9       1.0  0.61263  0.42466  0.49239  1.0000
+  Al  Al10      1.0  0.91118  0.95629  0.36475  1.0000
+  Al  Al11      1.0  0.67309  0.81344  0.45999  1.0000
+  Al  Al12      1.0  0.29213  0.38486  0.41237  1.0000
+  Ru  Ru1       1.0  0.52381  0.04762  0.52381  1.0000
+  Ru  Ru2       1.0  0.28571  0.90476  0.61905  1.0000
+  Ru  Ru3       1.0  0.90476  0.47619  0.57143  1.0000
+  Ru  Ru4       1.0  0.38095  0.76190  0.38095  1.0000
+  Ru  Ru5       1.0  0.14286  0.61905  0.47619  1.0000
+  Ru  Ru6       1.0  0.76190  0.19048  0.42857  1.0000

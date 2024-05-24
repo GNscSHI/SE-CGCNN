@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Zn4Cu4As4
+_chemical_formula_sum              "Zn4 Cu4 As4"
+_cell_length_a       4.06926
+_cell_length_b       5.8154
+_cell_length_c       33.1674
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zn  Zn1       1.0  0.78143  0.03173  0.59167  1.0000
+  Zn  Zn2       1.0  0.28143  0.53173  0.53333  1.0000
+  Zn  Zn3       1.0  0.71857  0.03173  0.46667  1.0000
+  Zn  Zn4       1.0  0.21857  0.53173  0.40833  1.0000
+  Cu  Cu1       1.0  0.28216  0.01979  0.53432  1.0000
+  Cu  Cu2       1.0  0.71784  0.51979  0.46568  1.0000
+  Cu  Cu3       1.0  0.21784  0.01979  0.40932  1.0000
+  Cu  Cu4       1.0  0.78216  0.51979  0.59068  1.0000
+  As  As1       1.0  0.27690  0.77654  0.59661  1.0000
+  As  As2       1.0  0.77690  0.27654  0.52839  1.0000
+  As  As3       1.0  0.22310  0.77654  0.47161  1.0000
+  As  As4       1.0  0.72310  0.27654  0.40339  1.0000

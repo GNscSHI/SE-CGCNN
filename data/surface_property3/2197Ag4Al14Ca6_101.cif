@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ag4Al14Ca6
+_chemical_formula_sum              "Ag4 Al14 Ca6"
+_cell_length_a       5.57167
+_cell_length_b       9.42378
+_cell_length_c       33.3653
+_cell_angle_alpha    94.875
+_cell_angle_beta     90
+_cell_angle_gamma    107.195
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ag  Ag1       1.0  0.78310  0.52454  0.51752  1.0000
+  Ag  Ag2       1.0  0.82404  0.60642  0.61343  1.0000
+  Ag  Ag3       1.0  0.21167  0.38168  0.37467  1.0000
+  Ag  Ag4       1.0  0.25261  0.46356  0.47057  1.0000
+  Al  Al1       1.0  0.92188  0.80209  0.55458  1.0000
+  Al  Al2       1.0  0.71158  0.87219  0.62468  1.0000
+  Al  Al3       1.0  0.58929  0.13690  0.63690  1.0000
+  Al  Al4       1.0  0.68526  0.32886  0.57638  1.0000
+  Al  Al5       1.0  0.20228  0.87219  0.62468  1.0000
+  Al  Al6       1.0  0.89556  0.25876  0.50628  1.0000
+  Al  Al7       1.0  0.40486  0.25876  0.50628  1.0000
+  Al  Al8       1.0  0.35045  0.65924  0.41172  1.0000
+  Al  Al9       1.0  0.14015  0.72934  0.48182  1.0000
+  Al  Al10      1.0  0.01786  0.99405  0.49405  1.0000
+  Al  Al11      1.0  0.11383  0.18600  0.43352  1.0000
+  Al  Al12      1.0  0.63085  0.72934  0.48182  1.0000
+  Al  Al13      1.0  0.32413  0.11590  0.36342  1.0000
+  Al  Al14      1.0  0.83343  0.11590  0.36342  1.0000
+  Ca  Ca1       1.0  0.30357  0.56548  0.56548  1.0000
+  Ca  Ca2       1.0  0.09887  0.15608  0.58595  1.0000
+  Ca  Ca3       1.0  0.50827  0.97488  0.54501  1.0000
+  Ca  Ca4       1.0  0.73214  0.42262  0.42262  1.0000
+  Ca  Ca5       1.0  0.52744  0.01322  0.44309  1.0000
+  Ca  Ca6       1.0  0.93684  0.83202  0.40215  1.0000

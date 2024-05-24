@@ -1,0 +1,47 @@
+data_image0
+_chemical_formula_structural       Al18Co4
+_chemical_formula_sum              "Al18 Co4"
+_cell_length_a       6.15172
+_cell_length_b       6.23062
+_cell_length_c       33.9817
+_cell_angle_alpha    90
+_cell_angle_beta     94.8807
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50000  0.00000  0.59659  1.0000
+  Al  Al2       1.0  0.50000  0.50000  0.47159  1.0000
+  Al  Al3       1.0  0.90564  0.96617  0.41345  1.0000
+  Al  Al4       1.0  0.09436  0.46617  0.40473  1.0000
+  Al  Al5       1.0  0.09436  0.03383  0.52973  1.0000
+  Al  Al6       1.0  0.90564  0.53383  0.53845  1.0000
+  Al  Al7       1.0  0.58764  0.28977  0.40391  1.0000
+  Al  Al8       1.0  0.41236  0.78977  0.41427  1.0000
+  Al  Al9       1.0  0.41236  0.71023  0.53927  1.0000
+  Al  Al10      1.0  0.58764  0.21023  0.52891  1.0000
+  Al  Al11      1.0  0.89016  0.19173  0.59601  1.0000
+  Al  Al12      1.0  0.10984  0.69173  0.47218  1.0000
+  Al  Al13      1.0  0.10984  0.80827  0.59718  1.0000
+  Al  Al14      1.0  0.89016  0.30827  0.47101  1.0000
+  Al  Al15      1.0  0.71594  0.61405  0.60759  1.0000
+  Al  Al16      1.0  0.28406  0.11405  0.46059  1.0000
+  Al  Al17      1.0  0.28406  0.38595  0.58559  1.0000
+  Al  Al18      1.0  0.71594  0.88595  0.48259  1.0000
+  Co  Co1       1.0  0.76373  0.61847  0.42997  1.0000
+  Co  Co2       1.0  0.23627  0.11847  0.38821  1.0000
+  Co  Co3       1.0  0.23627  0.38153  0.51321  1.0000
+  Co  Co4       1.0  0.76373  0.88153  0.55497  1.0000

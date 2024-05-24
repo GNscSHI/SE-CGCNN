@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Ca8In4Pt8
+_chemical_formula_sum              "Ca8 In4 Pt8"
+_cell_length_a       5.75892
+_cell_length_b       8.84721
+_cell_length_c       35.2033
+_cell_angle_alpha    89.6975
+_cell_angle_beta     87.6714
+_cell_angle_gamma    82.1007
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.72243  0.78728  0.60590  1.0000
+  Ca  Ca2       1.0  0.22243  0.03728  0.48090  1.0000
+  Ca  Ca3       1.0  0.17467  0.36417  0.41837  1.0000
+  Ca  Ca4       1.0  0.67467  0.11417  0.54337  1.0000
+  Ca  Ca5       1.0  0.27757  0.56272  0.56910  1.0000
+  Ca  Ca6       1.0  0.77757  0.81272  0.44410  1.0000
+  Ca  Ca7       1.0  0.32533  0.73583  0.38163  1.0000
+  Ca  Ca8       1.0  0.82533  0.48583  0.50663  1.0000
+  In  In1       1.0  0.70084  0.19958  0.45021  1.0000
+  In  In2       1.0  0.20084  0.94958  0.57521  1.0000
+  In  In3       1.0  0.29916  0.65042  0.47479  1.0000
+  In  In4       1.0  0.79916  0.40042  0.59979  1.0000
+  Pt  Pt1       1.0  0.13335  0.24677  0.55346  1.0000
+  Pt  Pt2       1.0  0.63335  0.49677  0.42846  1.0000
+  Pt  Pt3       1.0  0.47726  0.04793  0.39919  1.0000
+  Pt  Pt4       1.0  0.97726  0.79793  0.52419  1.0000
+  Pt  Pt5       1.0  0.86665  0.10323  0.62154  1.0000
+  Pt  Pt6       1.0  0.36665  0.35323  0.49654  1.0000
+  Pt  Pt7       1.0  0.02274  0.05207  0.40081  1.0000
+  Pt  Pt8       1.0  0.52274  0.80207  0.52581  1.0000

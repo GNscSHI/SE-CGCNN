@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Ga6Pt4Ga6Pt4
+_chemical_formula_sum              "Ga12 Pt8"
+_cell_length_a       7.3187
+_cell_length_b       6.73937
+_cell_length_c       33.8036
+_cell_angle_alpha    108.27
+_cell_angle_beta     90
+_cell_angle_gamma    57.1132
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.00000  0.00000  0.46875  1.0000
+  Ga  Ga2       1.0  0.50000  0.00000  0.40625  1.0000
+  Ga  Ga3       1.0  0.84488  0.64357  0.44647  1.0000
+  Ga  Ga4       1.0  0.34488  0.64357  0.38397  1.0000
+  Ga  Ga5       1.0  0.65512  0.35643  0.42853  1.0000
+  Ga  Ga6       1.0  0.15512  0.35643  0.49103  1.0000
+  Pt  Pt1       1.0  0.08384  0.16565  0.41660  1.0000
+  Pt  Pt2       1.0  0.58384  0.16565  0.47910  1.0000
+  Pt  Pt3       1.0  0.41616  0.83435  0.45840  1.0000
+  Pt  Pt4       1.0  0.91616  0.83435  0.39590  1.0000
+  Ga  Ga7       1.0  0.00000  0.00000  0.59375  1.0000
+  Ga  Ga8       1.0  0.50000  0.00000  0.53125  1.0000
+  Ga  Ga9       1.0  0.84488  0.64357  0.57147  1.0000
+  Ga  Ga10      1.0  0.34488  0.64357  0.50897  1.0000
+  Ga  Ga11      1.0  0.65512  0.35643  0.55353  1.0000
+  Ga  Ga12      1.0  0.15512  0.35643  0.61603  1.0000
+  Pt  Pt5       1.0  0.08384  0.16565  0.54160  1.0000
+  Pt  Pt6       1.0  0.58384  0.16565  0.60410  1.0000
+  Pt  Pt7       1.0  0.41616  0.83435  0.58340  1.0000
+  Pt  Pt8       1.0  0.91616  0.83435  0.52090  1.0000

@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Si4Rh4Si4Rh4
+_chemical_formula_sum              "Si8 Rh8"
+_cell_length_a       4.56867
+_cell_length_b       4.54972
+_cell_length_c       32.9873
+_cell_angle_alpha    90
+_cell_angle_beta     66.3461
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Si  Si1       1.0  0.22941  0.35292  0.38467  1.0000
+  Si  Si2       1.0  0.27059  0.85292  0.44867  1.0000
+  Si  Si3       1.0  0.77059  0.64708  0.36533  1.0000
+  Si  Si4       1.0  0.72941  0.14708  0.46800  1.0000
+  Rh  Rh1       1.0  0.18101  0.35634  0.47813  1.0000
+  Rh  Rh2       1.0  0.31899  0.85634  0.35521  1.0000
+  Rh  Rh3       1.0  0.81899  0.64366  0.43854  1.0000
+  Rh  Rh4       1.0  0.68101  0.14366  0.39479  1.0000
+  Si  Si5       1.0  0.22941  0.35292  0.55133  1.0000
+  Si  Si6       1.0  0.27059  0.85292  0.61533  1.0000
+  Si  Si7       1.0  0.77059  0.64708  0.53200  1.0000
+  Si  Si8       1.0  0.72941  0.14708  0.63467  1.0000
+  Rh  Rh5       1.0  0.18101  0.35634  0.64479  1.0000
+  Rh  Rh6       1.0  0.31899  0.85634  0.52187  1.0000
+  Rh  Rh7       1.0  0.81899  0.64366  0.60521  1.0000
+  Rh  Rh8       1.0  0.68101  0.14366  0.56146  1.0000

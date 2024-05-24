@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Mo4Si8
+_chemical_formula_sum              "Mo4 Si8"
+_cell_length_a       4.50865
+_cell_length_b       4.51691
+_cell_length_c       31.275
+_cell_angle_alpha    90
+_cell_angle_beta     89.8789
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mo  Mo1       1.0  0.87500  0.50000  0.40625  1.0000
+  Mo  Mo2       1.0  0.12500  0.00000  0.46875  1.0000
+  Mo  Mo3       1.0  0.62500  0.00000  0.59375  1.0000
+  Mo  Mo4       1.0  0.37500  0.50000  0.53125  1.0000
+  Si  Si1       1.0  0.87774  0.50000  0.48935  1.0000
+  Si  Si2       1.0  0.12774  0.00000  0.55185  1.0000
+  Si  Si3       1.0  0.62774  0.00000  0.42685  1.0000
+  Si  Si4       1.0  0.37774  0.50000  0.61435  1.0000
+  Si  Si5       1.0  0.37226  0.50000  0.44815  1.0000
+  Si  Si6       1.0  0.62226  0.00000  0.51065  1.0000
+  Si  Si7       1.0  0.12226  0.00000  0.38565  1.0000
+  Si  Si8       1.0  0.87226  0.50000  0.57315  1.0000

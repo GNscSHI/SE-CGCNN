@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Pb16Rh8
+_chemical_formula_sum              "Pb16 Rh8"
+_cell_length_a       5.5382
+_cell_length_b       8.84718
+_cell_length_c       31.9956
+_cell_angle_alpha    94.2771
+_cell_angle_beta     93.4151
+_cell_angle_gamma    96.1837
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pb  Pb1       1.0  0.25000  0.83362  0.45819  1.0000
+  Pb  Pb2       1.0  0.91667  0.33362  0.54152  1.0000
+  Pb  Pb3       1.0  0.58333  0.83362  0.62485  1.0000
+  Pb  Pb4       1.0  0.58333  0.33362  0.37485  1.0000
+  Pb  Pb5       1.0  0.91667  0.66638  0.37515  1.0000
+  Pb  Pb6       1.0  0.58333  0.16638  0.45848  1.0000
+  Pb  Pb7       1.0  0.25000  0.66638  0.54181  1.0000
+  Pb  Pb8       1.0  0.91667  0.16638  0.62515  1.0000
+  Pb  Pb9       1.0  0.02700  0.08362  0.38894  1.0000
+  Pb  Pb10      1.0  0.69367  0.58362  0.47227  1.0000
+  Pb  Pb11      1.0  0.36033  0.08362  0.55560  1.0000
+  Pb  Pb12      1.0  0.02700  0.58362  0.63894  1.0000
+  Pb  Pb13      1.0  0.47300  0.91638  0.36106  1.0000
+  Pb  Pb14      1.0  0.13967  0.41638  0.44440  1.0000
+  Pb  Pb15      1.0  0.80633  0.91638  0.52773  1.0000
+  Pb  Pb16      1.0  0.47300  0.41638  0.61106  1.0000
+  Rh  Rh1       1.0  0.08333  0.37500  0.35417  1.0000
+  Rh  Rh2       1.0  0.75000  0.87500  0.43750  1.0000
+  Rh  Rh3       1.0  0.41667  0.37500  0.52083  1.0000
+  Rh  Rh4       1.0  0.08333  0.87500  0.60417  1.0000
+  Rh  Rh5       1.0  0.41667  0.12500  0.64583  1.0000
+  Rh  Rh6       1.0  0.41667  0.62500  0.39583  1.0000
+  Rh  Rh7       1.0  0.08333  0.12500  0.47917  1.0000
+  Rh  Rh8       1.0  0.75000  0.62500  0.56250  1.0000

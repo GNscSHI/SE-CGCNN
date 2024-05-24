@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Tl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.01531100
+_cell_length_b   14.23976559
+_cell_length_c   28.47953036
+_cell_angle_alpha   89.99999888
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl
+_chemical_formula_sum   Tl26
+_cell_volume   1628.37659682
+_cell_formula_units_Z   26
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.00000300  0.38623100  0.46187300  1.0
+  Tl  Tl1  1  0.00000400  0.14967200  0.38072900  1.0
+  Tl  Tl2  1  0.00000300  0.77011400  0.43207400  1.0
+  Tl  Tl3  1  0.00000200  0.53621900  0.34887500  1.0
+  Tl  Tl4  1  0.00000100  0.30749400  0.26785000  1.0
+  Tl  Tl5  1  0.00000000  0.07859900  0.18686000  1.0
+  Tl  Tl6  1  0.00000300  0.92159700  0.30744800  1.0
+  Tl  Tl7  1  0.00000200  0.69279300  0.23466600  1.0
+  Tl  Tl8  1  0.00000200  0.46303500  0.15372400  1.0
+  Tl  Tl9  1  0.00000200  0.23051000  0.07295400  1.0
+  Tl  Tl10  1  0.99995200  0.00759500  0.49309600  1.0
+  Tl  Tl11  1  0.00000200  0.85136300  0.11788800  1.0
+  Tl  Tl12  1  0.00000200  0.61034600  0.04340100  1.0
+  Tl  Tl13  1  0.50000200  0.34442800  0.36533000  1.0
+  Tl  Tl14  1  0.50000200  0.11496900  0.28463600  1.0
+  Tl  Tl15  1  0.50000300  0.72914200  0.33243000  1.0
+  Tl  Tl16  1  0.50000300  0.50017000  0.25125600  1.0
+  Tl  Tl17  1  0.50000200  0.27150400  0.17038400  1.0
+  Tl  Tl18  1  0.50000200  0.03752300  0.08724900  1.0
+  Tl  Tl19  1  0.50000300  0.88598200  0.21165000  1.0
+  Tl  Tl20  1  0.50000300  0.65779100  0.13858900  1.0
+  Tl  Tl21  1  0.50000200  0.42152600  0.05725400  1.0
+  Tl  Tl22  1  0.49999700  0.19763100  0.47579000  1.0
+  Tl  Tl23  1  0.49999400  0.95629100  0.40144000  1.0
+  Tl  Tl24  1  0.50000500  0.80040700  0.02623400  1.0
+  Tl  Tl25  1  0.50000200  0.57706800  0.44632000  1.0

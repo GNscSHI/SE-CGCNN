@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Fe8Si16
+_chemical_formula_sum              "Fe8 Si16"
+_cell_length_a       6.23164
+_cell_length_b       6.23164
+_cell_length_c       31.0098
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    103.594
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.80750  0.80750  0.43234  1.0000
+  Fe  Fe2       1.0  0.69250  0.69250  0.55734  1.0000
+  Fe  Fe3       1.0  0.30750  0.30750  0.46349  1.0000
+  Fe  Fe4       1.0  0.19250  0.19250  0.58849  1.0000
+  Fe  Fe5       1.0  0.28348  0.71652  0.51042  1.0000
+  Fe  Fe6       1.0  0.21652  0.78348  0.38542  1.0000
+  Fe  Fe7       1.0  0.71652  0.28348  0.51042  1.0000
+  Fe  Fe8       1.0  0.78348  0.21652  0.38542  1.0000
+  Si  Si1       1.0  0.32864  0.58169  0.57871  1.0000
+  Si  Si2       1.0  0.17136  0.91831  0.45371  1.0000
+  Si  Si3       1.0  0.08169  0.82864  0.56712  1.0000
+  Si  Si4       1.0  0.41831  0.67136  0.44212  1.0000
+  Si  Si5       1.0  0.67136  0.41831  0.44212  1.0000
+  Si  Si6       1.0  0.82864  0.08169  0.56712  1.0000
+  Si  Si7       1.0  0.91831  0.17136  0.45371  1.0000
+  Si  Si8       1.0  0.58169  0.32864  0.57871  1.0000
+  Si  Si9       1.0  0.59816  0.85443  0.62297  1.0000
+  Si  Si10      1.0  0.90184  0.64557  0.49797  1.0000
+  Si  Si11      1.0  0.35443  0.09816  0.52286  1.0000
+  Si  Si12      1.0  0.14557  0.40184  0.39786  1.0000
+  Si  Si13      1.0  0.40184  0.14557  0.39786  1.0000
+  Si  Si14      1.0  0.09816  0.35443  0.52286  1.0000
+  Si  Si15      1.0  0.64557  0.90184  0.49797  1.0000
+  Si  Si16      1.0  0.85443  0.59816  0.62297  1.0000

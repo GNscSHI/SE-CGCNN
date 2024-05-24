@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Ti4Au4Ti4Au4
+_chemical_formula_sum              "Ti8 Au8"
+_cell_length_a       4.836
+_cell_length_b       5.40795
+_cell_length_c       37.8557
+_cell_angle_alpha    66.2052
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.68835  0.12500  0.37500  1.0000
+  Ti  Ti2       1.0  0.68835  0.62500  0.44643  1.0000
+  Ti  Ti3       1.0  0.31165  0.37500  0.41071  1.0000
+  Ti  Ti4       1.0  0.31165  0.87500  0.48214  1.0000
+  Au  Au1       1.0  0.18236  0.37500  0.48214  1.0000
+  Au  Au2       1.0  0.18236  0.87500  0.41071  1.0000
+  Au  Au3       1.0  0.81764  0.62500  0.37500  1.0000
+  Au  Au4       1.0  0.81764  0.12500  0.44643  1.0000
+  Ti  Ti5       1.0  0.68835  0.12500  0.51786  1.0000
+  Ti  Ti6       1.0  0.68835  0.62500  0.58929  1.0000
+  Ti  Ti7       1.0  0.31165  0.37500  0.55357  1.0000
+  Ti  Ti8       1.0  0.31165  0.87500  0.62500  1.0000
+  Au  Au5       1.0  0.18236  0.37500  0.62500  1.0000
+  Au  Au6       1.0  0.18236  0.87500  0.55357  1.0000
+  Au  Au7       1.0  0.81764  0.62500  0.51786  1.0000
+  Au  Au8       1.0  0.81764  0.12500  0.58929  1.0000

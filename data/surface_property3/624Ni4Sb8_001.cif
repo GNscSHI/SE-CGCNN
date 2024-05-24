@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Ni2Sb4Ni2Sb4
+_chemical_formula_sum              "Ni4 Sb8"
+_cell_length_a       3.75788
+_cell_length_b       5.28641
+_cell_length_c       37.4289
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.50000  0.50000  0.40278  1.0000
+  Ni  Ni2       1.0  0.00000  0.00000  0.48611  1.0000
+  Sb  Sb1       1.0  0.50000  0.71581  0.34271  1.0000
+  Sb  Sb2       1.0  0.50000  0.28419  0.46285  1.0000
+  Sb  Sb3       1.0  0.00000  0.78419  0.42604  1.0000
+  Sb  Sb4       1.0  0.00000  0.21581  0.37951  1.0000
+  Ni  Ni3       1.0  0.50000  0.50000  0.56944  1.0000
+  Ni  Ni4       1.0  0.00000  0.00000  0.65278  1.0000
+  Sb  Sb5       1.0  0.50000  0.71581  0.50938  1.0000
+  Sb  Sb6       1.0  0.50000  0.28419  0.62951  1.0000
+  Sb  Sb7       1.0  0.00000  0.78419  0.59271  1.0000
+  Sb  Sb8       1.0  0.00000  0.21581  0.54618  1.0000

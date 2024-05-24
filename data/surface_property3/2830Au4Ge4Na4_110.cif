@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Au4Ge4Na4
+_chemical_formula_sum              "Au4 Ge4 Na4"
+_cell_length_a       5.64614
+_cell_length_b       5.64614
+_cell_length_c       30.2198
+_cell_angle_alpha    87.8173
+_cell_angle_beta     87.8173
+_cell_angle_gamma    82.78
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.71395  0.71491  0.44343  1.0000
+  Au  Au2       1.0  0.96395  0.96491  0.56843  1.0000
+  Au  Au3       1.0  0.66009  0.66105  0.61907  1.0000
+  Au  Au4       1.0  0.41009  0.41105  0.49407  1.0000
+  Ge  Ge1       1.0  0.39259  0.74565  0.38431  1.0000
+  Ge  Ge2       1.0  0.64259  0.99565  0.50931  1.0000
+  Ge  Ge3       1.0  0.12935  0.48241  0.42819  1.0000
+  Ge  Ge4       1.0  0.37935  0.73241  0.55319  1.0000
+  Na  Na1       1.0  0.65654  0.21846  0.40625  1.0000
+  Na  Na2       1.0  0.90654  0.46846  0.53125  1.0000
+  Na  Na3       1.0  0.40534  0.21966  0.59375  1.0000
+  Na  Na4       1.0  0.15534  0.96966  0.46875  1.0000

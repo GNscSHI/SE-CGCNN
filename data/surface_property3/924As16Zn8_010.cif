@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Zn8As16
+_chemical_formula_sum              "Zn8 As16"
+_cell_length_a       8.01176
+_cell_length_b       9.25444
+_cell_length_c       30.6987
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    102.501
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zn  Zn1       1.0  0.39440  0.08081  0.52050  1.0000
+  Zn  Zn2       1.0  0.10560  0.91919  0.39550  1.0000
+  Zn  Zn3       1.0  0.60560  0.91919  0.39616  1.0000
+  Zn  Zn4       1.0  0.89440  0.08081  0.52116  1.0000
+  Zn  Zn5       1.0  0.22294  0.38874  0.60850  1.0000
+  Zn  Zn6       1.0  0.27706  0.61126  0.48350  1.0000
+  Zn  Zn7       1.0  0.77706  0.61126  0.55816  1.0000
+  Zn  Zn8       1.0  0.72294  0.38874  0.43316  1.0000
+  As  As1       1.0  0.21943  0.38511  0.43939  1.0000
+  As  As2       1.0  0.28057  0.61489  0.56439  1.0000
+  As  As3       1.0  0.78057  0.61489  0.47728  1.0000
+  As  As4       1.0  0.71943  0.38511  0.60228  1.0000
+  As  As5       1.0  0.43285  0.23818  0.58631  1.0000
+  As  As6       1.0  0.06715  0.76182  0.46131  1.0000
+  As  As7       1.0  0.56715  0.76182  0.58036  1.0000
+  As  As8       1.0  0.93285  0.23818  0.45536  1.0000
+  As  As9       1.0  0.43626  0.24316  0.45614  1.0000
+  As  As10      1.0  0.06374  0.75684  0.58114  1.0000
+  As  As11      1.0  0.56374  0.75684  0.46053  1.0000
+  As  As12      1.0  0.93626  0.24316  0.58553  1.0000
+  As  As13      1.0  0.39240  0.06738  0.39699  1.0000
+  As  As14      1.0  0.10760  0.93262  0.52199  1.0000
+  As  As15      1.0  0.60760  0.93262  0.51968  1.0000
+  As  As16      1.0  0.89240  0.06738  0.39468  1.0000

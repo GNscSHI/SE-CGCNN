@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Pb8Rh4
+_chemical_formula_sum              "Pb8 Rh4"
+_cell_length_a       5.5382
+_cell_length_b       5.5382
+_cell_length_c       37.6995
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    116.619
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pb  Pb1       1.0  0.25000  0.75000  0.41652  1.0000
+  Pb  Pb2       1.0  0.75000  0.25000  0.54152  1.0000
+  Pb  Pb3       1.0  0.75000  0.25000  0.62515  1.0000
+  Pb  Pb4       1.0  0.25000  0.75000  0.50015  1.0000
+  Pb  Pb5       1.0  0.08275  0.91725  0.58333  1.0000
+  Pb  Pb6       1.0  0.58275  0.41725  0.45833  1.0000
+  Pb  Pb7       1.0  0.41725  0.58275  0.58333  1.0000
+  Pb  Pb8       1.0  0.91725  0.08275  0.45833  1.0000
+  Rh  Rh1       1.0  0.25000  0.25000  0.52083  1.0000
+  Rh  Rh2       1.0  0.75000  0.75000  0.39583  1.0000
+  Rh  Rh3       1.0  0.75000  0.75000  0.52083  1.0000
+  Rh  Rh4       1.0  0.25000  0.25000  0.39583  1.0000

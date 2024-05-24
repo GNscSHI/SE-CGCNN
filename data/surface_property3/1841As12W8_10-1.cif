@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       As12W8
+_chemical_formula_sum              "As12 W8"
+_cell_length_a       3.26489
+_cell_length_b       11.1177
+_cell_length_c       38.2958
+_cell_angle_alpha    79.7702
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.50000  0.39392  0.55634  1.0000
+  As  As2       1.0  0.50000  0.60608  0.56866  1.0000
+  As  As3       1.0  0.00000  0.58397  0.49482  1.0000
+  As  As4       1.0  0.00000  0.41603  0.38018  1.0000
+  As  As5       1.0  0.00000  0.12493  0.54297  1.0000
+  As  As6       1.0  0.00000  0.87507  0.58203  1.0000
+  As  As7       1.0  0.00000  0.89392  0.43134  1.0000
+  As  As8       1.0  0.00000  0.10608  0.44366  1.0000
+  As  As9       1.0  0.50000  0.08397  0.61982  1.0000
+  As  As10      1.0  0.50000  0.91603  0.50518  1.0000
+  As  As11      1.0  0.50000  0.62493  0.41797  1.0000
+  As  As12      1.0  0.50000  0.37507  0.45703  1.0000
+  W   W1        1.0  0.00000  0.65273  0.61710  1.0000
+  W   W2        1.0  0.00000  0.34727  0.50790  1.0000
+  W   W3        1.0  0.00000  0.75276  0.53122  1.0000
+  W   W4        1.0  0.00000  0.24724  0.59378  1.0000
+  W   W5        1.0  0.50000  0.15273  0.49210  1.0000
+  W   W6        1.0  0.50000  0.84727  0.38290  1.0000
+  W   W7        1.0  0.50000  0.25276  0.40622  1.0000
+  W   W8        1.0  0.50000  0.74724  0.46878  1.0000

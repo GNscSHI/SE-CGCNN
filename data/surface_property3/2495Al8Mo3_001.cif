@@ -1,0 +1,36 @@
+data_image0
+_chemical_formula_structural       Al8Mo3
+_chemical_formula_sum              "Al8 Mo3"
+_cell_length_a       3.62399
+_cell_length_b       4.92357
+_cell_length_c       39.3437
+_cell_angle_alpha    92.2988
+_cell_angle_beta     90
+_cell_angle_gamma    111.594
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.34150  0.68300  0.61382  1.0000
+  Al  Al2       1.0  0.68123  0.36245  0.40891  1.0000
+  Al  Al3       1.0  0.97099  0.94197  0.43115  1.0000
+  Al  Al4       1.0  0.05174  0.10348  0.59158  1.0000
+  Al  Al5       1.0  0.26929  0.53859  0.45583  1.0000
+  Al  Al6       1.0  0.75343  0.50687  0.56689  1.0000
+  Al  Al7       1.0  0.15359  0.30719  0.52179  1.0000
+  Al  Al8       1.0  0.86913  0.73827  0.50094  1.0000
+  Mo  Mo1       1.0  0.38636  0.77273  0.38636  1.0000
+  Mo  Mo2       1.0  0.45664  0.91328  0.55123  1.0000
+  Mo  Mo3       1.0  0.56609  0.13217  0.47150  1.0000

@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Mn5Al5Mn5Al5
+_chemical_formula_sum              "Mn10 Al10"
+_cell_length_a       5.98096
+_cell_length_b       4.32632
+_cell_length_c       35.6048
+_cell_angle_alpha    78.4439
+_cell_angle_beta     76.3981
+_cell_angle_gamma    73.949
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.40000  0.80000  0.45000  1.0000
+  Mn  Mn2       1.0  0.80000  0.60000  0.47857  1.0000
+  Mn  Mn3       1.0  0.00000  0.00000  0.42143  1.0000
+  Mn  Mn4       1.0  0.20000  0.40000  0.36429  1.0000
+  Mn  Mn5       1.0  0.60000  0.20000  0.39286  1.0000
+  Al  Al1       1.0  0.40000  0.80000  0.37857  1.0000
+  Al  Al2       1.0  0.80000  0.60000  0.40714  1.0000
+  Al  Al3       1.0  0.00000  0.00000  0.49286  1.0000
+  Al  Al4       1.0  0.20000  0.40000  0.43571  1.0000
+  Al  Al5       1.0  0.60000  0.20000  0.46429  1.0000
+  Mn  Mn6       1.0  0.40000  0.80000  0.59286  1.0000
+  Mn  Mn7       1.0  0.80000  0.60000  0.62143  1.0000
+  Mn  Mn8       1.0  0.00000  0.00000  0.56429  1.0000
+  Mn  Mn9       1.0  0.20000  0.40000  0.50714  1.0000
+  Mn  Mn10      1.0  0.60000  0.20000  0.53571  1.0000
+  Al  Al6       1.0  0.40000  0.80000  0.52143  1.0000
+  Al  Al7       1.0  0.80000  0.60000  0.55000  1.0000
+  Al  Al8       1.0  0.00000  0.00000  0.63571  1.0000
+  Al  Al9       1.0  0.20000  0.40000  0.57857  1.0000
+  Al  Al10      1.0  0.60000  0.20000  0.60714  1.0000

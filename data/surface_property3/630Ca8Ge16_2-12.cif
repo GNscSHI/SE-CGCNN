@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ca4Ge8Ca4Ge8
+_chemical_formula_sum              "Ca8 Ge16"
+_cell_length_a       6.92142
+_cell_length_b       10.8186
+_cell_length_c       31.9687
+_cell_angle_alpha    111.677
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.33333  0.70787  0.42794  1.0000
+  Ca  Ca2       1.0  0.83333  0.70787  0.49044  1.0000
+  Ca  Ca3       1.0  0.16667  0.20787  0.42794  1.0000
+  Ca  Ca4       1.0  0.66667  0.20787  0.49044  1.0000
+  Ge  Ge1       1.0  0.33333  0.39420  0.38873  1.0000
+  Ge  Ge2       1.0  0.83333  0.39420  0.45123  1.0000
+  Ge  Ge3       1.0  0.16667  0.89420  0.38873  1.0000
+  Ge  Ge4       1.0  0.66667  0.89420  0.45123  1.0000
+  Ge  Ge5       1.0  0.00000  0.00092  0.46457  1.0000
+  Ge  Ge6       1.0  0.50000  0.00092  0.40207  1.0000
+  Ge  Ge7       1.0  0.00000  0.50092  0.40207  1.0000
+  Ge  Ge8       1.0  0.50000  0.50092  0.46457  1.0000
+  Ca  Ca5       1.0  0.33333  0.70787  0.55294  1.0000
+  Ca  Ca6       1.0  0.83333  0.70787  0.61544  1.0000
+  Ca  Ca7       1.0  0.16667  0.20787  0.55294  1.0000
+  Ca  Ca8       1.0  0.66667  0.20787  0.61544  1.0000
+  Ge  Ge9       1.0  0.33333  0.39420  0.51373  1.0000
+  Ge  Ge10      1.0  0.83333  0.39420  0.57623  1.0000
+  Ge  Ge11      1.0  0.16667  0.89420  0.51373  1.0000
+  Ge  Ge12      1.0  0.66667  0.89420  0.57623  1.0000
+  Ge  Ge13      1.0  0.00000  0.00092  0.58957  1.0000
+  Ge  Ge14      1.0  0.50000  0.00092  0.52707  1.0000
+  Ge  Ge15      1.0  0.00000  0.50092  0.52707  1.0000
+  Ge  Ge16      1.0  0.50000  0.50092  0.58957  1.0000

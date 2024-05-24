@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Zn5Pd5Zn5Pd5
+_chemical_formula_sum              "Zn10 Pd10"
+_cell_length_a       6.39912
+_cell_length_b       4.41041
+_cell_length_c       31.5451
+_cell_angle_alpha    82.3863
+_cell_angle_beta     75.9111
+_cell_angle_gamma    73.1311
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zn  Zn1       1.0  0.40000  0.80000  0.44167  1.0000
+  Zn  Zn2       1.0  0.80000  0.60000  0.47500  1.0000
+  Zn  Zn3       1.0  0.00000  0.00000  0.40833  1.0000
+  Zn  Zn4       1.0  0.20000  0.40000  0.34167  1.0000
+  Zn  Zn5       1.0  0.60000  0.20000  0.37500  1.0000
+  Pd  Pd1       1.0  0.40000  0.80000  0.35833  1.0000
+  Pd  Pd2       1.0  0.80000  0.60000  0.39167  1.0000
+  Pd  Pd3       1.0  0.00000  0.00000  0.49167  1.0000
+  Pd  Pd4       1.0  0.20000  0.40000  0.42500  1.0000
+  Pd  Pd5       1.0  0.60000  0.20000  0.45833  1.0000
+  Zn  Zn6       1.0  0.40000  0.80000  0.60833  1.0000
+  Zn  Zn7       1.0  0.80000  0.60000  0.64167  1.0000
+  Zn  Zn8       1.0  0.00000  0.00000  0.57500  1.0000
+  Zn  Zn9       1.0  0.20000  0.40000  0.50833  1.0000
+  Zn  Zn10      1.0  0.60000  0.20000  0.54167  1.0000
+  Pd  Pd6       1.0  0.40000  0.80000  0.52500  1.0000
+  Pd  Pd7       1.0  0.80000  0.60000  0.55833  1.0000
+  Pd  Pd8       1.0  0.00000  0.00000  0.65833  1.0000
+  Pd  Pd9       1.0  0.20000  0.40000  0.59167  1.0000
+  Pd  Pd10      1.0  0.60000  0.20000  0.62500  1.0000

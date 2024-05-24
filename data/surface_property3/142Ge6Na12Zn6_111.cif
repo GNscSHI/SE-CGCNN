@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ge6Na12Zn6
+_chemical_formula_sum              "Ge6 Na12 Zn6"
+_cell_length_a       5.83978
+_cell_length_b       7.98221
+_cell_length_c       35.5165
+_cell_angle_alpha    86.1608
+_cell_angle_beta     88.6799
+_cell_angle_gamma    80.9513
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ge  Ge1       1.0  0.40144  0.50171  0.37049  1.0000
+  Ge  Ge2       1.0  0.29033  0.94615  0.48160  1.0000
+  Ge  Ge3       1.0  0.17921  0.39059  0.59271  1.0000
+  Ge  Ge4       1.0  0.75134  0.47052  0.47673  1.0000
+  Ge  Ge5       1.0  0.64023  0.91496  0.58784  1.0000
+  Ge  Ge6       1.0  0.86245  0.02607  0.36562  1.0000
+  Na  Na1       1.0  0.92636  0.39392  0.39205  1.0000
+  Na  Na2       1.0  0.81525  0.83836  0.50316  1.0000
+  Na  Na3       1.0  0.70414  0.28281  0.61427  1.0000
+  Na  Na4       1.0  0.22642  0.57831  0.45517  1.0000
+  Na  Na5       1.0  0.11530  0.02275  0.56628  1.0000
+  Na  Na6       1.0  0.33753  0.13386  0.34406  1.0000
+  Na  Na7       1.0  0.50693  0.21856  0.52712  1.0000
+  Na  Na8       1.0  0.39582  0.66301  0.63823  1.0000
+  Na  Na9       1.0  0.61804  0.77412  0.41601  1.0000
+  Na  Na10      1.0  0.31252  0.08699  0.65343  1.0000
+  Na  Na11      1.0  0.53474  0.19810  0.43121  1.0000
+  Na  Na12      1.0  0.42363  0.64255  0.54232  1.0000
+  Zn  Zn1       1.0  0.96528  0.43056  0.53472  1.0000
+  Zn  Zn2       1.0  0.85417  0.87500  0.64583  1.0000
+  Zn  Zn3       1.0  0.07639  0.98611  0.42361  1.0000
+  Zn  Zn4       1.0  0.02083  0.20833  0.47917  1.0000
+  Zn  Zn5       1.0  0.90972  0.65278  0.59028  1.0000
+  Zn  Zn6       1.0  0.13194  0.76389  0.36806  1.0000

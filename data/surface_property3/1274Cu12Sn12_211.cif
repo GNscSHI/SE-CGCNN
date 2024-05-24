@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Cu12Sn12
+_chemical_formula_sum              "Cu12 Sn12"
+_cell_length_a       6.48214
+_cell_length_b       8.70446
+_cell_length_c       31.274
+_cell_angle_alpha    89.929
+_cell_angle_beta     85.3208
+_cell_angle_gamma    89.8287
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.01042  0.00000  0.49479  1.0000
+  Cu  Cu2       1.0  0.84375  0.66667  0.41146  1.0000
+  Cu  Cu3       1.0  0.42708  0.33333  0.45312  1.0000
+  Cu  Cu4       1.0  0.55208  0.83333  0.39062  1.0000
+  Cu  Cu5       1.0  0.13542  0.50000  0.43229  1.0000
+  Cu  Cu6       1.0  0.71875  0.16667  0.47396  1.0000
+  Cu  Cu7       1.0  0.76042  0.00000  0.61979  1.0000
+  Cu  Cu8       1.0  0.59375  0.66667  0.53646  1.0000
+  Cu  Cu9       1.0  0.17708  0.33333  0.57812  1.0000
+  Cu  Cu10      1.0  0.30208  0.83333  0.51562  1.0000
+  Cu  Cu11      1.0  0.88542  0.50000  0.55729  1.0000
+  Cu  Cu12      1.0  0.46875  0.16667  0.59896  1.0000
+  Sn  Sn1       1.0  0.18403  0.80556  0.43576  1.0000
+  Sn  Sn2       1.0  0.76736  0.47222  0.47743  1.0000
+  Sn  Sn3       1.0  0.60069  0.13889  0.39410  1.0000
+  Sn  Sn4       1.0  0.67014  0.86111  0.47049  1.0000
+  Sn  Sn5       1.0  0.50347  0.52778  0.38715  1.0000
+  Sn  Sn6       1.0  0.08681  0.19444  0.42882  1.0000
+  Sn  Sn7       1.0  0.93403  0.80556  0.56076  1.0000
+  Sn  Sn8       1.0  0.51736  0.47222  0.60243  1.0000
+  Sn  Sn9       1.0  0.35069  0.13889  0.51910  1.0000
+  Sn  Sn10      1.0  0.42014  0.86111  0.59549  1.0000
+  Sn  Sn11      1.0  0.25347  0.52778  0.51215  1.0000
+  Sn  Sn12      1.0  0.83681  0.19444  0.55382  1.0000

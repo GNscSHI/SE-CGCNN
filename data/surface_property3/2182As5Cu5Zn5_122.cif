@@ -1,0 +1,40 @@
+data_image0
+_chemical_formula_structural       As5Cu5Zn5
+_chemical_formula_sum              "As5 Cu5 Zn5"
+_cell_length_a       4.10994
+_cell_length_b       5.80927
+_cell_length_c       30.9864
+_cell_angle_alpha    94.5737
+_cell_angle_beta     93.6713
+_cell_angle_gamma    90.7558
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.09845  0.06150  0.63340  1.0000
+  As  As2       1.0  0.96511  0.92816  0.36674  1.0000
+  As  As3       1.0  0.49845  0.46150  0.43340  1.0000
+  As  As4       1.0  0.56511  0.52816  0.56674  1.0000
+  As  As5       1.0  0.03178  0.99483  0.50007  1.0000
+  Cu  Cu1       1.0  0.52457  0.74438  0.49917  1.0000
+  Cu  Cu2       1.0  0.05791  0.27771  0.56584  1.0000
+  Cu  Cu3       1.0  0.59124  0.81105  0.63250  1.0000
+  Cu  Cu4       1.0  0.99124  0.21105  0.43250  1.0000
+  Cu  Cu5       1.0  0.45791  0.67771  0.36584  1.0000
+  Zn  Zn1       1.0  0.07065  0.77851  0.56743  1.0000
+  Zn  Zn2       1.0  0.60398  0.31184  0.63410  1.0000
+  Zn  Zn3       1.0  0.47065  0.17851  0.36743  1.0000
+  Zn  Zn4       1.0  0.53732  0.24518  0.50076  1.0000
+  Zn  Zn5       1.0  0.00398  0.71184  0.43410  1.0000

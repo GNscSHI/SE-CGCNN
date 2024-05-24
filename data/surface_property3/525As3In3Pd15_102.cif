@@ -1,0 +1,46 @@
+data_image0
+_chemical_formula_structural       In3As3Pd15
+_chemical_formula_sum              "In3 As3 Pd15"
+_cell_length_a       3.98534
+_cell_length_b       10.5909
+_cell_length_c       32.1294
+_cell_angle_alpha    78.5621
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.50000  0.50000  0.47619  1.0000
+  In  In2       1.0  0.50000  0.83333  0.39286  1.0000
+  In  In3       1.0  0.50000  0.16667  0.55952  1.0000
+  As  As1       1.0  0.00000  0.83333  0.51786  1.0000
+  As  As2       1.0  0.00000  0.16667  0.43452  1.0000
+  As  As3       1.0  0.00000  0.50000  0.60119  1.0000
+  Pd  Pd1       1.0  0.00000  0.66667  0.43452  1.0000
+  Pd  Pd2       1.0  0.00000  0.00000  0.60119  1.0000
+  Pd  Pd3       1.0  0.00000  0.33333  0.51786  1.0000
+  Pd  Pd4       1.0  0.00000  0.73709  0.59474  1.0000
+  Pd  Pd5       1.0  0.00000  0.07043  0.51140  1.0000
+  Pd  Pd6       1.0  0.00000  0.40376  0.42807  1.0000
+  Pd  Pd7       1.0  0.50000  0.90376  0.55307  1.0000
+  Pd  Pd8       1.0  0.50000  0.23709  0.46974  1.0000
+  Pd  Pd9       1.0  0.50000  0.57043  0.38640  1.0000
+  Pd  Pd10      1.0  0.00000  0.59624  0.52431  1.0000
+  Pd  Pd11      1.0  0.00000  0.92957  0.44098  1.0000
+  Pd  Pd12      1.0  0.00000  0.26291  0.60764  1.0000
+  Pd  Pd13      1.0  0.50000  0.76291  0.48264  1.0000
+  Pd  Pd14      1.0  0.50000  0.09624  0.39931  1.0000
+  Pd  Pd15      1.0  0.50000  0.42957  0.56598  1.0000

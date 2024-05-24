@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ir12Mn12
+_chemical_formula_sum              "Ir12 Mn12"
+_cell_length_a       4.44722
+_cell_length_b       5.15876
+_cell_length_c       33.3825
+_cell_angle_alpha    90.7258
+_cell_angle_beta     91.7963
+_cell_angle_gamma    105.44
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ir  Ir1       1.0  0.53333  0.38333  0.38333  1.0000
+  Ir  Ir2       1.0  0.60000  0.65000  0.31667  1.0000
+  Ir  Ir3       1.0  0.06667  0.01667  0.35000  1.0000
+  Ir  Ir4       1.0  0.93333  0.48333  0.48333  1.0000
+  Ir  Ir5       1.0  0.00000  0.75000  0.41667  1.0000
+  Ir  Ir6       1.0  0.46667  0.11667  0.45000  1.0000
+  Ir  Ir7       1.0  0.33333  0.58333  0.58333  1.0000
+  Ir  Ir8       1.0  0.40000  0.85000  0.51667  1.0000
+  Ir  Ir9       1.0  0.86667  0.21667  0.55000  1.0000
+  Ir  Ir10      1.0  0.73333  0.68333  0.68333  1.0000
+  Ir  Ir11      1.0  0.80000  0.95000  0.61667  1.0000
+  Ir  Ir12      1.0  0.26667  0.31667  0.65000  1.0000
+  Mn  Mn1       1.0  0.06667  0.51667  0.35000  1.0000
+  Mn  Mn2       1.0  0.53333  0.88333  0.38333  1.0000
+  Mn  Mn3       1.0  0.60000  0.15000  0.31667  1.0000
+  Mn  Mn4       1.0  0.46667  0.61667  0.45000  1.0000
+  Mn  Mn5       1.0  0.93333  0.98333  0.48333  1.0000
+  Mn  Mn6       1.0  0.00000  0.25000  0.41667  1.0000
+  Mn  Mn7       1.0  0.86667  0.71667  0.55000  1.0000
+  Mn  Mn8       1.0  0.33333  0.08333  0.58333  1.0000
+  Mn  Mn9       1.0  0.40000  0.35000  0.51667  1.0000
+  Mn  Mn10      1.0  0.26667  0.81667  0.65000  1.0000
+  Mn  Mn11      1.0  0.73333  0.18333  0.68333  1.0000
+  Mn  Mn12      1.0  0.80000  0.45000  0.61667  1.0000

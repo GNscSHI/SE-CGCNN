@@ -129,26 +129,33 @@ def collate_pool(dataset_list):
     batch_cif_ids: list
     """
     batch_atom_fea, batch_nbr_fea, batch_nbr_fea_idx = [], [], []
-    crystal_atom_idx, batch_target = [], []
+    crystal_atom_idx = []
     batch_cif_ids = []
     base_idx = 0
-    for i, ((atom_fea, nbr_fea, nbr_fea_idx), target, cif_id)\
+    for i, ((atom_fea, nbr_fea, nbr_fea_idx), targets_dict, cif_id)\
             in enumerate(dataset_list):
+        
         n_i = atom_fea.shape[0]  # number of atoms for this crystal
         batch_atom_fea.append(atom_fea)
         batch_nbr_fea.append(nbr_fea)
         batch_nbr_fea_idx.append(nbr_fea_idx+base_idx)
         new_idx = torch.LongTensor(np.arange(n_i)+base_idx)
         crystal_atom_idx.append(new_idx)
-        batch_target.append(target)
+        for j in targets_dict.keys():
+            if i == 0:
+                exec(f'batch_target{j+1} = []')
+            exec(f'batch_target{j+1}.append(targets_dict[j])')
         batch_cif_ids.append(cif_id)
         base_idx += n_i
+    batch_targets = {}
+    for i in targets_dict.keys():
+        exec(f'batch_targets[i] = torch.stack(batch_target{i+1}, dim=0)')
     return (torch.cat(batch_atom_fea, dim=0),
             torch.cat(batch_nbr_fea, dim=0),
             torch.cat(batch_nbr_fea_idx, dim=0),
             crystal_atom_idx),\
-        torch.stack(batch_target, dim=0),\
-        batch_cif_ids
+            batch_targets,\
+            batch_cif_ids
 
 
 class GaussianDistance(object):
@@ -297,8 +304,8 @@ class CIFData(Dataset):
     target: torch.Tensor shape (1, )
     cif_id: str or int
     """
-    def __init__(self, root_dir, max_num_nbr=12, radius=8, dmin=0, step=0.2,
-                 random_seed=123):
+    def __init__(self, root_dir, max_num_nbr=12, radius=12, dmin=0, step=0.2,
+                 random_seed=123, depth=2):
         self.root_dir = root_dir
         self.max_num_nbr, self.radius = max_num_nbr, radius
         assert os.path.exists(root_dir), 'root_dir does not exist!'
@@ -313,17 +320,28 @@ class CIFData(Dataset):
         assert os.path.exists(atom_init_file), 'atom_init.json does not exist!'
         self.ari = AtomCustomJSONInitializer(atom_init_file)
         self.gdf = GaussianDistance(dmin=dmin, dmax=self.radius, step=step)
-
+        
+        self.depth = depth
+        
     def __len__(self):
         return len(self.id_prop_data)
 
     @functools.lru_cache(maxsize=None)  # Cache loaded structures
     def __getitem__(self, idx):
-        cif_id, target = self.id_prop_data[idx]
+        cif_id, *targets = self.id_prop_data[idx]
+        self.target_num = len(targets)
         crystal = Structure.from_file(os.path.join(self.root_dir,
                                                    cif_id+'.cif'))
         atom_fea = np.vstack([self.ari.get_atom_fea(crystal[i].specie.number)
                               for i in range(len(crystal))])
+    
+    
+        ## attach atom_fea with location info(if it's on surface)
+        surface_fea = slab_operation(crystal).surface_atom(depth=0)
+        atom_fea = np.concatenate((atom_fea, surface_fea[:, np.newaxis]), axis=1)
+        ## modify complete
+        
+        
         atom_fea = torch.Tensor(atom_fea)
         all_nbrs = crystal.get_all_neighbors(self.radius, include_index=True)
         all_nbrs = [sorted(nbrs, key=lambda x: x[1]) for nbrs in all_nbrs]
@@ -345,8 +363,140 @@ class CIFData(Dataset):
                                         nbr[:self.max_num_nbr])))
         nbr_fea_idx, nbr_fea = np.array(nbr_fea_idx), np.array(nbr_fea)
         nbr_fea = self.gdf.expand(nbr_fea)
+        
+        
         atom_fea = torch.Tensor(atom_fea)
         nbr_fea = torch.Tensor(nbr_fea)
         nbr_fea_idx = torch.LongTensor(nbr_fea_idx)
-        target = torch.Tensor([float(target)])
-        return (atom_fea, nbr_fea, nbr_fea_idx), target, cif_id
+        targets_dict = {}
+        for i in range(self.target_num):
+            try:
+                targets_dict[i] = torch.Tensor([float(targets[i])])
+            except:
+                pass
+
+        return (atom_fea, nbr_fea, nbr_fea_idx), targets_dict, cif_id
+
+    
+class slab_operation(object):
+    """
+    some operations to generate slab features in atomic level, not necessarily useful.
+    """
+    def __init__(self, slab):
+        
+        self.cart_coords = slab.cart_coords
+        self.species = slab.species
+        self.lattice = slab.lattice
+        self.num = len(slab.cart_coords)
+        
+    def sorted_slab(self):
+        """
+        return a slab with sorted atoms by heigh
+        """
+        order = zip(range(self.num), 
+                    slab.cart_coords, slab.species)
+        c_order = sorted(order, key=lambda x: x[1][2])
+        coord_seq = []
+
+        for j in c_order:
+            coord_seq.append(j[1])
+        new_lattice = slab.lattice
+        new_species = slab.species
+
+        new_slab = Structure(lattice=new_lattice, coords=coord_seq, 
+                                species=new_species, coords_are_cartesian=True)
+        
+        return new_slab
+    
+    def index_layer(self, tol=[0.25, 0.25]):
+        """
+        parameters
+        -------------
+        tol: [min_interlayer_distance, max_layer_thickness]
+        
+        return the layer num and index of atoms(by height)
+        layer_num: number of the slab layers
+        index: a list of tuples (layer, height, index of original order), sorted by height
+        """
+        order = zip(range(self.num), 
+                    self.cart_coords, self.species)
+        c_order = sorted(order, key=lambda x: x[1][2]) # sort by height
+        
+        a_height = -10 # height of atom
+        l_height = -10 # height of layer
+        epoch = 0
+        layer = np.ones(self.num) # accumulated layer
+        for i in c_order:
+            if i[1][2] > a_height + tol[0] or i[1][2] > l_height + tol[1]:
+                if epoch:
+                    layer[epoch] = layer[epoch-1] + 1
+                a_height = i[1][2]
+                l_height = i[1][2]
+            else:
+                layer[epoch] = layer[epoch-1]
+                a_height = i[1][2]
+                
+            epoch += 1
+
+        layer_num = layer[-1]
+        
+        c_index = zip(layer, [i[1][2] for i in c_order], [i[0] for i in c_order])
+        index = sorted(c_index, key=lambda x: x[1])
+        
+        return layer_num, index
+    
+    def atom_depth(self):
+        """
+        return a list to give atom depth 
+        """
+        order = self.cart_coords
+        c_order = sorted(order, key=lambda x: x[2]) # 按层高排序
+        lim_height = (c_order[0][2], c_order[-1][2]) 
+        atom_depth_list = []
+        for i,j in [(i, order[i]) for i in range(self.num)]:
+            depth = min(abs(j[2]-lim_height[0]), abs(j[2]-lim_height[1]))
+            atom_depth_list.append(np.exp(-depth))
+            
+        return np.array(atom_depth_list)
+    
+    def surface_atom(self, depth=2):
+        """
+        return a list to judge if atoms on surface
+        if yes: 1; else: 0
+        """
+        order = self.cart_coords
+        c_order = sorted(order, key=lambda x: x[2]) # 按层高排序
+        lim_height = (c_order[0][2], c_order[-1][2]) 
+        surface_atom_index = np.zeros(self.num)
+        for i,j in [(i, order[i]) for i in range(self.num)]:
+            if ( abs(j[2]-lim_height[0]) < depth ) or ( abs(j[2]-lim_height[1]) < depth ):
+                surface_atom_index[i] = 1
+                
+        return surface_atom_index
+    
+    def surface_fixed_atom(self, depth=2):
+        """
+        return a list to judge if atoms on surface, internal or fixed
+        [100],[010],[001]
+        """
+        order = self.cart_coords
+        c_order = sorted(order, key=lambda x: x[2]) # 按层高排序
+        lim_height = (c_order[0][2], c_order[-1][2])
+        surface_fea = []
+        for i,j in [(i, order[i]) for i in range(self.num)]:
+            if ( abs(j[2]-lim_height[0]) < depth ) or ( abs(j[2]-lim_height[1]) < depth ):
+                fea = [1]
+            else:
+                fea = [0]
+            surface_fea.append(fea)
+            
+        return surface_fea
+    
+    def slab_size(self):
+        """
+        return an array: array([suface_size, height])
+        """
+        height = self.lattice.matrix[2][2]
+        area = np.linalg.norm(np.cross(self.lattice.matrix[0], self.lattice.matrix[1]))
+        
+        return np.array([height, area])

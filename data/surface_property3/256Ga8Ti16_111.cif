@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ti8Ga4Ti8Ga4
+_chemical_formula_sum              "Ti16 Ga8"
+_cell_length_a       7.73704
+_cell_length_b       6.99909
+_cell_length_c       31.2689
+_cell_angle_alpha    108.609
+_cell_angle_beta     90
+_cell_angle_gamma    56.4463
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.70833  0.25000  0.44048  1.0000
+  Ti  Ti2       1.0  0.20833  0.25000  0.36905  1.0000
+  Ti  Ti3       1.0  0.79167  0.75000  0.47619  1.0000
+  Ti  Ti4       1.0  0.29167  0.75000  0.40476  1.0000
+  Ti  Ti5       1.0  0.00000  0.00000  0.49405  1.0000
+  Ti  Ti6       1.0  0.50000  0.00000  0.42262  1.0000
+  Ti  Ti7       1.0  0.75000  0.50000  0.38690  1.0000
+  Ti  Ti8       1.0  0.25000  0.50000  0.45833  1.0000
+  Ga  Ga1       1.0  0.45833  0.75000  0.47619  1.0000
+  Ga  Ga2       1.0  0.95833  0.75000  0.40476  1.0000
+  Ga  Ga3       1.0  0.04167  0.25000  0.44048  1.0000
+  Ga  Ga4       1.0  0.54167  0.25000  0.36905  1.0000
+  Ti  Ti9       1.0  0.70833  0.25000  0.58333  1.0000
+  Ti  Ti10      1.0  0.20833  0.25000  0.51190  1.0000
+  Ti  Ti11      1.0  0.79167  0.75000  0.61905  1.0000
+  Ti  Ti12      1.0  0.29167  0.75000  0.54762  1.0000
+  Ti  Ti13      1.0  0.00000  0.00000  0.63690  1.0000
+  Ti  Ti14      1.0  0.50000  0.00000  0.56548  1.0000
+  Ti  Ti15      1.0  0.75000  0.50000  0.52976  1.0000
+  Ti  Ti16      1.0  0.25000  0.50000  0.60119  1.0000
+  Ga  Ga5       1.0  0.45833  0.75000  0.61905  1.0000
+  Ga  Ga6       1.0  0.95833  0.75000  0.54762  1.0000
+  Ga  Ga7       1.0  0.04167  0.25000  0.58333  1.0000
+  Ga  Ga8       1.0  0.54167  0.25000  0.51190  1.0000

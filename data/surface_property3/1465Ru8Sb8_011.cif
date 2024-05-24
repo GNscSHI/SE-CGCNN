@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Sb8Ru8
+_chemical_formula_sum              "Sb8 Ru8"
+_cell_length_a       3.75053
+_cell_length_b       8.82253
+_cell_length_c       35.2901
+_cell_angle_alpha    83.6388
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sb  Sb1       1.0  0.25000  0.60985  0.53066  1.0000
+  Sb  Sb2       1.0  0.25000  0.10985  0.40566  1.0000
+  Sb  Sb3       1.0  0.75000  0.39015  0.37559  1.0000
+  Sb  Sb4       1.0  0.75000  0.89015  0.50059  1.0000
+  Sb  Sb5       1.0  0.25000  0.18986  0.55066  1.0000
+  Sb  Sb6       1.0  0.25000  0.68986  0.42566  1.0000
+  Sb  Sb7       1.0  0.75000  0.81014  0.60559  1.0000
+  Sb  Sb8       1.0  0.75000  0.31014  0.48059  1.0000
+  Ru  Ru1       1.0  0.25000  0.89347  0.55326  1.0000
+  Ru  Ru2       1.0  0.25000  0.39347  0.42826  1.0000
+  Ru  Ru3       1.0  0.75000  0.10653  0.60299  1.0000
+  Ru  Ru4       1.0  0.75000  0.60653  0.47799  1.0000
+  Ru  Ru5       1.0  0.25000  0.59948  0.60476  1.0000
+  Ru  Ru6       1.0  0.25000  0.09948  0.47976  1.0000
+  Ru  Ru7       1.0  0.75000  0.40052  0.55149  1.0000
+  Ru  Ru8       1.0  0.75000  0.90052  0.42649  1.0000

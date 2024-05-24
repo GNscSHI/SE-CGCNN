@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Co4As8Co4As8
+_chemical_formula_sum              "Co8 As16"
+_cell_length_a       5.82115
+_cell_length_b       5.91155
+_cell_length_c       35.4693
+_cell_angle_alpha    62.6457
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.50000  0.50000  0.48611  1.0000
+  Co  Co2       1.0  0.50000  0.00000  0.40278  1.0000
+  Co  Co3       1.0  0.00000  0.50000  0.40278  1.0000
+  Co  Co4       1.0  0.00000  0.00000  0.48611  1.0000
+  As  As1       1.0  0.86379  0.40567  0.47039  1.0000
+  As  As2       1.0  0.86379  0.90567  0.38706  1.0000
+  As  As3       1.0  0.13621  0.59433  0.33517  1.0000
+  As  As4       1.0  0.13621  0.09433  0.41850  1.0000
+  As  As5       1.0  0.63621  0.40567  0.38706  1.0000
+  As  As6       1.0  0.63621  0.90567  0.47039  1.0000
+  As  As7       1.0  0.36379  0.09433  0.33517  1.0000
+  As  As8       1.0  0.36379  0.59433  0.41850  1.0000
+  Co  Co5       1.0  0.50000  0.50000  0.65278  1.0000
+  Co  Co6       1.0  0.50000  0.00000  0.56944  1.0000
+  Co  Co7       1.0  0.00000  0.50000  0.56944  1.0000
+  Co  Co8       1.0  0.00000  0.00000  0.65278  1.0000
+  As  As9       1.0  0.86379  0.40567  0.63706  1.0000
+  As  As10      1.0  0.86379  0.90567  0.55372  1.0000
+  As  As11      1.0  0.13621  0.59433  0.50183  1.0000
+  As  As12      1.0  0.13621  0.09433  0.58517  1.0000
+  As  As13      1.0  0.63621  0.40567  0.55372  1.0000
+  As  As14      1.0  0.63621  0.90567  0.63706  1.0000
+  As  As15      1.0  0.36379  0.09433  0.50183  1.0000
+  As  As16      1.0  0.36379  0.59433  0.58517  1.0000

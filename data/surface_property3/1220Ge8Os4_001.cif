@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Ge8Os4
+_chemical_formula_sum              "Ge8 Os4"
+_cell_length_a       3.10164
+_cell_length_b       4.76591
+_cell_length_c       33.5732
+_cell_angle_alpha    91.2378
+_cell_angle_beta     90
+_cell_angle_gamma    108.99
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ge  Ge1       1.0  0.53568  0.07135  0.66024  1.0000
+  Ge  Ge2       1.0  0.79766  0.59532  0.67310  1.0000
+  Ge  Ge3       1.0  0.51202  0.02403  0.54437  1.0000
+  Ge  Ge4       1.0  0.22132  0.44264  0.58896  1.0000
+  Ge  Ge5       1.0  0.93568  0.87135  0.46024  1.0000
+  Ge  Ge6       1.0  0.19766  0.39532  0.47310  1.0000
+  Ge  Ge7       1.0  0.91202  0.82403  0.34437  1.0000
+  Ge  Ge8       1.0  0.62132  0.24264  0.38896  1.0000
+  Os  Os1       1.0  0.94047  0.88095  0.60686  1.0000
+  Os  Os2       1.0  0.79286  0.58572  0.52648  1.0000
+  Os  Os3       1.0  0.34047  0.68095  0.40686  1.0000
+  Os  Os4       1.0  0.19286  0.38572  0.32648  1.0000

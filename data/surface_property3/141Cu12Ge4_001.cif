@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Cu6Ge2Cu6Ge2
+_chemical_formula_sum              "Cu12 Ge4"
+_cell_length_a       4.17314
+_cell_length_b       4.49329
+_cell_length_c       31.4649
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.00000  0.16834  0.39583  1.0000
+  Cu  Cu2       1.0  0.50000  0.83166  0.47917  1.0000
+  Cu  Cu3       1.0  0.50000  0.33496  0.35400  1.0000
+  Cu  Cu4       1.0  0.50000  0.33496  0.43767  1.0000
+  Cu  Cu5       1.0  0.00000  0.66504  0.35433  1.0000
+  Cu  Cu6       1.0  0.00000  0.66504  0.43733  1.0000
+  Ge  Ge1       1.0  0.50000  0.82650  0.39583  1.0000
+  Ge  Ge2       1.0  0.00000  0.17350  0.47917  1.0000
+  Cu  Cu7       1.0  0.00000  0.16834  0.56250  1.0000
+  Cu  Cu8       1.0  0.50000  0.83166  0.64583  1.0000
+  Cu  Cu9       1.0  0.50000  0.33496  0.52067  1.0000
+  Cu  Cu10      1.0  0.50000  0.33496  0.60433  1.0000
+  Cu  Cu11      1.0  0.00000  0.66504  0.52100  1.0000
+  Cu  Cu12      1.0  0.00000  0.66504  0.60400  1.0000
+  Ge  Ge3       1.0  0.50000  0.82650  0.56250  1.0000
+  Ge  Ge4       1.0  0.00000  0.17350  0.64583  1.0000

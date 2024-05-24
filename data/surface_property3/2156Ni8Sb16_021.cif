@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ni4Sb8Ni4Sb8
+_chemical_formula_sum              "Ni8 Sb16"
+_cell_length_a       3.75788
+_cell_length_b       13.5501
+_cell_length_c       37.0048
+_cell_angle_alpha    112.963
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.50000  0.25000  0.45833  1.0000
+  Ni  Ni2       1.0  0.50000  0.75000  0.38690  1.0000
+  Ni  Ni3       1.0  0.00000  0.50000  0.42262  1.0000
+  Ni  Ni4       1.0  0.00000  0.00000  0.49405  1.0000
+  Sb  Sb1       1.0  0.50000  0.43020  0.45325  1.0000
+  Sb  Sb2       1.0  0.50000  0.93020  0.38182  1.0000
+  Sb  Sb3       1.0  0.50000  0.06980  0.46342  1.0000
+  Sb  Sb4       1.0  0.50000  0.56980  0.39199  1.0000
+  Sb  Sb5       1.0  0.00000  0.18020  0.40776  1.0000
+  Sb  Sb6       1.0  0.00000  0.68020  0.47919  1.0000
+  Sb  Sb7       1.0  0.00000  0.31980  0.36605  1.0000
+  Sb  Sb8       1.0  0.00000  0.81980  0.43747  1.0000
+  Ni  Ni5       1.0  0.50000  0.25000  0.60119  1.0000
+  Ni  Ni6       1.0  0.50000  0.75000  0.52976  1.0000
+  Ni  Ni7       1.0  0.00000  0.50000  0.56548  1.0000
+  Ni  Ni8       1.0  0.00000  0.00000  0.63690  1.0000
+  Sb  Sb9       1.0  0.50000  0.43020  0.59610  1.0000
+  Sb  Sb10      1.0  0.50000  0.93020  0.52468  1.0000
+  Sb  Sb11      1.0  0.50000  0.06980  0.60628  1.0000
+  Sb  Sb12      1.0  0.50000  0.56980  0.53485  1.0000
+  Sb  Sb13      1.0  0.00000  0.18020  0.55062  1.0000
+  Sb  Sb14      1.0  0.00000  0.68020  0.62205  1.0000
+  Sb  Sb15      1.0  0.00000  0.31980  0.50890  1.0000
+  Sb  Sb16      1.0  0.00000  0.81980  0.58033  1.0000

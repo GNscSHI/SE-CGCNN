@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Ni5Pt5Ni5Pt5
+_chemical_formula_sum              "Ni10 Pt10"
+_cell_length_a       5.97648
+_cell_length_b       4.45674
+_cell_length_c       36.3772
+_cell_angle_alpha    76.0709
+_cell_angle_beta     76.7024
+_cell_angle_gamma    74.4428
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.40000  0.80000  0.45000  1.0000
+  Ni  Ni2       1.0  0.80000  0.60000  0.47857  1.0000
+  Ni  Ni3       1.0  0.00000  0.00000  0.42143  1.0000
+  Ni  Ni4       1.0  0.20000  0.40000  0.36429  1.0000
+  Ni  Ni5       1.0  0.60000  0.20000  0.39286  1.0000
+  Pt  Pt1       1.0  0.40000  0.80000  0.37857  1.0000
+  Pt  Pt2       1.0  0.80000  0.60000  0.40714  1.0000
+  Pt  Pt3       1.0  0.00000  0.00000  0.49286  1.0000
+  Pt  Pt4       1.0  0.20000  0.40000  0.43571  1.0000
+  Pt  Pt5       1.0  0.60000  0.20000  0.46429  1.0000
+  Ni  Ni6       1.0  0.40000  0.80000  0.59286  1.0000
+  Ni  Ni7       1.0  0.80000  0.60000  0.62143  1.0000
+  Ni  Ni8       1.0  0.00000  0.00000  0.56429  1.0000
+  Ni  Ni9       1.0  0.20000  0.40000  0.50714  1.0000
+  Ni  Ni10      1.0  0.60000  0.20000  0.53571  1.0000
+  Pt  Pt6       1.0  0.40000  0.80000  0.52143  1.0000
+  Pt  Pt7       1.0  0.80000  0.60000  0.55000  1.0000
+  Pt  Pt8       1.0  0.00000  0.00000  0.63571  1.0000
+  Pt  Pt9       1.0  0.20000  0.40000  0.57857  1.0000
+  Pt  Pt10      1.0  0.60000  0.20000  0.60714  1.0000

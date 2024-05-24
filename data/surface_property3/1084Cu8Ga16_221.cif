@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ga8Cu4Ga8Cu4
+_chemical_formula_sum              "Ga16 Cu8"
+_cell_length_a       3.95145
+_cell_length_b       11.9369
+_cell_length_c       31.6116
+_cell_angle_alpha    99.5271
+_cell_angle_beta     90
+_cell_angle_gamma    80.4729
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.67889  0.64221  0.46201  1.0000
+  Ga  Ga2       1.0  0.92889  0.14221  0.43076  1.0000
+  Ga  Ga3       1.0  0.42889  0.14221  0.49326  1.0000
+  Ga  Ga4       1.0  0.17889  0.64221  0.39951  1.0000
+  Ga  Ga5       1.0  0.57111  0.85779  0.47549  1.0000
+  Ga  Ga6       1.0  0.82111  0.35779  0.44424  1.0000
+  Ga  Ga7       1.0  0.32111  0.35779  0.38174  1.0000
+  Ga  Ga8       1.0  0.07111  0.85779  0.41299  1.0000
+  Cu  Cu1       1.0  0.75000  0.50000  0.39062  1.0000
+  Cu  Cu2       1.0  0.00000  0.00000  0.48438  1.0000
+  Cu  Cu3       1.0  0.50000  0.00000  0.42188  1.0000
+  Cu  Cu4       1.0  0.25000  0.50000  0.45312  1.0000
+  Ga  Ga9       1.0  0.67889  0.64221  0.58701  1.0000
+  Ga  Ga10      1.0  0.92889  0.14221  0.55576  1.0000
+  Ga  Ga11      1.0  0.42889  0.14221  0.61826  1.0000
+  Ga  Ga12      1.0  0.17889  0.64221  0.52451  1.0000
+  Ga  Ga13      1.0  0.57111  0.85779  0.60049  1.0000
+  Ga  Ga14      1.0  0.82111  0.35779  0.56924  1.0000
+  Ga  Ga15      1.0  0.32111  0.35779  0.50674  1.0000
+  Ga  Ga16      1.0  0.07111  0.85779  0.53799  1.0000
+  Cu  Cu5       1.0  0.75000  0.50000  0.51562  1.0000
+  Cu  Cu6       1.0  0.00000  0.00000  0.60938  1.0000
+  Cu  Cu7       1.0  0.50000  0.00000  0.54688  1.0000
+  Cu  Cu8       1.0  0.25000  0.50000  0.57813  1.0000

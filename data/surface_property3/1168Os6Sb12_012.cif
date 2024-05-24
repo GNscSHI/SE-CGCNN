@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Sb12Os6
+_chemical_formula_sum              "Sb12 Os6"
+_cell_length_a       3.2163
+_cell_length_b       13.6393
+_cell_length_c       35.7803
+_cell_angle_alpha    102.305
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sb  Sb1       1.0  0.50000  0.15350  0.58749  1.0000
+  Sb  Sb2       1.0  0.50000  0.82016  0.42083  1.0000
+  Sb  Sb3       1.0  0.50000  0.48683  0.50416  1.0000
+  Sb  Sb4       1.0  0.50000  0.51317  0.42640  1.0000
+  Sb  Sb5       1.0  0.50000  0.17984  0.50973  1.0000
+  Sb  Sb6       1.0  0.50000  0.84650  0.59306  1.0000
+  Sb  Sb7       1.0  0.00000  0.27474  0.43218  1.0000
+  Sb  Sb8       1.0  0.00000  0.94141  0.51552  1.0000
+  Sb  Sb9       1.0  0.00000  0.60807  0.59885  1.0000
+  Sb  Sb10      1.0  0.00000  0.39193  0.58171  1.0000
+  Sb  Sb11      1.0  0.00000  0.05859  0.41504  1.0000
+  Sb  Sb12      1.0  0.00000  0.72526  0.49837  1.0000
+  Os  Os1       1.0  0.50000  0.33333  0.38194  1.0000
+  Os  Os2       1.0  0.50000  0.00000  0.46528  1.0000
+  Os  Os3       1.0  0.50000  0.66667  0.54861  1.0000
+  Os  Os4       1.0  0.00000  0.33333  0.50694  1.0000
+  Os  Os5       1.0  0.00000  0.00000  0.59028  1.0000
+  Os  Os6       1.0  0.00000  0.66667  0.42361  1.0000

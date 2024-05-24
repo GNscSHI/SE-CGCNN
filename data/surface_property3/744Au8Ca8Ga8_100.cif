@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ca4Ga4Au4Ca4Ga4Au4
+_chemical_formula_sum              "Ca8 Ga8 Au8"
+_cell_length_a       7.20442
+_cell_length_b       7.63563
+_cell_length_c       31.6029
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.49408  0.79951  0.46429  1.0000
+  Ca  Ca2       1.0  0.00592  0.29951  0.39286  1.0000
+  Ca  Ca3       1.0  0.99408  0.70049  0.46429  1.0000
+  Ca  Ca4       1.0  0.50592  0.20049  0.39286  1.0000
+  Ga  Ga1       1.0  0.18040  0.92054  0.39286  1.0000
+  Ga  Ga2       1.0  0.31960  0.42054  0.46429  1.0000
+  Ga  Ga3       1.0  0.68040  0.57946  0.39286  1.0000
+  Ga  Ga4       1.0  0.81960  0.07946  0.46429  1.0000
+  Au  Au1       1.0  0.79312  0.90659  0.39286  1.0000
+  Au  Au2       1.0  0.20688  0.09341  0.46429  1.0000
+  Au  Au3       1.0  0.29312  0.59341  0.39286  1.0000
+  Au  Au4       1.0  0.70688  0.40659  0.46429  1.0000
+  Ca  Ca5       1.0  0.49408  0.79951  0.60714  1.0000
+  Ca  Ca6       1.0  0.00592  0.29951  0.53571  1.0000
+  Ca  Ca7       1.0  0.99408  0.70049  0.60714  1.0000
+  Ca  Ca8       1.0  0.50592  0.20049  0.53571  1.0000
+  Ga  Ga5       1.0  0.18040  0.92054  0.53571  1.0000
+  Ga  Ga6       1.0  0.31960  0.42054  0.60714  1.0000
+  Ga  Ga7       1.0  0.68040  0.57946  0.53571  1.0000
+  Ga  Ga8       1.0  0.81960  0.07946  0.60714  1.0000
+  Au  Au5       1.0  0.79312  0.90659  0.53571  1.0000
+  Au  Au6       1.0  0.20688  0.09341  0.60714  1.0000
+  Au  Au7       1.0  0.29312  0.59341  0.53571  1.0000
+  Au  Au8       1.0  0.70688  0.40659  0.60714  1.0000

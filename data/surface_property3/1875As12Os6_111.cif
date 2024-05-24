@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       As12Os6
+_chemical_formula_sum              "As12 Os6"
+_cell_length_a       6.20302
+_cell_length_b       6.88883
+_cell_length_c       35.0574
+_cell_angle_alpha    61.0584
+_cell_angle_beta     68.1443
+_cell_angle_gamma    77.6776
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.76430  0.80039  0.60645  1.0000
+  As  As2       1.0  0.09763  0.13373  0.52312  1.0000
+  As  As3       1.0  0.43097  0.46706  0.43978  1.0000
+  As  As4       1.0  0.56903  0.53294  0.49077  1.0000
+  As  As5       1.0  0.90237  0.86627  0.40744  1.0000
+  As  As6       1.0  0.23570  0.19961  0.57410  1.0000
+  As  As7       1.0  0.99231  0.68639  0.50995  1.0000
+  As  As8       1.0  0.32564  0.01972  0.42662  1.0000
+  As  As9       1.0  0.65898  0.35306  0.59329  1.0000
+  As  As10      1.0  0.67436  0.98028  0.50394  1.0000
+  As  As11      1.0  0.00769  0.31361  0.42060  1.0000
+  As  As12      1.0  0.34102  0.64694  0.58727  1.0000
+  Os  Os1       1.0  0.33333  0.83333  0.50694  1.0000
+  Os  Os2       1.0  0.66667  0.16667  0.42361  1.0000
+  Os  Os3       1.0  0.00000  0.50000  0.59028  1.0000
+  Os  Os4       1.0  0.00000  0.50000  0.46528  1.0000
+  Os  Os5       1.0  0.33333  0.83333  0.38194  1.0000
+  Os  Os6       1.0  0.66667  0.16667  0.54861  1.0000

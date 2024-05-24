@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Co6As12
+_chemical_formula_sum              "Co6 As12"
+_cell_length_a       5.91155
+_cell_length_b       6.58257
+_cell_length_c       33.1861
+_cell_angle_alpha    63.4139
+_cell_angle_beta     70.8888
+_cell_angle_gamma    75.9538
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.66667  0.66667  0.57639  1.0000
+  Co  Co2       1.0  0.00000  0.00000  0.49306  1.0000
+  Co  Co3       1.0  0.33333  0.33333  0.40972  1.0000
+  Co  Co4       1.0  0.66667  0.66667  0.45139  1.0000
+  Co  Co5       1.0  0.00000  0.00000  0.61806  1.0000
+  Co  Co6       1.0  0.33333  0.33333  0.53472  1.0000
+  As  As1       1.0  0.91370  0.36125  0.56179  1.0000
+  As  As2       1.0  0.24703  0.69459  0.47846  1.0000
+  As  As3       1.0  0.58037  0.02792  0.39513  1.0000
+  As  As4       1.0  0.41963  0.97208  0.59098  1.0000
+  As  As5       1.0  0.75297  0.30541  0.50765  1.0000
+  As  As6       1.0  0.08630  0.63875  0.42432  1.0000
+  As  As7       1.0  0.67117  0.84631  0.49743  1.0000
+  As  As8       1.0  0.00450  0.17964  0.41409  1.0000
+  As  As9       1.0  0.33784  0.51298  0.58076  1.0000
+  As  As10      1.0  0.99550  0.82036  0.57202  1.0000
+  As  As11      1.0  0.32883  0.15369  0.48869  1.0000
+  As  As12      1.0  0.66216  0.48702  0.40535  1.0000

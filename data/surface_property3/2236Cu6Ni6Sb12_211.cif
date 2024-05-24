@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Cu6Ni6Sb12
+_chemical_formula_sum              "Cu6 Ni6 Sb12"
+_cell_length_a       6.48215
+_cell_length_b       8.64237
+_cell_length_c       30.8579
+_cell_angle_alpha    89.4938
+_cell_angle_beta     84.638
+_cell_angle_gamma    88.7952
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.98958  0.00000  0.50521  1.0000
+  Cu  Cu2       1.0  0.15625  0.66667  0.58854  1.0000
+  Cu  Cu3       1.0  0.57292  0.33333  0.54688  1.0000
+  Cu  Cu4       1.0  0.23958  0.00000  0.38021  1.0000
+  Cu  Cu5       1.0  0.40625  0.66667  0.46354  1.0000
+  Cu  Cu6       1.0  0.82292  0.33333  0.42188  1.0000
+  Ni  Ni1       1.0  0.44792  0.83333  0.60938  1.0000
+  Ni  Ni2       1.0  0.86458  0.50000  0.56771  1.0000
+  Ni  Ni3       1.0  0.28125  0.16667  0.52604  1.0000
+  Ni  Ni4       1.0  0.69792  0.83333  0.48438  1.0000
+  Ni  Ni5       1.0  0.11458  0.50000  0.44271  1.0000
+  Ni  Ni6       1.0  0.53125  0.16667  0.40104  1.0000
+  Sb  Sb1       1.0  0.80185  0.79749  0.56323  1.0000
+  Sb  Sb2       1.0  0.21852  0.46415  0.52156  1.0000
+  Sb  Sb3       1.0  0.38519  0.13082  0.60489  1.0000
+  Sb  Sb4       1.0  0.34398  0.86918  0.53052  1.0000
+  Sb  Sb5       1.0  0.51065  0.53585  0.61386  1.0000
+  Sb  Sb6       1.0  0.92731  0.20251  0.57219  1.0000
+  Sb  Sb7       1.0  0.05185  0.79749  0.43823  1.0000
+  Sb  Sb8       1.0  0.46852  0.46415  0.39656  1.0000
+  Sb  Sb9       1.0  0.63519  0.13082  0.47989  1.0000
+  Sb  Sb10      1.0  0.59398  0.86918  0.40552  1.0000
+  Sb  Sb11      1.0  0.76065  0.53585  0.48886  1.0000
+  Sb  Sb12      1.0  0.17731  0.20251  0.44719  1.0000

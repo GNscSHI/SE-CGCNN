@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Al12Fe6Ni6
+_chemical_formula_sum              "Al12 Fe6 Ni6"
+_cell_length_a       5.68996
+_cell_length_b       6.96875
+_cell_length_c       30.6414
+_cell_angle_alpha    94.3478
+_cell_angle_beta     90
+_cell_angle_gamma    114.095
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.46875  0.43750  0.38542  1.0000
+  Al  Al2       1.0  0.30208  0.10417  0.55208  1.0000
+  Al  Al3       1.0  0.88542  0.27083  0.46875  1.0000
+  Al  Al4       1.0  0.96875  0.43750  0.38542  1.0000
+  Al  Al5       1.0  0.80208  0.10417  0.55208  1.0000
+  Al  Al6       1.0  0.38542  0.27083  0.46875  1.0000
+  Al  Al7       1.0  0.01042  0.52083  0.59375  1.0000
+  Al  Al8       1.0  0.59375  0.68750  0.51042  1.0000
+  Al  Al9       1.0  0.17708  0.85417  0.42708  1.0000
+  Al  Al10      1.0  0.51042  0.52083  0.59375  1.0000
+  Al  Al11      1.0  0.09375  0.68750  0.51042  1.0000
+  Al  Al12      1.0  0.67708  0.85417  0.42708  1.0000
+  Fe  Fe1       1.0  0.69792  0.39583  0.53125  1.0000
+  Fe  Fe2       1.0  0.28125  0.56250  0.44792  1.0000
+  Fe  Fe3       1.0  0.11458  0.22917  0.61458  1.0000
+  Fe  Fe4       1.0  0.98958  0.97917  0.48958  1.0000
+  Fe  Fe5       1.0  0.57292  0.14583  0.40625  1.0000
+  Fe  Fe6       1.0  0.40625  0.81250  0.57292  1.0000
+  Ni  Ni1       1.0  0.19792  0.39583  0.53125  1.0000
+  Ni  Ni2       1.0  0.78125  0.56250  0.44792  1.0000
+  Ni  Ni3       1.0  0.61458  0.22917  0.61458  1.0000
+  Ni  Ni4       1.0  0.48958  0.97917  0.48958  1.0000
+  Ni  Ni5       1.0  0.07292  0.14583  0.40625  1.0000
+  Ni  Ni6       1.0  0.90625  0.81250  0.57292  1.0000

@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Mn3Sb3Rh6Mn3Sb3Rh6
+_chemical_formula_sum              "Mn6 Sb6 Rh12"
+_cell_length_a       4.02812
+_cell_length_b       8.15268
+_cell_length_c       32.1915
+_cell_angle_alpha    78.2675
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.00000  0.00000  0.48611  1.0000
+  Mn  Mn2       1.0  0.00000  0.33333  0.37500  1.0000
+  Mn  Mn3       1.0  0.00000  0.66667  0.43056  1.0000
+  Sb  Sb1       1.0  0.50000  0.83333  0.37500  1.0000
+  Sb  Sb2       1.0  0.50000  0.16667  0.43056  1.0000
+  Sb  Sb3       1.0  0.50000  0.50000  0.48611  1.0000
+  Rh  Rh1       1.0  0.50000  0.16667  0.34722  1.0000
+  Rh  Rh2       1.0  0.50000  0.50000  0.40278  1.0000
+  Rh  Rh3       1.0  0.50000  0.83333  0.45833  1.0000
+  Rh  Rh4       1.0  0.00000  0.00000  0.40278  1.0000
+  Rh  Rh5       1.0  0.00000  0.33333  0.45833  1.0000
+  Rh  Rh6       1.0  0.00000  0.66667  0.34722  1.0000
+  Mn  Mn4       1.0  0.00000  0.00000  0.65278  1.0000
+  Mn  Mn5       1.0  0.00000  0.33333  0.54167  1.0000
+  Mn  Mn6       1.0  0.00000  0.66667  0.59722  1.0000
+  Sb  Sb4       1.0  0.50000  0.83333  0.54167  1.0000
+  Sb  Sb5       1.0  0.50000  0.16667  0.59722  1.0000
+  Sb  Sb6       1.0  0.50000  0.50000  0.65278  1.0000
+  Rh  Rh7       1.0  0.50000  0.16667  0.51389  1.0000
+  Rh  Rh8       1.0  0.50000  0.50000  0.56944  1.0000
+  Rh  Rh9       1.0  0.50000  0.83333  0.62500  1.0000
+  Rh  Rh10      1.0  0.00000  0.00000  0.56944  1.0000
+  Rh  Rh11      1.0  0.00000  0.33333  0.62500  1.0000
+  Rh  Rh12      1.0  0.00000  0.66667  0.51389  1.0000

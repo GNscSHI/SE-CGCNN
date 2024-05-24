@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Ge8Mo4
+_chemical_formula_sum              "Ge8 Mo4"
+_cell_length_a       3.44439
+_cell_length_b       6.32841
+_cell_length_c       34.176
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ge  Ge1       1.0  0.25000  0.43908  0.51237  1.0000
+  Ge  Ge2       1.0  0.75000  0.56092  0.44597  1.0000
+  Ge  Ge3       1.0  0.25000  0.93908  0.57097  1.0000
+  Ge  Ge4       1.0  0.75000  0.06092  0.38737  1.0000
+  Ge  Ge5       1.0  0.75000  0.13600  0.48938  1.0000
+  Ge  Ge6       1.0  0.25000  0.86400  0.46895  1.0000
+  Ge  Ge7       1.0  0.75000  0.63600  0.59395  1.0000
+  Ge  Ge8       1.0  0.25000  0.36400  0.61438  1.0000
+  Mo  Mo1       1.0  0.25000  0.74948  0.39696  1.0000
+  Mo  Mo2       1.0  0.75000  0.25052  0.56137  1.0000
+  Mo  Mo3       1.0  0.25000  0.24948  0.43637  1.0000
+  Mo  Mo4       1.0  0.75000  0.75052  0.52196  1.0000

@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Ga12Os6
+_chemical_formula_sum              "Ga12 Os6"
+_cell_length_a       4.75202
+_cell_length_b       4.94485
+_cell_length_c       33.4314
+_cell_angle_alpha    91.6826
+_cell_angle_beta     92.3562
+_cell_angle_gamma    103.753
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.67348  0.37448  0.38443  1.0000
+  Ga  Ga2       1.0  0.11792  0.04114  0.49555  1.0000
+  Ga  Ga3       1.0  0.56237  0.70781  0.60666  1.0000
+  Ga  Ga4       1.0  0.19689  0.48664  0.34705  1.0000
+  Ga  Ga5       1.0  0.64133  0.15330  0.45816  1.0000
+  Ga  Ga6       1.0  0.08578  0.81997  0.56927  1.0000
+  Ga  Ga7       1.0  0.03022  0.73664  0.43038  1.0000
+  Ga  Ga8       1.0  0.47467  0.40330  0.54149  1.0000
+  Ga  Ga9       1.0  0.91911  0.06997  0.65260  1.0000
+  Ga  Ga10      1.0  0.06237  0.95781  0.35666  1.0000
+  Ga  Ga11      1.0  0.50681  0.62448  0.46777  1.0000
+  Ga  Ga12      1.0  0.95126  0.29114  0.57888  1.0000
+  Os  Os1       1.0  0.04630  0.59722  0.64352  1.0000
+  Os  Os2       1.0  0.15741  0.26389  0.42130  1.0000
+  Os  Os3       1.0  0.60185  0.93056  0.53241  1.0000
+  Os  Os4       1.0  0.54630  0.84722  0.39352  1.0000
+  Os  Os5       1.0  0.99074  0.51389  0.50463  1.0000
+  Os  Os6       1.0  0.43519  0.18056  0.61574  1.0000

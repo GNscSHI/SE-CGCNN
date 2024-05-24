@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Pt12W6
+_chemical_formula_sum              "Pt12 W6"
+_cell_length_a       4.77243
+_cell_length_b       6.1723
+_cell_length_c       33.0812
+_cell_angle_alpha    84.739
+_cell_angle_beta     88.7507
+_cell_angle_gamma    75.3345
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pt  Pt1       1.0  0.90949  0.68482  0.53986  1.0000
+  Pt  Pt2       1.0  0.19520  0.30386  0.58748  1.0000
+  Pt  Pt3       1.0  0.48092  0.92291  0.63510  1.0000
+  Pt  Pt4       1.0  0.61432  0.50566  0.60300  1.0000
+  Pt  Pt5       1.0  0.04289  0.26757  0.50776  1.0000
+  Pt  Pt6       1.0  0.32861  0.88661  0.55538  1.0000
+  Pt  Pt7       1.0  0.05235  0.82767  0.39700  1.0000
+  Pt  Pt8       1.0  0.33806  0.44672  0.44462  1.0000
+  Pt  Pt9       1.0  0.62377  0.06577  0.49224  1.0000
+  Pt  Pt10      1.0  0.75718  0.64852  0.46014  1.0000
+  Pt  Pt11      1.0  0.18575  0.41042  0.36490  1.0000
+  Pt  Pt12      1.0  0.47146  0.02947  0.41252  1.0000
+  W   W1        1.0  0.04762  0.71429  0.61905  1.0000
+  W   W2        1.0  0.47619  0.47619  0.52381  1.0000
+  W   W3        1.0  0.76190  0.09524  0.57143  1.0000
+  W   W4        1.0  0.19048  0.85714  0.47619  1.0000
+  W   W5        1.0  0.61905  0.61905  0.38095  1.0000
+  W   W6        1.0  0.90476  0.23810  0.42857  1.0000

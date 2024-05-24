@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Ca16
+_chemical_formula_sum              "Ca16"
+_cell_length_a       6.66002
+_cell_length_b       13.3002
+_cell_length_c       30.7613
+_cell_angle_alpha    98.3114
+_cell_angle_beta     90
+_cell_angle_gamma    75.5005
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.85417  0.62500  0.47656  1.0000
+  Ca  Ca2       1.0  0.10417  0.12500  0.44531  1.0000
+  Ca  Ca3       1.0  0.60417  0.12500  0.38281  1.0000
+  Ca  Ca4       1.0  0.35417  0.62500  0.41406  1.0000
+  Ca  Ca5       1.0  0.39583  0.87500  0.49219  1.0000
+  Ca  Ca6       1.0  0.64583  0.37500  0.46094  1.0000
+  Ca  Ca7       1.0  0.14583  0.37500  0.39844  1.0000
+  Ca  Ca8       1.0  0.89583  0.87500  0.42969  1.0000
+  Ca  Ca9       1.0  0.85417  0.62500  0.60156  1.0000
+  Ca  Ca10      1.0  0.10417  0.12500  0.57031  1.0000
+  Ca  Ca11      1.0  0.60417  0.12500  0.50781  1.0000
+  Ca  Ca12      1.0  0.35417  0.62500  0.53906  1.0000
+  Ca  Ca13      1.0  0.39583  0.87500  0.61719  1.0000
+  Ca  Ca14      1.0  0.64583  0.37500  0.58594  1.0000
+  Ca  Ca15      1.0  0.14583  0.37500  0.52344  1.0000
+  Ca  Ca16      1.0  0.89583  0.87500  0.55469  1.0000

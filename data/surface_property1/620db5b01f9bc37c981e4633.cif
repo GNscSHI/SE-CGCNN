@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_MgZr2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.23467100
+_cell_length_b   8.02975511
+_cell_length_c   41.82146900
+_cell_angle_alpha   93.86305269
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   101.61987594
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgZr2
+_chemical_formula_sum   'Mg9 Zr18'
+_cell_volume   1061.47265152
+_cell_formula_units_Z   9
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.26666700  0.23333300  0.23333300  1
+  Mg  Mg1  1  0.80000000  0.30000000  0.30000000  1
+  Mg  Mg2  1  0.33333300  0.36666700  0.36666700  1
+  Mg  Mg3  1  0.86666700  0.43333300  0.43333300  1
+  Mg  Mg4  1  0.40000000  0.50000000  0.50000000  1
+  Mg  Mg5  1  0.93333300  0.56666700  0.56666700  1
+  Mg  Mg6  1  0.46666700  0.63333300  0.63333300  1
+  Mg  Mg7  1  0.00000000  0.70000000  0.70000000  1
+  Mg  Mg8  1  0.53333300  0.76666700  0.76666700  1
+  Zr  Zr9  1  0.94501300  0.59002700  0.24795400  1
+  Zr  Zr10  1  0.58832000  0.87664000  0.21871300  1
+  Zr  Zr11  1  0.47834700  0.65669300  0.31462100  1
+  Zr  Zr12  1  0.12165300  0.94330700  0.28537900  1
+  Zr  Zr13  1  0.01168000  0.72336000  0.38128700  1
+  Zr  Zr14  1  0.65498700  0.00997300  0.35204600  1
+  Zr  Zr15  1  0.54501300  0.79002700  0.44795400  1
+  Zr  Zr16  1  0.18832000  0.07664000  0.41871300  1
+  Zr  Zr17  1  0.07834700  0.85669300  0.51462100  1
+  Zr  Zr18  1  0.72165300  0.14330700  0.48537900  1
+  Zr  Zr19  1  0.61168000  0.92336000  0.58128700  1
+  Zr  Zr20  1  0.25498700  0.20997300  0.55204600  1
+  Zr  Zr21  1  0.14501300  0.99002700  0.64795400  1
+  Zr  Zr22  1  0.78832000  0.27664000  0.61871300  1
+  Zr  Zr23  1  0.67834700  0.05669300  0.71462100  1
+  Zr  Zr24  1  0.32165300  0.34330700  0.68537900  1
+  Zr  Zr25  1  0.21168000  0.12336000  0.78128700  1
+  Zr  Zr26  1  0.85498700  0.40997300  0.75204600  1

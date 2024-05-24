@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Au12Ca12
+_chemical_formula_sum              "Au12 Ca12"
+_cell_length_a       5.77272
+_cell_length_b       9.10683
+_cell_length_c       35.2577
+_cell_angle_alpha    83.2644
+_cell_angle_beta     89.3518
+_cell_angle_gamma    72.8397
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.68516  0.24630  0.47672  1.0000
+  Au  Au2       1.0  0.74072  0.63519  0.42116  1.0000
+  Au  Au3       1.0  0.79627  0.02408  0.36561  1.0000
+  Au  Au4       1.0  0.37039  0.80925  0.46773  1.0000
+  Au  Au5       1.0  0.42595  0.19814  0.41217  1.0000
+  Au  Au6       1.0  0.48150  0.58703  0.35661  1.0000
+  Au  Au7       1.0  0.51850  0.07963  0.64339  1.0000
+  Au  Au8       1.0  0.57405  0.46852  0.58783  1.0000
+  Au  Au9       1.0  0.62961  0.85741  0.53227  1.0000
+  Au  Au10      1.0  0.20373  0.64259  0.63439  1.0000
+  Au  Au11      1.0  0.25928  0.03148  0.57884  1.0000
+  Au  Au12      1.0  0.31484  0.42037  0.52328  1.0000
+  Ca  Ca1       1.0  0.22899  0.13754  0.49226  1.0000
+  Ca  Ca2       1.0  0.28454  0.52642  0.43670  1.0000
+  Ca  Ca3       1.0  0.34010  0.91531  0.38115  1.0000
+  Ca  Ca4       1.0  0.82657  0.91802  0.45219  1.0000
+  Ca  Ca5       1.0  0.88212  0.30691  0.39663  1.0000
+  Ca  Ca6       1.0  0.93768  0.69580  0.34108  1.0000
+  Ca  Ca7       1.0  0.06232  0.97087  0.65892  1.0000
+  Ca  Ca8       1.0  0.11788  0.35976  0.60337  1.0000
+  Ca  Ca9       1.0  0.17343  0.74865  0.54781  1.0000
+  Ca  Ca10      1.0  0.65990  0.75135  0.61885  1.0000
+  Ca  Ca11      1.0  0.71546  0.14024  0.56330  1.0000
+  Ca  Ca12      1.0  0.77101  0.52913  0.50774  1.0000

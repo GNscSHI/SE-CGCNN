@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Ca8Cu8Ga4
+_chemical_formula_sum              "Ca8 Cu8 Ga4"
+_cell_length_a       5.60472
+_cell_length_b       5.60472
+_cell_length_c       39.7815
+_cell_angle_alpha    92.778
+_cell_angle_beta     92.778
+_cell_angle_gamma    104.822
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.14603  0.75397  0.35000  1.0000
+  Ca  Ca2       1.0  0.81270  0.42063  0.43333  1.0000
+  Ca  Ca3       1.0  0.75397  0.14603  0.35000  1.0000
+  Ca  Ca4       1.0  0.42063  0.81270  0.43333  1.0000
+  Ca  Ca5       1.0  0.47937  0.08730  0.51667  1.0000
+  Ca  Ca6       1.0  0.14603  0.75397  0.60000  1.0000
+  Ca  Ca7       1.0  0.08730  0.47937  0.51667  1.0000
+  Ca  Ca8       1.0  0.75397  0.14603  0.60000  1.0000
+  Cu  Cu1       1.0  0.29009  0.29009  0.45501  1.0000
+  Cu  Cu2       1.0  0.62342  0.62342  0.37168  1.0000
+  Cu  Cu3       1.0  0.60991  0.60991  0.49499  1.0000
+  Cu  Cu4       1.0  0.94324  0.94324  0.41166  1.0000
+  Cu  Cu5       1.0  0.62342  0.62342  0.62168  1.0000
+  Cu  Cu6       1.0  0.95676  0.95676  0.53834  1.0000
+  Cu  Cu7       1.0  0.94324  0.94324  0.66166  1.0000
+  Cu  Cu8       1.0  0.27658  0.27658  0.57832  1.0000
+  Ga  Ga1       1.0  0.28333  0.28333  0.39167  1.0000
+  Ga  Ga2       1.0  0.95000  0.95000  0.47500  1.0000
+  Ga  Ga3       1.0  0.61667  0.61667  0.55833  1.0000
+  Ga  Ga4       1.0  0.28333  0.28333  0.64167  1.0000

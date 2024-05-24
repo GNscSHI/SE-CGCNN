@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Al9Ni15
+_chemical_formula_sum              "Al9 Ni15"
+_cell_length_a       4.95846
+_cell_length_b       6.1944
+_cell_length_c       35.7018
+_cell_angle_alpha    86.0792
+_cell_angle_beta     86.1731
+_cell_angle_gamma    84.0333
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.80891  0.89202  0.46662  1.0000
+  Al  Al2       1.0  0.72558  0.22535  0.54996  1.0000
+  Al  Al3       1.0  0.89224  0.55869  0.38329  1.0000
+  Al  Al4       1.0  0.21192  0.52465  0.51254  1.0000
+  Al  Al5       1.0  0.12859  0.85798  0.59588  1.0000
+  Al  Al6       1.0  0.29526  0.19131  0.42921  1.0000
+  Al  Al7       1.0  0.46875  0.87500  0.53125  1.0000
+  Al  Al8       1.0  0.38542  0.20833  0.61458  1.0000
+  Al  Al9       1.0  0.55208  0.54167  0.44792  1.0000
+  Ni  Ni1       1.0  0.71749  0.55773  0.50841  1.0000
+  Ni  Ni2       1.0  0.63416  0.89107  0.59174  1.0000
+  Ni  Ni3       1.0  0.80082  0.22440  0.42507  1.0000
+  Ni  Ni4       1.0  0.22001  0.19227  0.55409  1.0000
+  Ni  Ni5       1.0  0.38668  0.52560  0.38743  1.0000
+  Ni  Ni6       1.0  0.30334  0.85893  0.47076  1.0000
+  Ni  Ni7       1.0  0.05208  0.54167  0.44792  1.0000
+  Ni  Ni8       1.0  0.96875  0.87500  0.53125  1.0000
+  Ni  Ni9       1.0  0.88542  0.20833  0.61458  1.0000
+  Ni  Ni10      1.0  0.59375  0.87500  0.40625  1.0000
+  Ni  Ni11      1.0  0.51042  0.20833  0.48958  1.0000
+  Ni  Ni12      1.0  0.42708  0.54167  0.57292  1.0000
+  Ni  Ni13      1.0  0.01042  0.20833  0.48958  1.0000
+  Ni  Ni14      1.0  0.92708  0.54167  0.57292  1.0000
+  Ni  Ni15      1.0  0.09375  0.87500  0.40625  1.0000

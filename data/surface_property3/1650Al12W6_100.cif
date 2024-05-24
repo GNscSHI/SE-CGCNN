@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Al6W3Al6W3
+_chemical_formula_sum              "Al12 W6"
+_cell_length_a       4.82839
+_cell_length_b       6.72484
+_cell_length_c       33.7987
+_cell_angle_alpha    90
+_cell_angle_beta     120
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.83146  0.16667  0.46852  1.0000
+  Al  Al2       1.0  0.16854  0.83333  0.49260  1.0000
+  Al  Al3       1.0  0.66291  0.50000  0.42037  1.0000
+  Al  Al4       1.0  0.16854  0.16667  0.42037  1.0000
+  Al  Al5       1.0  0.83146  0.83333  0.39629  1.0000
+  Al  Al6       1.0  0.33709  0.50000  0.46852  1.0000
+  W   W1        1.0  0.00000  0.50000  0.37302  1.0000
+  W   W2        1.0  0.50000  0.83333  0.44444  1.0000
+  W   W3        1.0  0.50000  0.16667  0.37302  1.0000
+  Al  Al7       1.0  0.83146  0.16667  0.61138  1.0000
+  Al  Al8       1.0  0.16854  0.83333  0.63546  1.0000
+  Al  Al9       1.0  0.66291  0.50000  0.56322  1.0000
+  Al  Al10      1.0  0.16854  0.16667  0.56322  1.0000
+  Al  Al11      1.0  0.83146  0.83333  0.53915  1.0000
+  Al  Al12      1.0  0.33709  0.50000  0.61138  1.0000
+  W   W4        1.0  0.00000  0.50000  0.51587  1.0000
+  W   W5        1.0  0.50000  0.83333  0.58730  1.0000
+  W   W6        1.0  0.50000  0.16667  0.51587  1.0000

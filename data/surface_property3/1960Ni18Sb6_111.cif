@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ni18Sb6
+_chemical_formula_sum              "Ni18 Sb6"
+_cell_length_a       6.14903
+_cell_length_b       6.74309
+_cell_length_c       32.3858
+_cell_angle_alpha    79.4305
+_cell_angle_beta     87.2881
+_cell_angle_gamma    64.6881
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.36331  0.94340  0.57668  1.0000
+  Ni  Ni2       1.0  0.69665  0.27673  0.49335  1.0000
+  Ni  Ni3       1.0  0.02998  0.61007  0.41001  1.0000
+  Ni  Ni4       1.0  0.53006  0.60991  0.53499  1.0000
+  Ni  Ni5       1.0  0.86339  0.94325  0.45166  1.0000
+  Ni  Ni6       1.0  0.19672  0.27658  0.61833  1.0000
+  Ni  Ni7       1.0  0.97002  0.88993  0.58999  1.0000
+  Ni  Ni8       1.0  0.30335  0.22327  0.50665  1.0000
+  Ni  Ni9       1.0  0.63669  0.55660  0.42332  1.0000
+  Ni  Ni10      1.0  0.13661  0.55675  0.54834  1.0000
+  Ni  Ni11      1.0  0.46994  0.89009  0.46501  1.0000
+  Ni  Ni12      1.0  0.80328  0.22342  0.38167  1.0000
+  Ni  Ni13      1.0  0.71301  0.89349  0.52663  1.0000
+  Ni  Ni14      1.0  0.04634  0.22683  0.44329  1.0000
+  Ni  Ni15      1.0  0.37968  0.56016  0.60996  1.0000
+  Ni  Ni16      1.0  0.95366  0.27317  0.55671  1.0000
+  Ni  Ni17      1.0  0.28699  0.60651  0.47337  1.0000
+  Ni  Ni18      1.0  0.62032  0.93984  0.39004  1.0000
+  Sb  Sb1       1.0  0.78509  0.60746  0.59814  1.0000
+  Sb  Sb2       1.0  0.11842  0.94079  0.51480  1.0000
+  Sb  Sb3       1.0  0.45175  0.27412  0.43147  1.0000
+  Sb  Sb4       1.0  0.88158  0.55921  0.48520  1.0000
+  Sb  Sb5       1.0  0.21491  0.89254  0.40186  1.0000
+  Sb  Sb6       1.0  0.54825  0.22588  0.56853  1.0000

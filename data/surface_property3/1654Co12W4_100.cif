@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Co6W2Co6W2
+_chemical_formula_sum              "Co12 W4"
+_cell_length_a       5.03521
+_cell_length_b       4.03261
+_cell_length_c       35.2465
+_cell_angle_alpha    90
+_cell_angle_beta     120
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.67619  0.25000  0.47687  1.0000
+  Co  Co2       1.0  0.83809  0.75000  0.38027  1.0000
+  Co  Co3       1.0  0.83809  0.75000  0.45374  1.0000
+  Co  Co4       1.0  0.16191  0.25000  0.40340  1.0000
+  Co  Co5       1.0  0.16191  0.25000  0.47687  1.0000
+  Co  Co6       1.0  0.32381  0.75000  0.38027  1.0000
+  W   W1        1.0  0.66667  0.25000  0.40476  1.0000
+  W   W2        1.0  0.33333  0.75000  0.45238  1.0000
+  Co  Co7       1.0  0.67619  0.25000  0.61973  1.0000
+  Co  Co8       1.0  0.83809  0.75000  0.52313  1.0000
+  Co  Co9       1.0  0.83809  0.75000  0.59660  1.0000
+  Co  Co10      1.0  0.16191  0.25000  0.54626  1.0000
+  Co  Co11      1.0  0.16191  0.25000  0.61973  1.0000
+  Co  Co12      1.0  0.32381  0.75000  0.52313  1.0000
+  W   W3        1.0  0.66667  0.25000  0.54762  1.0000
+  W   W4        1.0  0.33333  0.75000  0.59524  1.0000

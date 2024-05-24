@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       As4Pb8Pd12
+_chemical_formula_sum              "As4 Pb8 Pd12"
+_cell_length_a       6.85738
+_cell_length_b       8.93824
+_cell_length_c       33.0904
+_cell_angle_alpha    91.0463
+_cell_angle_beta     90.3027
+_cell_angle_gamma    112.254
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.91054  0.29417  0.45527  1.0000
+  As  As2       1.0  0.16054  0.79417  0.58027  1.0000
+  As  As3       1.0  0.18209  0.25108  0.59104  1.0000
+  As  As4       1.0  0.93209  0.75108  0.46604  1.0000
+  Pb  Pb1       1.0  0.72865  0.33875  0.54348  1.0000
+  Pb  Pb2       1.0  0.47865  0.83875  0.41848  1.0000
+  Pb  Pb3       1.0  0.31268  0.10390  0.47719  1.0000
+  Pb  Pb4       1.0  0.56268  0.60390  0.60219  1.0000
+  Pb  Pb5       1.0  0.68565  0.92475  0.52198  1.0000
+  Pb  Pb6       1.0  0.43565  0.42475  0.39698  1.0000
+  Pb  Pb7       1.0  0.60568  0.01791  0.62369  1.0000
+  Pb  Pb8       1.0  0.35568  0.51791  0.49869  1.0000
+  Pd  Pd1       1.0  0.58565  0.16788  0.41304  1.0000
+  Pd  Pd2       1.0  0.83565  0.66788  0.53804  1.0000
+  Pd  Pd3       1.0  0.35937  0.08216  0.55947  1.0000
+  Pd  Pd4       1.0  0.10937  0.58216  0.43447  1.0000
+  Pd  Pd5       1.0  0.89153  0.01630  0.44576  1.0000
+  Pd  Pd6       1.0  0.14153  0.51630  0.57076  1.0000
+  Pd  Pd7       1.0  0.04315  0.21305  0.52157  1.0000
+  Pd  Pd8       1.0  0.79315  0.71305  0.39657  1.0000
+  Pd  Pd9       1.0  0.25641  0.78809  0.50799  1.0000
+  Pd  Pd10      1.0  0.00641  0.28809  0.38299  1.0000
+  Pd  Pd11      1.0  0.93861  0.96195  0.58952  1.0000
+  Pd  Pd12      1.0  0.68861  0.46195  0.46452  1.0000

@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Al4Pd8Al4Pd8
+_chemical_formula_sum              "Al8 Pd16"
+_cell_length_a       4.06213
+_cell_length_b       7.73788
+_cell_length_c       32.4078
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.25000  0.39529  0.44946  1.0000
+  Al  Al2       1.0  0.75000  0.60471  0.38387  1.0000
+  Al  Al3       1.0  0.25000  0.10471  0.36613  1.0000
+  Al  Al4       1.0  0.75000  0.89529  0.46721  1.0000
+  Pd  Pd1       1.0  0.25000  0.78865  0.34013  1.0000
+  Pd  Pd2       1.0  0.75000  0.21135  0.49321  1.0000
+  Pd  Pd3       1.0  0.25000  0.71135  0.42346  1.0000
+  Pd  Pd4       1.0  0.75000  0.28865  0.40987  1.0000
+  Pd  Pd5       1.0  0.25000  0.43304  0.36096  1.0000
+  Pd  Pd6       1.0  0.75000  0.56696  0.47237  1.0000
+  Pd  Pd7       1.0  0.25000  0.06696  0.44429  1.0000
+  Pd  Pd8       1.0  0.75000  0.93304  0.38904  1.0000
+  Al  Al5       1.0  0.25000  0.39529  0.61613  1.0000
+  Al  Al6       1.0  0.75000  0.60471  0.55054  1.0000
+  Al  Al7       1.0  0.25000  0.10471  0.53279  1.0000
+  Al  Al8       1.0  0.75000  0.89529  0.63387  1.0000
+  Pd  Pd9       1.0  0.25000  0.78865  0.50679  1.0000
+  Pd  Pd10      1.0  0.75000  0.21135  0.65987  1.0000
+  Pd  Pd11      1.0  0.25000  0.71135  0.59013  1.0000
+  Pd  Pd12      1.0  0.75000  0.28865  0.57654  1.0000
+  Pd  Pd13      1.0  0.25000  0.43304  0.52763  1.0000
+  Pd  Pd14      1.0  0.75000  0.56696  0.63904  1.0000
+  Pd  Pd15      1.0  0.25000  0.06696  0.61096  1.0000
+  Pd  Pd16      1.0  0.75000  0.93304  0.55571  1.0000

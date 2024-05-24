@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       As16Rh8
+_chemical_formula_sum              "As16 Rh8"
+_cell_length_a       6.07327
+_cell_length_b       6.6242
+_cell_length_c       30.7605
+_cell_angle_alpha    90.9287
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.12866  0.48675  0.41068  1.0000
+  As  As2       1.0  0.12866  0.98675  0.57735  1.0000
+  As  As3       1.0  0.62866  0.26325  0.58932  1.0000
+  As  As4       1.0  0.62866  0.76325  0.42265  1.0000
+  As  As5       1.0  0.87134  0.51325  0.50598  1.0000
+  As  As6       1.0  0.87134  0.01325  0.33932  1.0000
+  As  As7       1.0  0.37134  0.73675  0.66068  1.0000
+  As  As8       1.0  0.37134  0.23675  0.49402  1.0000
+  As  As9       1.0  0.62970  0.73945  0.59900  1.0000
+  As  As10      1.0  0.62970  0.23945  0.43234  1.0000
+  As  As11      1.0  0.12970  0.51055  0.56766  1.0000
+  As  As12      1.0  0.12970  0.01055  0.40100  1.0000
+  As  As13      1.0  0.37030  0.26055  0.65100  1.0000
+  As  As14      1.0  0.37030  0.76055  0.48433  1.0000
+  As  As15      1.0  0.87030  0.48945  0.34900  1.0000
+  As  As16      1.0  0.87030  0.98945  0.51567  1.0000
+  Rh  Rh1       1.0  0.50047  0.46923  0.37787  1.0000
+  Rh  Rh2       1.0  0.50047  0.96923  0.54454  1.0000
+  Rh  Rh3       1.0  0.00047  0.28077  0.62213  1.0000
+  Rh  Rh4       1.0  0.00047  0.78077  0.45546  1.0000
+  Rh  Rh5       1.0  0.49953  0.53077  0.53879  1.0000
+  Rh  Rh6       1.0  0.49953  0.03077  0.37213  1.0000
+  Rh  Rh7       1.0  0.99953  0.71923  0.62787  1.0000
+  Rh  Rh8       1.0  0.99953  0.21923  0.46121  1.0000

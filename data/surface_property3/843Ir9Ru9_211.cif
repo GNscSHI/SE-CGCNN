@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Ir9Ru9
+_chemical_formula_sum              "Ir9 Ru9"
+_cell_length_a       5.08513
+_cell_length_b       6.36563
+_cell_length_c       28.7964
+_cell_angle_alpha    85.2873
+_cell_angle_beta     85.537
+_cell_angle_gamma    76.548
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ir  Ir1       1.0  0.41919  0.83333  0.62374  1.0000
+  Ir  Ir2       1.0  0.81313  0.50000  0.59343  1.0000
+  Ir  Ir3       1.0  0.20707  0.16667  0.56313  1.0000
+  Ir  Ir4       1.0  0.60101  0.83333  0.53283  1.0000
+  Ir  Ir5       1.0  0.99495  0.50000  0.50253  1.0000
+  Ir  Ir6       1.0  0.38889  0.16667  0.47222  1.0000
+  Ir  Ir7       1.0  0.78283  0.83333  0.44192  1.0000
+  Ir  Ir8       1.0  0.17677  0.50000  0.41162  1.0000
+  Ir  Ir9       1.0  0.57071  0.16667  0.38131  1.0000
+  Ru  Ru1       1.0  0.71212  0.11111  0.58838  1.0000
+  Ru  Ru2       1.0  0.10606  0.77778  0.55808  1.0000
+  Ru  Ru3       1.0  0.31818  0.44444  0.61869  1.0000
+  Ru  Ru4       1.0  0.89394  0.11111  0.49747  1.0000
+  Ru  Ru5       1.0  0.28788  0.77778  0.46717  1.0000
+  Ru  Ru6       1.0  0.50000  0.44444  0.52778  1.0000
+  Ru  Ru7       1.0  0.07576  0.11111  0.40657  1.0000
+  Ru  Ru8       1.0  0.46970  0.77778  0.37626  1.0000
+  Ru  Ru9       1.0  0.68182  0.44444  0.43687  1.0000

@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Cr3As3Rh3Cr3As3Rh3
+_chemical_formula_sum              "Cr6 As6 Rh6"
+_cell_length_a       6.26895
+_cell_length_b       6.26895
+_cell_length_c       28.8173
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.40751  0.40751  0.40278  1.0000
+  Cr  Cr2       1.0  0.59249  0.00000  0.40278  1.0000
+  Cr  Cr3       1.0  0.00000  0.59249  0.40278  1.0000
+  As  As1       1.0  0.33333  0.66667  0.46528  1.0000
+  As  As2       1.0  0.66667  0.33333  0.46528  1.0000
+  As  As3       1.0  0.00000  0.00000  0.40278  1.0000
+  Rh  Rh1       1.0  0.00000  0.25482  0.46528  1.0000
+  Rh  Rh2       1.0  0.74518  0.74518  0.46528  1.0000
+  Rh  Rh3       1.0  0.25482  0.00000  0.46528  1.0000
+  Cr  Cr4       1.0  0.40751  0.40751  0.52778  1.0000
+  Cr  Cr5       1.0  0.59249  0.00000  0.52778  1.0000
+  Cr  Cr6       1.0  0.00000  0.59249  0.52778  1.0000
+  As  As4       1.0  0.33333  0.66667  0.59028  1.0000
+  As  As5       1.0  0.66667  0.33333  0.59028  1.0000
+  As  As6       1.0  0.00000  0.00000  0.52778  1.0000
+  Rh  Rh4       1.0  0.00000  0.25482  0.59028  1.0000
+  Rh  Rh5       1.0  0.74518  0.74518  0.59028  1.0000
+  Rh  Rh6       1.0  0.25482  0.00000  0.59028  1.0000

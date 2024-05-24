@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Ni3Si6
+_chemical_formula_sum              "Ni3 Si6"
+_cell_length_a       3.81296
+_cell_length_b       3.81296
+_cell_length_c       37.3592
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.33333  0.66667  0.41667  1.0000
+  Ni  Ni2       1.0  0.00000  0.00000  0.58333  1.0000
+  Ni  Ni3       1.0  0.66667  0.33333  0.50000  1.0000
+  Si  Si1       1.0  0.33333  0.66667  0.47917  1.0000
+  Si  Si2       1.0  0.00000  0.00000  0.39583  1.0000
+  Si  Si3       1.0  0.66667  0.33333  0.56250  1.0000
+  Si  Si4       1.0  0.00000  0.00000  0.52083  1.0000
+  Si  Si5       1.0  0.66667  0.33333  0.43750  1.0000
+  Si  Si6       1.0  0.33333  0.66667  0.60417  1.0000

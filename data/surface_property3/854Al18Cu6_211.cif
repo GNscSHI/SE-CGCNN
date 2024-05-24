@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Al18Cu6
+_chemical_formula_sum              "Al18 Cu6"
+_cell_length_a       6.19697
+_cell_length_b       8.13281
+_cell_length_c       29.5397
+_cell_angle_alpha    94.7897
+_cell_angle_beta     92.4047
+_cell_angle_gamma    107.745
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.34896  0.98438  0.48438  1.0000
+  Al  Al2       1.0  0.09896  0.90104  0.40104  1.0000
+  Al  Al3       1.0  0.72396  0.94271  0.44271  1.0000
+  Al  Al4       1.0  0.30804  0.65759  0.43337  1.0000
+  Al  Al5       1.0  0.93304  0.69926  0.47503  1.0000
+  Al  Al6       1.0  0.68304  0.61592  0.39170  1.0000
+  Al  Al7       1.0  0.51487  0.18616  0.41038  1.0000
+  Al  Al8       1.0  0.13987  0.22783  0.45205  1.0000
+  Al  Al9       1.0  0.76487  0.26949  0.49372  1.0000
+  Al  Al10      1.0  0.22396  0.10938  0.60938  1.0000
+  Al  Al11      1.0  0.97396  0.02604  0.52604  1.0000
+  Al  Al12      1.0  0.59896  0.06771  0.56771  1.0000
+  Al  Al13      1.0  0.18304  0.78259  0.55837  1.0000
+  Al  Al14      1.0  0.80804  0.82426  0.60003  1.0000
+  Al  Al15      1.0  0.55804  0.74092  0.51670  1.0000
+  Al  Al16      1.0  0.38987  0.31116  0.53538  1.0000
+  Al  Al17      1.0  0.01487  0.35283  0.57705  1.0000
+  Al  Al18      1.0  0.63987  0.39449  0.61872  1.0000
+  Cu  Cu1       1.0  0.53646  0.46354  0.46354  1.0000
+  Cu  Cu2       1.0  0.28646  0.38021  0.38021  1.0000
+  Cu  Cu3       1.0  0.91146  0.42188  0.42188  1.0000
+  Cu  Cu4       1.0  0.41146  0.58854  0.58854  1.0000
+  Cu  Cu5       1.0  0.16146  0.50521  0.50521  1.0000
+  Cu  Cu6       1.0  0.78646  0.54688  0.54688  1.0000

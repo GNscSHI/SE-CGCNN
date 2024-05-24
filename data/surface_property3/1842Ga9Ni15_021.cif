@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ga9Ni15
+_chemical_formula_sum              "Ga9 Ni15"
+_cell_length_a       6.20896
+_cell_length_b       6.20896
+_cell_length_c       31.319
+_cell_angle_alpha    90.4556
+_cell_angle_beta     90.4556
+_cell_angle_gamma    65.5735
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.14583  0.14583  0.52083  1.0000
+  Ga  Ga2       1.0  0.89583  0.89583  0.43750  1.0000
+  Ga  Ga3       1.0  0.39583  0.39583  0.60417  1.0000
+  Ga  Ga4       1.0  0.66092  0.66092  0.59914  1.0000
+  Ga  Ga5       1.0  0.41092  0.41092  0.51580  1.0000
+  Ga  Ga6       1.0  0.16092  0.16092  0.43247  1.0000
+  Ga  Ga7       1.0  0.63074  0.63074  0.44253  1.0000
+  Ga  Ga8       1.0  0.13074  0.13074  0.60920  1.0000
+  Ga  Ga9       1.0  0.88074  0.88074  0.52586  1.0000
+  Ni  Ni1       1.0  0.64583  0.64583  0.52083  1.0000
+  Ni  Ni2       1.0  0.39583  0.39583  0.43750  1.0000
+  Ni  Ni3       1.0  0.89583  0.89583  0.60417  1.0000
+  Ni  Ni4       1.0  0.27083  0.77083  0.39583  1.0000
+  Ni  Ni5       1.0  0.77083  0.27083  0.56250  1.0000
+  Ni  Ni6       1.0  0.52083  0.02083  0.47917  1.0000
+  Ni  Ni7       1.0  0.02083  0.52083  0.47917  1.0000
+  Ni  Ni8       1.0  0.77083  0.27083  0.39583  1.0000
+  Ni  Ni9       1.0  0.27083  0.77083  0.56250  1.0000
+  Ni  Ni10      1.0  0.24848  0.79319  0.47917  1.0000
+  Ni  Ni11      1.0  0.99848  0.54319  0.39583  1.0000
+  Ni  Ni12      1.0  0.49848  0.04319  0.56250  1.0000
+  Ni  Ni13      1.0  0.79319  0.24848  0.47917  1.0000
+  Ni  Ni14      1.0  0.54319  0.99848  0.39583  1.0000
+  Ni  Ni15      1.0  0.04319  0.49848  0.56250  1.0000

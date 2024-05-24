@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Ge16
+_chemical_formula_sum              "Ge16"
+_cell_length_a       4.03223
+_cell_length_b       9.8769
+_cell_length_c       37.3933
+_cell_angle_alpha    95.0512
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ge  Ge1       1.0  0.00000  0.45312  0.54688  1.0000
+  Ge  Ge2       1.0  0.00000  0.14062  0.60938  1.0000
+  Ge  Ge3       1.0  0.00000  0.07812  0.42188  1.0000
+  Ge  Ge4       1.0  0.00000  0.76562  0.48438  1.0000
+  Ge  Ge5       1.0  0.00000  0.82812  0.42188  1.0000
+  Ge  Ge6       1.0  0.00000  0.51562  0.48438  1.0000
+  Ge  Ge7       1.0  0.00000  0.20312  0.54688  1.0000
+  Ge  Ge8       1.0  0.00000  0.89062  0.60937  1.0000
+  Ge  Ge9       1.0  0.50000  0.42188  0.45312  1.0000
+  Ge  Ge10      1.0  0.50000  0.10938  0.51562  1.0000
+  Ge  Ge11      1.0  0.50000  0.79688  0.57812  1.0000
+  Ge  Ge12      1.0  0.50000  0.73438  0.39062  1.0000
+  Ge  Ge13      1.0  0.50000  0.48438  0.39062  1.0000
+  Ge  Ge14      1.0  0.50000  0.17188  0.45312  1.0000
+  Ge  Ge15      1.0  0.50000  0.85938  0.51562  1.0000
+  Ge  Ge16      1.0  0.50000  0.54688  0.57812  1.0000

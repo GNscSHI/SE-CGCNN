@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Ga10Sb10
+_chemical_formula_sum              "Ga10 Sb10"
+_cell_length_a       4.33312
+_cell_length_b       12.9994
+_cell_length_c       30.9447
+_cell_angle_alpha    98.0495
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.00000  0.22500  0.62500  1.0000
+  Ga  Ga2       1.0  0.00000  0.75833  0.55833  1.0000
+  Ga  Ga3       1.0  0.00000  0.35833  0.35833  1.0000
+  Ga  Ga4       1.0  0.00000  0.29167  0.49167  1.0000
+  Ga  Ga5       1.0  0.00000  0.82500  0.42500  1.0000
+  Ga  Ga6       1.0  0.50000  0.02500  0.52500  1.0000
+  Ga  Ga7       1.0  0.50000  0.55833  0.45833  1.0000
+  Ga  Ga8       1.0  0.50000  0.49167  0.59167  1.0000
+  Ga  Ga9       1.0  0.50000  0.09167  0.39167  1.0000
+  Ga  Ga10      1.0  0.50000  0.95833  0.65833  1.0000
+  Sb  Sb1       1.0  0.00000  0.90833  0.50833  1.0000
+  Sb  Sb2       1.0  0.00000  0.44167  0.44167  1.0000
+  Sb  Sb3       1.0  0.00000  0.37500  0.57500  1.0000
+  Sb  Sb4       1.0  0.00000  0.97500  0.37500  1.0000
+  Sb  Sb5       1.0  0.00000  0.84167  0.64167  1.0000
+  Sb  Sb6       1.0  0.50000  0.17500  0.47500  1.0000
+  Sb  Sb7       1.0  0.50000  0.70833  0.40833  1.0000
+  Sb  Sb8       1.0  0.50000  0.64167  0.54167  1.0000
+  Sb  Sb9       1.0  0.50000  0.24167  0.34167  1.0000
+  Sb  Sb10      1.0  0.50000  0.10833  0.60833  1.0000

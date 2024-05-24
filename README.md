@@ -145,4 +145,4 @@ python main.py root_dir --resume pre-trained.pth.tar --fix-conv-param
 
 ## Data
 
-To reproduce our work, you can extract the corresponding dataset following the [instruction](data/surface-properties).
+To reproduce our work, you can extract the corresponding dataset following the [instruction](original_dataset).

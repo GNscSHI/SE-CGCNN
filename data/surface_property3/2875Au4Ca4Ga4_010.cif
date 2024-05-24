@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Ca4Ga4Au4
+_chemical_formula_sum              "Ca4 Ga4 Au4"
+_cell_length_a       4.5147
+_cell_length_b       7.63563
+_cell_length_c       28.8177
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.25000  0.20049  0.43898  1.0000
+  Ca  Ca2       1.0  0.75000  0.70049  0.56102  1.0000
+  Ca  Ca3       1.0  0.25000  0.29951  0.56398  1.0000
+  Ca  Ca4       1.0  0.75000  0.79951  0.43602  1.0000
+  Ga  Ga1       1.0  0.75000  0.07946  0.51740  1.0000
+  Ga  Ga2       1.0  0.25000  0.57946  0.48260  1.0000
+  Ga  Ga3       1.0  0.75000  0.42054  0.39240  1.0000
+  Ga  Ga4       1.0  0.25000  0.92054  0.60760  1.0000
+  Au  Au1       1.0  0.75000  0.09341  0.61422  1.0000
+  Au  Au2       1.0  0.25000  0.90659  0.51078  1.0000
+  Au  Au3       1.0  0.75000  0.40659  0.48922  1.0000
+  Au  Au4       1.0  0.25000  0.59341  0.38578  1.0000

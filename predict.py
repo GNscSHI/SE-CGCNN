@@ -18,6 +18,9 @@ from cgcnn.model import CrystalGraphConvNet
 parser = argparse.ArgumentParser(description='Crystal gated neural networks')
 parser.add_argument('modelpath', help='path to the trained model.')
 parser.add_argument('cifpath', help='path to the directory of CIF files.')
+parser.add_argument('--task', choices=['regression', 'classification'],
+                    default='regression', help='complete a regression or '
+                                                   'classification task (default: regression)')
 parser.add_argument('-b', '--batch-size', default=256, type=int,
                     metavar='N', help='mini-batch size (default: 256)')
 parser.add_argument('-j', '--workers', default=0, type=int, metavar='N',
@@ -26,6 +29,10 @@ parser.add_argument('--disable-cuda', action='store_true',
                     help='Disable CUDA')
 parser.add_argument('--print-freq', '-p', default=10, type=int,
                     metavar='N', help='print frequency (default: 10)')
+
+parser.add_argument('--depth', type=float, default=2, 
+                    help='threshold depth for surface atoms')
+parser.add_argument('--consolidate', action='store_true')
 
 args = parser.parse_args(sys.argv[1:])
 if os.path.isfile(args.modelpath):
@@ -49,12 +56,19 @@ def main():
     global args, model_args, best_mae_error
 
     # load data
-    dataset = CIFData(args.cifpath)
+    dataset = CIFData(args.cifpath, depth=args.depth)
     collate_fn = collate_pool
     test_loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True,
                              num_workers=args.workers, collate_fn=collate_fn,
                              pin_memory=args.cuda)
-
+    
+    sample_data_list = [dataset[i] for i in range(len(dataset))]
+    _, targets_dict, _ = collate_pool(sample_data_list)
+    
+    normalizers = {}
+    for i in range(len(targets_dict)):
+        exec(f'normalizers["normalizer{i+1}"] = Normalizer(targets_dict[i])')
+    
     # build model
     structures, _, _ = dataset[0]
     orig_atom_fea_len = structures[0].shape[-1]
@@ -64,8 +78,8 @@ def main():
                                 n_conv=model_args.n_conv,
                                 h_fea_len=model_args.h_fea_len,
                                 n_h=model_args.n_h,
-                                classification=True if model_args.task ==
-                                'classification' else False)
+                                classification=True if model_args.task == 'classification' else False,
+                                i_tasks=targets_dict.keys())
     if args.cuda:
         model.cuda()
 
@@ -74,39 +88,44 @@ def main():
         criterion = nn.NLLLoss()
     else:
         criterion = nn.MSELoss()
-    # if args.optim == 'SGD':
-    #     optimizer = optim.SGD(model.parameters(), args.lr,
-    #                           momentum=args.momentum,
-    #                           weight_decay=args.weight_decay)
-    # elif args.optim == 'Adam':
-    #     optimizer = optim.Adam(model.parameters(), args.lr,
-    #                            weight_decay=args.weight_decay)
-    # else:
-    #     raise NameError('Only SGD or Adam is allowed as --optim')
 
-    normalizer = Normalizer(torch.zeros(3))
-
+    
     # optionally resume from a checkpoint
     if os.path.isfile(args.modelpath):
         print("=> loading model '{}'".format(args.modelpath))
+        if args.consolidate:
+            # ini model param
+            for n,p in model.named_parameters():
+                n = n.replace('.', '__')
+                model.register_buffer('{}_mean'.format(n), 0*p.data.clone())
+                model.register_buffer('{}_fisher'
+                                     .format(n), 0*p.data.clone())
         checkpoint = torch.load(args.modelpath,
                                 map_location=lambda storage, loc: storage)
+
         model.load_state_dict(checkpoint['state_dict'])
-        normalizer.load_state_dict(checkpoint['normalizer'])
+        for i in range(len(targets_dict)):
+            exec(f'normalizers["normalizer{i+1}"].load_state_dict(checkpoint["normalizer{i+1}"])')
         print("=> loaded model '{}' (epoch {}, validation {})"
               .format(args.modelpath, checkpoint['epoch'],
-                      checkpoint['best_mae_error']))
+                      checkpoint['best_loss']))
     else:
         print("=> no model found at '{}'".format(args.modelpath))
 
-    validate(test_loader, model, criterion, normalizer, test=True)
+    validate(test_loader, model, criterion, test=True, **normalizers)
 
 
-def validate(val_loader, model, criterion, normalizer, test=False):
+def validate(val_loader, model, criterion, test=False, **normalizers):
+    n_tasks = len(model.i_tasks)
     batch_time = AverageMeter()
-    losses = AverageMeter()
+    losses = []
+    for i in range(n_tasks):
+        exec(f'losses.append(AverageMeter())')
+    losses_total = AverageMeter()
     if model_args.task == 'regression':
-        mae_errors = AverageMeter()
+        mae_errors = []
+        for i in range(n_tasks):
+            exec(f'mae_errors.append(AverageMeter())')
     else:
         accuracies = AverageMeter()
         precisions = AverageMeter()
@@ -116,13 +135,16 @@ def validate(val_loader, model, criterion, normalizer, test=False):
     if test:
         test_targets = []
         test_preds = []
+        for i in range(n_tasks):
+            exec(f'test_targets.append([])')
+            exec(f'test_preds.append([])')
         test_cif_ids = []
 
     # switch to evaluate mode
     model.eval()
 
     end = time.time()
-    for i, (input, target, batch_cif_ids) in enumerate(val_loader):
+    for batch, (input, targets, batch_cif_ids) in enumerate(val_loader):
         with torch.no_grad():
             if args.cuda:
                 input_var = (Variable(input[0].cuda(non_blocking=True)),
@@ -135,32 +157,50 @@ def validate(val_loader, model, criterion, normalizer, test=False):
                              input[2],
                              input[3])
         if model_args.task == 'regression':
-            target_normed = normalizer.norm(target)
+            for i, count in enumerate(model.i_tasks):
+                exec(f'target{i+1}_normed = list(normalizers.values())[i].norm(targets[count])')
         else:
             target_normed = target.view(-1).long()
         with torch.no_grad():
             if args.cuda:
-                target_var = Variable(target_normed.cuda(non_blocking=True))
+                for i in range(n_tasks):
+                    exec(f'target{i+1}_var = Variable(target{i+1}_normed.cuda(non_blocking=True))')
             else:
-                target_var = Variable(target_normed)
+                for i in range(n_tasks):
+                    exec(f'target{i+1}_var = Variable(target{i+1}_normed)')
 
         # compute output
-        output = model(*input_var)
-        loss = criterion(output, target_var)
-
+        outputs = model(*input_var)
+        loss = []
+        for i in range(n_tasks):
+            exec(f'loss.append(criterion(outputs[i], target{i+1}_var))')
+        total_loss = sum(loss) / n_tasks
+        
+        if args.consolidate:
+            # ewc loss is 0 if there's no consolidated parameters.
+            ewc_loss = model.ewc_loss(cuda=args.cuda)
+            loss = loss + ewc_loss.item()
+        
         # measure accuracy and record loss
-        if model_args.task == 'regression':
-            mae_error = mae(normalizer.denorm(output.data.cpu()), target)
-            losses.update(loss.data.cpu().item(), target.size(0))
-            mae_errors.update(mae_error, target.size(0))
+        if args.task == 'regression':
+            mae_error = []
+            for i, count in enumerate(model.i_tasks):
+                exec(f'mae_error.append(mae(list(normalizers.values())[i].denorm(outputs[i].data.cpu()), targets[count]))')
+                exec(f'losses[i].update(loss[i].data.cpu(), targets[count].size(0))')
+                exec(f'mae_errors[i].update(mae_error[i], targets[count].size(0))')
+
+            losses_total.update(total_loss.data.cpu(), targets[0].size(0))
+
             if test:
-                test_pred = normalizer.denorm(output.data.cpu())
-                test_target = target
-                test_preds += test_pred.view(-1).tolist()
-                test_targets += test_target.view(-1).tolist()
+                test_pred = []
+                for i, count in enumerate(model.i_tasks):
+                    exec(f'test_pred.append(list(normalizers.values())[i].denorm(outputs[i].data.cpu()))')
+                    exec(f'test_preds[i] += test_pred[i].view(-1).tolist()')
+                    exec(f'test_targets[i] += targets[count].view(-1).tolist()')
                 test_cif_ids += batch_cif_ids
+                
         else:
-            accuracy, precision, recall, fscore, auc_score =\
+            accuracy, precision, recall, fscore, auc_score = \
                 class_eval(output.data.cpu(), target)
             losses.update(loss.data.cpu().item(), target.size(0))
             accuracies.update(accuracy, target.size(0))
@@ -175,19 +215,25 @@ def validate(val_loader, model, criterion, normalizer, test=False):
                 test_preds += test_pred[:, 1].tolist()
                 test_targets += test_target.view(-1).tolist()
                 test_cif_ids += batch_cif_ids
+                
 
         # measure elapsed time
         batch_time.update(time.time() - end)
         end = time.time()
 
-        if i % args.print_freq == 0:
-            if model_args.task == 'regression':
-                print('Test: [{0}/{1}]\t'
+        if batch % args.print_freq == 0:
+            string = [0]
+            if args.task == 'regression':
+                string[0] = ('Test: [{0}/{1}]\t'
                       'Time {batch_time.val:.3f} ({batch_time.avg:.3f})\t'
-                      'Loss {loss.val:.4f} ({loss.avg:.4f})\t'
-                      'MAE {mae_errors.val:.3f} ({mae_errors.avg:.3f})'.format(
-                       i, len(val_loader), batch_time=batch_time, loss=losses,
-                       mae_errors=mae_errors))
+                      'Loss {loss.val:.4f}\t'.format(
+                    batch, len(val_loader), batch_time=batch_time, 
+                    loss=losses_total))
+
+                for i in range(n_tasks):
+                    exec(f'string[0] += "Loss{i+1} {losses[i].val:.4f}\t"')
+                    exec(f'string[0] += "MAE{i+1} {mae_errors[i].val:.4f}\t"')
+                print(string[0])
             else:
                 print('Test: [{0}/{1}]\t'
                       'Time {batch_time.val:.3f} ({batch_time.avg:.3f})\t'
@@ -197,29 +243,38 @@ def validate(val_loader, model, criterion, normalizer, test=False):
                       'Recall {recall.val:.3f} ({recall.avg:.3f})\t'
                       'F1 {f1.val:.3f} ({f1.avg:.3f})\t'
                       'AUC {auc.val:.3f} ({auc.avg:.3f})'.format(
-                       i, len(val_loader), batch_time=batch_time, loss=losses,
-                       accu=accuracies, prec=precisions, recall=recalls,
-                       f1=fscores, auc=auc_scores))
+                    i, len(val_loader), batch_time=batch_time, loss=losses,
+                    accu=accuracies, prec=precisions, recall=recalls,
+                    f1=fscores, auc=auc_scores))
 
     if test:
         star_label = '**'
         import csv
+        
+        test_targets_preds = []
+        for i in range(n_tasks):
+            exec(f'test_targets_preds.append(test_targets[i])')
+            exec(f'test_targets_preds.append(test_preds[i])')
+            
         with open('test_results.csv', 'w') as f:
             writer = csv.writer(f)
-            for cif_id, target, pred in zip(test_cif_ids, test_targets,
-                                            test_preds):
-                writer.writerow((cif_id, target, pred))
+            for values in zip(test_cif_ids, *test_targets_preds):
+                writer.writerow((values))
     else:
         star_label = '*'
-    if model_args.task == 'regression':
-        print(' {star} MAE {mae_errors.avg:.3f}'.format(star=star_label,
-                                                        mae_errors=mae_errors))
-        return mae_errors.avg
+    if args.task == 'regression':
+        string = [0] 
+        string[0] = ' {star} '.format(star=star_label)
+        mae_errors_here = [0]
+        for i in range(n_tasks):
+            exec(f'mae_errors_here[0] = mae_errors[i]')
+            exec(f'string[0] += "MAE{i+1} {mae_errors_here[0].avg:.4f}\t "')
+        print(string[0])
+        return losses_total.avg  
     else:
         print(' {star} AUC {auc.avg:.3f}'.format(star=star_label,
                                                  auc=auc_scores))
         return auc_scores.avg
-
 
 class Normalizer(object):
     """Normalize a Tensor and restore it later. """

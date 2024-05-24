@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Si4Ru4Si4Ru4
+_chemical_formula_sum              "Si8 Ru8"
+_cell_length_a       4.69752
+_cell_length_b       4.69752
+_cell_length_c       32.8827
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Si  Si1       1.0  0.16284  0.33716  0.45183  1.0000
+  Si  Si2       1.0  0.33716  0.66284  0.38041  1.0000
+  Si  Si3       1.0  0.66284  0.16284  0.40531  1.0000
+  Si  Si4       1.0  0.83716  0.83716  0.47674  1.0000
+  Ru  Ru1       1.0  0.87079  0.62921  0.41011  1.0000
+  Ru  Ru2       1.0  0.62921  0.37079  0.48154  1.0000
+  Ru  Ru3       1.0  0.37079  0.87079  0.44703  1.0000
+  Ru  Ru4       1.0  0.12921  0.12921  0.37560  1.0000
+  Si  Si5       1.0  0.16284  0.33716  0.59469  1.0000
+  Si  Si6       1.0  0.33716  0.66284  0.52326  1.0000
+  Si  Si7       1.0  0.66284  0.16284  0.54817  1.0000
+  Si  Si8       1.0  0.83716  0.83716  0.61959  1.0000
+  Ru  Ru5       1.0  0.87079  0.62921  0.55297  1.0000
+  Ru  Ru6       1.0  0.62921  0.37079  0.62440  1.0000
+  Ru  Ru7       1.0  0.37079  0.87079  0.58989  1.0000
+  Ru  Ru8       1.0  0.12921  0.12921  0.51846  1.0000

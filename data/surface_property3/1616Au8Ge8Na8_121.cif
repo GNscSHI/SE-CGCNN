@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Au8Ge8Na8
+_chemical_formula_sum              "Au8 Ge8 Na8"
+_cell_length_a       5.64614
+_cell_length_b       8.42695
+_cell_length_c       31.6957
+_cell_angle_alpha    83.4568
+_cell_angle_beta     85.094
+_cell_angle_gamma    73.152
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.30111  0.45073  0.45097  1.0000
+  Au  Au2       1.0  0.13444  0.03407  0.53431  1.0000
+  Au  Au3       1.0  0.46777  0.86740  0.36764  1.0000
+  Au  Au4       1.0  0.96777  0.61740  0.61764  1.0000
+  Au  Au5       1.0  0.69768  0.54988  0.55012  1.0000
+  Au  Au6       1.0  0.53101  0.13321  0.63345  1.0000
+  Au  Au7       1.0  0.86434  0.96654  0.46678  1.0000
+  Au  Au8       1.0  0.03101  0.38321  0.38345  1.0000
+  Ge  Ge1       1.0  0.40511  0.13519  0.47346  1.0000
+  Ge  Ge2       1.0  0.23845  0.71852  0.55679  1.0000
+  Ge  Ge3       1.0  0.57178  0.55186  0.39012  1.0000
+  Ge  Ge4       1.0  0.07178  0.30186  0.64012  1.0000
+  Ge  Ge5       1.0  0.17112  0.07669  0.41496  1.0000
+  Ge  Ge6       1.0  0.00446  0.66003  0.49829  1.0000
+  Ge  Ge7       1.0  0.33779  0.49336  0.33163  1.0000
+  Ge  Ge8       1.0  0.83779  0.24336  0.58163  1.0000
+  Na  Na1       1.0  0.82661  0.33669  0.47717  1.0000
+  Na  Na2       1.0  0.65994  0.92003  0.56051  1.0000
+  Na  Na3       1.0  0.99328  0.75336  0.39384  1.0000
+  Na  Na4       1.0  0.49328  0.50336  0.64384  1.0000
+  Na  Na5       1.0  0.47384  0.76308  0.46666  1.0000
+  Na  Na6       1.0  0.30718  0.34641  0.54999  1.0000
+  Na  Na7       1.0  0.64051  0.17974  0.38332  1.0000
+  Na  Na8       1.0  0.14051  0.92974  0.63332  1.0000

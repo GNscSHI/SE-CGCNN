@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Pt4W2
+_chemical_formula_sum              "Pt4 W2"
+_cell_length_a       2.76778
+_cell_length_b       4.77243
+_cell_length_c       28.3245
+_cell_angle_alpha    88.6281
+_cell_angle_beta     87.1995
+_cell_angle_gamma    73.1435
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pt  Pt1       1.0  0.05928  0.48514  0.39629  1.0000
+  Pt  Pt2       1.0  0.77405  0.01486  0.43704  1.0000
+  Pt  Pt3       1.0  0.18428  0.11014  0.52129  1.0000
+  Pt  Pt4       1.0  0.89905  0.63986  0.56204  1.0000
+  W   W1        1.0  0.47917  0.56250  0.47917  1.0000
+  W   W2        1.0  0.60417  0.18750  0.60417  1.0000

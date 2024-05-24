@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Cu18Si6
+_chemical_formula_sum              "Cu18 Si6"
+_cell_length_a       4.42508
+_cell_length_b       6.70573
+_cell_length_c       32.6857
+_cell_angle_alpha    90.2835
+_cell_angle_beta     90.4297
+_cell_angle_gamma    88.9528
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.83333  0.46429  0.39881  1.0000
+  Cu  Cu2       1.0  0.50000  0.89286  0.44643  1.0000
+  Cu  Cu3       1.0  0.16667  0.32143  0.49405  1.0000
+  Cu  Cu4       1.0  0.50000  0.75000  0.37500  1.0000
+  Cu  Cu5       1.0  0.16667  0.17857  0.42262  1.0000
+  Cu  Cu6       1.0  0.83333  0.60714  0.47024  1.0000
+  Cu  Cu7       1.0  0.00000  0.82143  0.41071  1.0000
+  Cu  Cu8       1.0  0.66667  0.25000  0.45833  1.0000
+  Cu  Cu9       1.0  0.33333  0.39286  0.36310  1.0000
+  Cu  Cu10      1.0  0.83333  0.75000  0.54167  1.0000
+  Cu  Cu11      1.0  0.50000  0.17857  0.58929  1.0000
+  Cu  Cu12      1.0  0.16667  0.60714  0.63690  1.0000
+  Cu  Cu13      1.0  0.50000  0.03571  0.51786  1.0000
+  Cu  Cu14      1.0  0.16667  0.46429  0.56548  1.0000
+  Cu  Cu15      1.0  0.83333  0.89286  0.61310  1.0000
+  Cu  Cu16      1.0  0.00000  0.10714  0.55357  1.0000
+  Cu  Cu17      1.0  0.66667  0.53571  0.60119  1.0000
+  Cu  Cu18      1.0  0.33333  0.67857  0.50595  1.0000
+  Si  Si1       1.0  0.00000  0.96429  0.48214  1.0000
+  Si  Si2       1.0  0.66667  0.10714  0.38690  1.0000
+  Si  Si3       1.0  0.33333  0.53571  0.43452  1.0000
+  Si  Si4       1.0  0.00000  0.25000  0.62500  1.0000
+  Si  Si5       1.0  0.66667  0.39286  0.52976  1.0000
+  Si  Si6       1.0  0.33333  0.82143  0.57738  1.0000

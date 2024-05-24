@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       In10Pt10
+_chemical_formula_sum              "In10 Pt10"
+_cell_length_a       4.41691
+_cell_length_b       6.96088
+_cell_length_c       38.319
+_cell_angle_alpha    91.8749
+_cell_angle_beta     90
+_cell_angle_gamma    108.498
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.78333  0.56667  0.64167  1.0000
+  In  In2       1.0  0.31709  0.63417  0.58409  1.0000
+  In  In3       1.0  0.91625  0.83250  0.53258  1.0000
+  In  In4       1.0  0.56996  0.13991  0.59893  1.0000
+  In  In5       1.0  0.66338  0.32676  0.51773  1.0000
+  In  In6       1.0  0.45000  0.90000  0.47500  1.0000
+  In  In7       1.0  0.98375  0.96750  0.41742  1.0000
+  In  In8       1.0  0.58291  0.16583  0.36591  1.0000
+  In  In9       1.0  0.23662  0.47324  0.43227  1.0000
+  In  In10      1.0  0.33004  0.66009  0.35107  1.0000
+  Pt  Pt1       1.0  0.11667  0.23333  0.55833  1.0000
+  Pt  Pt2       1.0  0.28777  0.57554  0.51443  1.0000
+  Pt  Pt3       1.0  0.94556  0.89112  0.60224  1.0000
+  Pt  Pt4       1.0  0.41092  0.82185  0.65102  1.0000
+  Pt  Pt5       1.0  0.15574  0.31149  0.63231  1.0000
+  Pt  Pt6       1.0  0.78333  0.56667  0.39167  1.0000
+  Pt  Pt7       1.0  0.95444  0.90888  0.34776  1.0000
+  Pt  Pt8       1.0  0.61223  0.22446  0.43557  1.0000
+  Pt  Pt9       1.0  0.07759  0.15518  0.48436  1.0000
+  Pt  Pt10      1.0  0.82241  0.64482  0.46564  1.0000

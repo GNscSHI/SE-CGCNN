@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ca4Si4Pd4Ca4Si4Pd4
+_chemical_formula_sum              "Ca8 Si8 Pd8"
+_cell_length_a       5.83126
+_cell_length_b       7.69621
+_cell_length_c       34.1344
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    116.187
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.20269  0.88402  0.35445  1.0000
+  Ca  Ca2       1.0  0.20269  0.38402  0.39555  1.0000
+  Ca  Ca3       1.0  0.79731  0.11598  0.47888  1.0000
+  Ca  Ca4       1.0  0.79731  0.61598  0.43779  1.0000
+  Si  Si1       1.0  0.21550  0.04459  0.43619  1.0000
+  Si  Si2       1.0  0.78450  0.95541  0.39715  1.0000
+  Si  Si3       1.0  0.78450  0.45541  0.35285  1.0000
+  Si  Si4       1.0  0.21550  0.54459  0.48048  1.0000
+  Pd  Pd1       1.0  0.38683  0.81021  0.43530  1.0000
+  Pd  Pd2       1.0  0.61317  0.18979  0.39803  1.0000
+  Pd  Pd3       1.0  0.38683  0.31021  0.48136  1.0000
+  Pd  Pd4       1.0  0.61317  0.68979  0.35197  1.0000
+  Ca  Ca5       1.0  0.20269  0.88402  0.52112  1.0000
+  Ca  Ca6       1.0  0.20269  0.38402  0.56221  1.0000
+  Ca  Ca7       1.0  0.79731  0.11598  0.64555  1.0000
+  Ca  Ca8       1.0  0.79731  0.61598  0.60445  1.0000
+  Si  Si5       1.0  0.21550  0.04459  0.60285  1.0000
+  Si  Si6       1.0  0.78450  0.95541  0.56381  1.0000
+  Si  Si7       1.0  0.78450  0.45541  0.51952  1.0000
+  Si  Si8       1.0  0.21550  0.54459  0.64715  1.0000
+  Pd  Pd5       1.0  0.38683  0.81021  0.60197  1.0000
+  Pd  Pd6       1.0  0.61317  0.18979  0.56470  1.0000
+  Pd  Pd7       1.0  0.38683  0.31021  0.64803  1.0000
+  Pd  Pd8       1.0  0.61317  0.68979  0.51864  1.0000

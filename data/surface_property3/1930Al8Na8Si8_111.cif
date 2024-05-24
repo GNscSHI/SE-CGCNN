@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Na4Al4Si4Na4Al4Si4
+_chemical_formula_sum              "Na8 Al8 Si8"
+_cell_length_a       5.82109
+_cell_length_b       8.35357
+_cell_length_c       34.9266
+_cell_angle_alpha    110.391
+_cell_angle_beta     90
+_cell_angle_gamma    69.6093
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Na  Na1       1.0  0.06785  0.36431  0.36369  1.0000
+  Na  Na2       1.0  0.56785  0.36431  0.44703  1.0000
+  Na  Na3       1.0  0.43215  0.63569  0.38631  1.0000
+  Na  Na4       1.0  0.93215  0.63569  0.46964  1.0000
+  Al  Al1       1.0  0.00000  0.00000  0.45833  1.0000
+  Al  Al2       1.0  0.50000  0.00000  0.37500  1.0000
+  Al  Al3       1.0  0.00000  0.00000  0.37500  1.0000
+  Al  Al4       1.0  0.50000  0.00000  0.45833  1.0000
+  Si  Si1       1.0  0.85407  0.79186  0.39932  1.0000
+  Si  Si2       1.0  0.35407  0.79186  0.48266  1.0000
+  Si  Si3       1.0  0.64593  0.20814  0.35068  1.0000
+  Si  Si4       1.0  0.14593  0.20814  0.43401  1.0000
+  Na  Na5       1.0  0.06785  0.36431  0.53036  1.0000
+  Na  Na6       1.0  0.56785  0.36431  0.61369  1.0000
+  Na  Na7       1.0  0.43215  0.63569  0.55297  1.0000
+  Na  Na8       1.0  0.93215  0.63569  0.63631  1.0000
+  Al  Al5       1.0  0.00000  0.00000  0.62500  1.0000
+  Al  Al6       1.0  0.50000  0.00000  0.54167  1.0000
+  Al  Al7       1.0  0.00000  0.00000  0.54167  1.0000
+  Al  Al8       1.0  0.50000  0.00000  0.62500  1.0000
+  Si  Si5       1.0  0.85407  0.79186  0.56599  1.0000
+  Si  Si6       1.0  0.35407  0.79186  0.64932  1.0000
+  Si  Si7       1.0  0.64593  0.20814  0.51734  1.0000
+  Si  Si8       1.0  0.14593  0.20814  0.60068  1.0000

@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Co4Sb8Co4Sb8
+_chemical_formula_sum              "Co8 Sb16"
+_cell_length_a       3.34915
+_cell_length_b       13.8183
+_cell_length_c       33.2644
+_cell_angle_alpha    113.654
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.00000  0.50000  0.40972  1.0000
+  Co  Co2       1.0  0.00000  0.00000  0.49306  1.0000
+  Co  Co3       1.0  0.50000  0.25000  0.45139  1.0000
+  Co  Co4       1.0  0.50000  0.75000  0.36806  1.0000
+  Sb  Sb1       1.0  0.00000  0.32158  0.34648  1.0000
+  Sb  Sb2       1.0  0.00000  0.82158  0.42981  1.0000
+  Sb  Sb3       1.0  0.00000  0.17842  0.38963  1.0000
+  Sb  Sb4       1.0  0.00000  0.67842  0.47297  1.0000
+  Sb  Sb5       1.0  0.50000  0.42842  0.44762  1.0000
+  Sb  Sb6       1.0  0.50000  0.92842  0.36428  1.0000
+  Sb  Sb7       1.0  0.50000  0.07158  0.45516  1.0000
+  Sb  Sb8       1.0  0.50000  0.57158  0.37183  1.0000
+  Co  Co5       1.0  0.00000  0.50000  0.57639  1.0000
+  Co  Co6       1.0  0.00000  0.00000  0.65972  1.0000
+  Co  Co7       1.0  0.50000  0.25000  0.61806  1.0000
+  Co  Co8       1.0  0.50000  0.75000  0.53472  1.0000
+  Sb  Sb9       1.0  0.00000  0.32158  0.51314  1.0000
+  Sb  Sb10      1.0  0.00000  0.82158  0.59648  1.0000
+  Sb  Sb11      1.0  0.00000  0.17842  0.55630  1.0000
+  Sb  Sb12      1.0  0.00000  0.67842  0.63963  1.0000
+  Sb  Sb13      1.0  0.50000  0.42842  0.61428  1.0000
+  Sb  Sb14      1.0  0.50000  0.92842  0.53095  1.0000
+  Sb  Sb15      1.0  0.50000  0.07158  0.62183  1.0000
+  Sb  Sb16      1.0  0.50000  0.57158  0.53849  1.0000

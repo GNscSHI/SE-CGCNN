@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Na8Zn4Ge4
+_chemical_formula_sum              "Na8 Zn4 Ge4"
+_cell_length_a       9.10322
+_cell_length_b       5.44175
+_cell_length_c       29.2694
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Na  Na1       1.0  0.17623  0.75000  0.57383  1.0000
+  Na  Na2       1.0  0.82377  0.25000  0.39492  1.0000
+  Na  Na3       1.0  0.17623  0.25000  0.39492  1.0000
+  Na  Na4       1.0  0.82377  0.75000  0.57383  1.0000
+  Na  Na5       1.0  0.67623  0.75000  0.44883  1.0000
+  Na  Na6       1.0  0.32377  0.25000  0.51992  1.0000
+  Na  Na7       1.0  0.67623  0.25000  0.51992  1.0000
+  Na  Na8       1.0  0.32377  0.75000  0.44883  1.0000
+  Zn  Zn1       1.0  0.50000  0.00000  0.60938  1.0000
+  Zn  Zn2       1.0  0.50000  0.50000  0.60938  1.0000
+  Zn  Zn3       1.0  0.00000  0.00000  0.48438  1.0000
+  Zn  Zn4       1.0  0.00000  0.50000  0.48438  1.0000
+  Ge  Ge1       1.0  0.50000  0.75000  0.54139  1.0000
+  Ge  Ge2       1.0  0.50000  0.25000  0.42736  1.0000
+  Ge  Ge3       1.0  0.00000  0.75000  0.41639  1.0000
+  Ge  Ge4       1.0  0.00000  0.25000  0.55236  1.0000

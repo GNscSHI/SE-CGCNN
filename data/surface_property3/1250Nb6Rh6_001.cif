@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Nb3Rh3Nb3Rh3
+_chemical_formula_sum              "Nb6 Rh6"
+_cell_length_a       4.84864
+_cell_length_b       2.82611
+_cell_length_c       34.9617
+_cell_angle_alpha    90
+_cell_angle_beta     104.224
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nb  Nb1       1.0  0.25199  0.00000  0.33285  1.0000
+  Nb  Nb2       1.0  0.00000  0.00000  0.40000  1.0000
+  Nb  Nb3       1.0  0.74801  0.00000  0.46715  1.0000
+  Rh  Rh1       1.0  0.50000  0.50000  0.40000  1.0000
+  Rh  Rh2       1.0  0.74331  0.50000  0.33355  1.0000
+  Rh  Rh3       1.0  0.25669  0.50000  0.46645  1.0000
+  Nb  Nb4       1.0  0.25199  0.00000  0.53285  1.0000
+  Nb  Nb5       1.0  0.00000  0.00000  0.60000  1.0000
+  Nb  Nb6       1.0  0.74801  0.00000  0.66715  1.0000
+  Rh  Rh4       1.0  0.50000  0.50000  0.60000  1.0000
+  Rh  Rh5       1.0  0.74331  0.50000  0.53355  1.0000
+  Rh  Rh6       1.0  0.25669  0.50000  0.66645  1.0000

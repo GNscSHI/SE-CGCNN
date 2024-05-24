@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Ti18
+_chemical_formula_sum              "Ti18"
+_cell_length_a       2.78124
+_cell_length_b       11.9061
+_cell_length_c       31.5006
+_cell_angle_alpha    79.1066
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.00000  0.66667  0.44444  1.0000
+  Ti  Ti2       1.0  0.00000  0.33333  0.39683  1.0000
+  Ti  Ti3       1.0  0.00000  0.00000  0.49206  1.0000
+  Ti  Ti4       1.0  0.50000  0.55556  0.38095  1.0000
+  Ti  Ti5       1.0  0.50000  0.22222  0.47619  1.0000
+  Ti  Ti6       1.0  0.50000  0.88889  0.42857  1.0000
+  Ti  Ti7       1.0  0.50000  0.77778  0.36508  1.0000
+  Ti  Ti8       1.0  0.50000  0.44444  0.46032  1.0000
+  Ti  Ti9       1.0  0.50000  0.11111  0.41270  1.0000
+  Ti  Ti10      1.0  0.00000  0.66667  0.58730  1.0000
+  Ti  Ti11      1.0  0.00000  0.33333  0.53968  1.0000
+  Ti  Ti12      1.0  0.00000  0.00000  0.63492  1.0000
+  Ti  Ti13      1.0  0.50000  0.55556  0.52381  1.0000
+  Ti  Ti14      1.0  0.50000  0.22222  0.61905  1.0000
+  Ti  Ti15      1.0  0.50000  0.88889  0.57143  1.0000
+  Ti  Ti16      1.0  0.50000  0.77778  0.50794  1.0000
+  Ti  Ti17      1.0  0.50000  0.44444  0.60317  1.0000
+  Ti  Ti18      1.0  0.50000  0.11111  0.55556  1.0000

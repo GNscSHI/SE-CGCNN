@@ -1,0 +1,47 @@
+data_image0
+_chemical_formula_structural       Fe12Ga10
+_chemical_formula_sum              "Fe12 Ga10"
+_cell_length_a       6.19233
+_cell_length_b       6.19233
+_cell_length_c       28.271
+_cell_angle_alpha    89.4767
+_cell_angle_beta     89.4767
+_cell_angle_gamma    76.5229
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.33826  0.33826  0.53079  1.0000
+  Fe  Fe2       1.0  0.99200  0.99200  0.61145  1.0000
+  Fe  Fe3       1.0  0.09091  0.59091  0.40909  1.0000
+  Fe  Fe4       1.0  0.31124  0.87058  0.40909  1.0000
+  Fe  Fe5       1.0  0.50147  0.96533  0.49156  1.0000
+  Fe  Fe6       1.0  0.43035  0.96649  0.57663  1.0000
+  Fe  Fe7       1.0  0.93982  0.93982  0.45673  1.0000
+  Fe  Fe8       1.0  0.96533  0.50147  0.49156  1.0000
+  Fe  Fe9       1.0  0.59356  0.59356  0.53739  1.0000
+  Fe  Fe10      1.0  0.87058  0.31124  0.40909  1.0000
+  Fe  Fe11      1.0  0.96649  0.43035  0.57663  1.0000
+  Fe  Fe12      1.0  0.59091  0.09091  0.40909  1.0000
+  Ga  Ga1       1.0  0.70119  0.70119  0.62033  1.0000
+  Ga  Ga2       1.0  0.25626  0.64922  0.58536  1.0000
+  Ga  Ga3       1.0  0.69738  0.69738  0.43374  1.0000
+  Ga  Ga4       1.0  0.67556  0.28260  0.48282  1.0000
+  Ga  Ga5       1.0  0.64922  0.25626  0.58536  1.0000
+  Ga  Ga6       1.0  0.09366  0.09366  0.52906  1.0000
+  Ga  Ga7       1.0  0.23063  0.23063  0.44785  1.0000
+  Ga  Ga8       1.0  0.28260  0.67556  0.48282  1.0000
+  Ga  Ga9       1.0  0.48444  0.48444  0.38444  1.0000
+  Ga  Ga10      1.0  0.83816  0.83816  0.53912  1.0000

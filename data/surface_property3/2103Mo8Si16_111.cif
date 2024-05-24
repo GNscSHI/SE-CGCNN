@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Si8Mo4Si8Mo4
+_chemical_formula_sum              "Si16 Mo8"
+_cell_length_a       4.51691
+_cell_length_b       8.43271
+_cell_length_c       31.6184
+_cell_angle_alpha    105.535
+_cell_angle_beta     90
+_cell_angle_gamma    74.4654
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Si  Si1       1.0  0.91758  0.16484  0.42249  1.0000
+  Si  Si2       1.0  0.41758  0.16484  0.49392  1.0000
+  Si  Si3       1.0  0.83242  0.33516  0.36323  1.0000
+  Si  Si4       1.0  0.33242  0.33516  0.43465  1.0000
+  Si  Si5       1.0  0.66758  0.66484  0.38677  1.0000
+  Si  Si6       1.0  0.16758  0.66484  0.45820  1.0000
+  Si  Si7       1.0  0.58242  0.83516  0.47037  1.0000
+  Si  Si8       1.0  0.08242  0.83516  0.39894  1.0000
+  Mo  Mo1       1.0  0.00000  0.00000  0.48214  1.0000
+  Mo  Mo2       1.0  0.50000  0.00000  0.41071  1.0000
+  Mo  Mo3       1.0  0.75000  0.50000  0.44643  1.0000
+  Mo  Mo4       1.0  0.25000  0.50000  0.37500  1.0000
+  Si  Si9       1.0  0.91758  0.16484  0.56535  1.0000
+  Si  Si10      1.0  0.41758  0.16484  0.63677  1.0000
+  Si  Si11      1.0  0.83242  0.33516  0.50608  1.0000
+  Si  Si12      1.0  0.33242  0.33516  0.57751  1.0000
+  Si  Si13      1.0  0.66758  0.66484  0.52963  1.0000
+  Si  Si14      1.0  0.16758  0.66484  0.60106  1.0000
+  Si  Si15      1.0  0.58242  0.83516  0.61323  1.0000
+  Si  Si16      1.0  0.08242  0.83516  0.54180  1.0000
+  Mo  Mo5       1.0  0.00000  0.00000  0.62500  1.0000
+  Mo  Mo6       1.0  0.50000  0.00000  0.55357  1.0000
+  Mo  Mo7       1.0  0.75000  0.50000  0.58929  1.0000
+  Mo  Mo8       1.0  0.25000  0.50000  0.51786  1.0000

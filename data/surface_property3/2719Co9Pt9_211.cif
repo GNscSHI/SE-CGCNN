@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Co9Pt9
+_chemical_formula_sum              "Co9 Pt9"
+_cell_length_a       4.48254
+_cell_length_b       5.19658
+_cell_length_c       30.2759
+_cell_angle_alpha    87.0152
+_cell_angle_beta     86.5392
+_cell_angle_gamma    74.3834
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.72222  0.42593  0.57407  1.0000
+  Co  Co2       1.0  0.61111  0.68519  0.64815  1.0000
+  Co  Co3       1.0  0.16667  0.05556  0.61111  1.0000
+  Co  Co4       1.0  0.38889  0.53704  0.46296  1.0000
+  Co  Co5       1.0  0.27778  0.79630  0.53704  1.0000
+  Co  Co6       1.0  0.83333  0.16667  0.50000  1.0000
+  Co  Co7       1.0  0.05556  0.64815  0.35185  1.0000
+  Co  Co8       1.0  0.94444  0.90741  0.42593  1.0000
+  Co  Co9       1.0  0.50000  0.27778  0.38889  1.0000
+  Pt  Pt1       1.0  0.16667  0.55556  0.61111  1.0000
+  Pt  Pt2       1.0  0.72222  0.92593  0.57407  1.0000
+  Pt  Pt3       1.0  0.61111  0.18519  0.64815  1.0000
+  Pt  Pt4       1.0  0.83333  0.66667  0.50000  1.0000
+  Pt  Pt5       1.0  0.38889  0.03704  0.46296  1.0000
+  Pt  Pt6       1.0  0.27778  0.29630  0.53704  1.0000
+  Pt  Pt7       1.0  0.50000  0.77778  0.38889  1.0000
+  Pt  Pt8       1.0  0.05556  0.14815  0.35185  1.0000
+  Pt  Pt9       1.0  0.94444  0.40741  0.42593  1.0000

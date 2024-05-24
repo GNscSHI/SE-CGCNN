@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_MgPb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.47558800
+_cell_length_b   7.87010147
+_cell_length_c   43.00083100
+_cell_angle_alpha   88.46194213
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgPb
+_chemical_formula_sum   'Mg14 Pb14'
+_cell_volume   1175.78786035
+_cell_formula_units_Z   14
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50000000  0.55897400  0.23331400  1
+  Mg  Mg1  1  0.50000000  0.98648000  0.22123200  1
+  Mg  Mg2  1  0.50000000  0.10442900  0.32422300  1
+  Mg  Mg3  1  0.50000000  0.53193500  0.31214100  1
+  Mg  Mg4  1  0.50000000  0.64988400  0.41513200  1
+  Mg  Mg5  1  0.50000000  0.07738900  0.40305000  1
+  Mg  Mg6  1  0.50000000  0.19533800  0.50604100  1
+  Mg  Mg7  1  0.50000000  0.62284400  0.49395900  1
+  Mg  Mg8  1  0.50000000  0.74079300  0.59695000  1
+  Mg  Mg9  1  0.50000000  0.16829800  0.58486800  1
+  Mg  Mg10  1  0.50000000  0.28624700  0.68785900  1
+  Mg  Mg11  1  0.50000000  0.71375300  0.67577700  1
+  Mg  Mg12  1  0.50000000  0.83170200  0.77876800  1
+  Mg  Mg13  1  0.50000000  0.25920700  0.76668600  1
+  Pb  Pb14  1  0.00000000  0.27399100  0.18581700  1
+  Pb  Pb15  1  0.00000000  0.27146400  0.26872900  1
+  Pb  Pb16  1  0.00000000  0.81944600  0.27672600  1
+  Pb  Pb17  1  0.00000000  0.81691800  0.35963800  1
+  Pb  Pb18  1  0.00000000  0.36490000  0.36763500  1
+  Pb  Pb19  1  0.00000000  0.36237300  0.45054700  1
+  Pb  Pb20  1  0.00000000  0.91035500  0.45854400  1
+  Pb  Pb21  1  0.00000000  0.90782700  0.54145600  1
+  Pb  Pb22  1  0.00000000  0.45580900  0.54945300  1
+  Pb  Pb23  1  0.00000000  0.45328200  0.63236500  1
+  Pb  Pb24  1  0.00000000  0.00126400  0.64036200  1
+  Pb  Pb25  1  0.00000000  0.99873600  0.72327400  1
+  Pb  Pb26  1  1.00000000  0.54671800  0.73127100  1
+  Pb  Pb27  1  1.00000000  0.54419100  0.81418300  1

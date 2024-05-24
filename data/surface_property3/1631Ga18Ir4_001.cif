@@ -1,0 +1,47 @@
+data_image0
+_chemical_formula_structural       Ga18Ir4
+_chemical_formula_sum              "Ga18 Ir4"
+_cell_length_a       6.41996
+_cell_length_b       6.35995
+_cell_length_c       35.1818
+_cell_angle_alpha    90
+_cell_angle_beta     93.2237
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.03043  0.74063  0.46683  1.0000
+  Ga  Ga2       1.0  0.03043  0.25937  0.59183  1.0000
+  Ga  Ga3       1.0  0.21484  0.65934  0.59431  1.0000
+  Ga  Ga4       1.0  0.21484  0.34066  0.46931  1.0000
+  Ga  Ga5       1.0  0.59966  0.76054  0.39157  1.0000
+  Ga  Ga6       1.0  0.59966  0.23946  0.51657  1.0000
+  Ga  Ga7       1.0  0.39750  0.73831  0.52624  1.0000
+  Ga  Ga8       1.0  0.39750  0.26169  0.40124  1.0000
+  Ga  Ga9       1.0  0.61215  0.55364  0.45980  1.0000
+  Ga  Ga10      1.0  0.61215  0.44636  0.58480  1.0000
+  Ga  Ga11      1.0  0.40035  0.94867  0.45787  1.0000
+  Ga  Ga12      1.0  0.40035  0.05133  0.58287  1.0000
+  Ga  Ga13      1.0  0.89202  0.47498  0.40500  1.0000
+  Ga  Ga14      1.0  0.89202  0.52502  0.53000  1.0000
+  Ga  Ga15      1.0  0.09280  0.04280  0.51787  1.0000
+  Ga  Ga16      1.0  0.09280  0.95720  0.39287  1.0000
+  Ga  Ga17      1.0  0.80062  0.13928  0.44880  1.0000
+  Ga  Ga18      1.0  0.80062  0.86072  0.57380  1.0000
+  Ir  Ir1       1.0  0.25922  0.62200  0.41761  1.0000
+  Ir  Ir2       1.0  0.25922  0.37800  0.54261  1.0000
+  Ir  Ir3       1.0  0.73757  0.87623  0.50160  1.0000
+  Ir  Ir4       1.0  0.73757  0.12377  0.62660  1.0000

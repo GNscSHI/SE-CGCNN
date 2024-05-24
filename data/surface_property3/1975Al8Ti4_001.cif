@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Al8Ti4
+_chemical_formula_sum              "Al8 Ti4"
+_cell_length_a       3.89922
+_cell_length_b       6.33587
+_cell_length_c       31.7671
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    107.921
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.46875  1.0000
+  Al  Al2       1.0  0.50000  0.00000  0.40625  1.0000
+  Al  Al3       1.0  0.82708  0.65416  0.40625  1.0000
+  Al  Al4       1.0  0.17292  0.34584  0.40625  1.0000
+  Al  Al5       1.0  0.00000  0.00000  0.59375  1.0000
+  Al  Al6       1.0  0.50000  0.00000  0.53125  1.0000
+  Al  Al7       1.0  0.82708  0.65416  0.53125  1.0000
+  Al  Al8       1.0  0.17292  0.34584  0.53125  1.0000
+  Ti  Ti1       1.0  0.65601  0.31202  0.46875  1.0000
+  Ti  Ti2       1.0  0.34399  0.68798  0.46875  1.0000
+  Ti  Ti3       1.0  0.65601  0.31202  0.59375  1.0000
+  Ti  Ti4       1.0  0.34399  0.68798  0.59375  1.0000

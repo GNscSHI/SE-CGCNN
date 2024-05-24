@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Mg13Au14
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.67132041
+_cell_length_b   4.67132114
+_cell_length_c   42.04188800
+_cell_angle_alpha   93.18474049
+_cell_angle_beta   93.18474099
+_cell_angle_gamma   60.00000532
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg13Au14
+_chemical_formula_sum   'Mg13 Au14'
+_cell_volume   792.86051933
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.10227300  0.10227300  0.23863600  1
+  Mg  Mg1  1  0.78409100  0.78409100  0.28409100  1
+  Mg  Mg2  1  0.46590900  0.46590900  0.32954500  1
+  Mg  Mg3  1  0.14772700  0.14772700  0.37500000  1
+  Mg  Mg4  1  0.82954500  0.82954500  0.42045500  1
+  Mg  Mg5  1  0.51136400  0.51136400  0.46590900  1
+  Mg  Mg6  1  0.19318200  0.19318200  0.51136400  1
+  Mg  Mg7  1  0.87500000  0.87500000  0.55681800  1
+  Mg  Mg8  1  0.55681800  0.55681800  0.60227300  1
+  Mg  Mg9  1  0.23863600  0.23863600  0.64772700  1
+  Mg  Mg10  1  0.92045500  0.92045500  0.69318200  1
+  Mg  Mg11  1  0.60227300  0.60227300  0.73863600  1
+  Mg  Mg12  1  0.28409100  0.28409100  0.78409100  1
+  Au  Au13  1  0.76136400  0.76136400  0.21590900  1
+  Au  Au14  1  0.44318200  0.44318200  0.26136400  1
+  Au  Au15  1  0.12500000  0.12500000  0.30681800  1
+  Au  Au16  1  0.80681800  0.80681800  0.35227300  1
+  Au  Au17  1  0.48863600  0.48863600  0.39772700  1
+  Au  Au18  1  0.17045500  0.17045500  0.44318200  1
+  Au  Au19  1  0.85227300  0.85227300  0.48863600  1
+  Au  Au20  1  0.53409100  0.53409100  0.53409100  1
+  Au  Au21  1  0.21590900  0.21590900  0.57954500  1
+  Au  Au22  1  0.89772700  0.89772700  0.62500000  1
+  Au  Au23  1  0.57954500  0.57954500  0.67045500  1
+  Au  Au24  1  0.26136400  0.26136400  0.71590900  1
+  Au  Au25  1  0.94318200  0.94318200  0.76136400  1
+  Au  Au26  1  0.62500000  0.62500000  0.80681800  1

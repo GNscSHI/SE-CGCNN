@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Na6Al6Si6
+_chemical_formula_sum              "Na6 Al6 Si6"
+_cell_length_a       4.11613
+_cell_length_b       10.9823
+_cell_length_c       33.4143
+_cell_angle_alpha    78.0763
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Na  Na1       1.0  0.50000  0.78810  0.49822  1.0000
+  Na  Na2       1.0  0.50000  0.12144  0.41488  1.0000
+  Na  Na3       1.0  0.50000  0.45477  0.58155  1.0000
+  Na  Na4       1.0  0.00000  0.71190  0.58512  1.0000
+  Na  Na5       1.0  0.00000  0.04523  0.50178  1.0000
+  Na  Na6       1.0  0.00000  0.37856  0.41845  1.0000
+  Al  Al1       1.0  0.00000  0.66667  0.43750  1.0000
+  Al  Al2       1.0  0.00000  0.00000  0.60417  1.0000
+  Al  Al3       1.0  0.00000  0.33333  0.52083  1.0000
+  Al  Al4       1.0  0.50000  0.50000  0.47917  1.0000
+  Al  Al5       1.0  0.50000  0.83333  0.39583  1.0000
+  Al  Al6       1.0  0.50000  0.16667  0.56250  1.0000
+  Si  Si1       1.0  0.50000  0.93062  0.56948  1.0000
+  Si  Si2       1.0  0.50000  0.26395  0.48614  1.0000
+  Si  Si3       1.0  0.50000  0.59729  0.40281  1.0000
+  Si  Si4       1.0  0.00000  0.56938  0.51386  1.0000
+  Si  Si5       1.0  0.00000  0.90271  0.43052  1.0000
+  Si  Si6       1.0  0.00000  0.23605  0.59719  1.0000

@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Fe4Sb4As4
+_chemical_formula_sum              "Fe4 Sb4 As4"
+_cell_length_a       3.00845
+_cell_length_b       8.26356
+_cell_length_c       33.0542
+_cell_angle_alpha    83.1894
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.00000  0.29066  0.60192  1.0000
+  Fe  Fe2       1.0  0.00000  0.79066  0.47692  1.0000
+  Fe  Fe3       1.0  0.50000  0.76729  0.60777  1.0000
+  Fe  Fe4       1.0  0.50000  0.26729  0.48277  1.0000
+  Sb  Sb1       1.0  0.00000  0.50663  0.45659  1.0000
+  Sb  Sb2       1.0  0.00000  0.00663  0.58159  1.0000
+  Sb  Sb3       1.0  0.50000  0.68597  0.53676  1.0000
+  Sb  Sb4       1.0  0.50000  0.18597  0.41176  1.0000
+  As  As1       1.0  0.00000  0.54944  0.37450  1.0000
+  As  As2       1.0  0.00000  0.04944  0.49950  1.0000
+  As  As3       1.0  0.50000  0.35761  0.54746  1.0000
+  As  As4       1.0  0.50000  0.85761  0.42246  1.0000

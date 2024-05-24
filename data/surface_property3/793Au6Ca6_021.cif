@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Au6Ca6
+_chemical_formula_sum              "Au6 Ca6"
+_cell_length_a       3.93838
+_cell_length_b       7.36309
+_cell_length_c       31.5185
+_cell_angle_alpha    93.2933
+_cell_angle_beta     90
+_cell_angle_gamma    105.512
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.26719  0.53438  0.34312  1.0000
+  Au  Au2       1.0  0.71163  0.42327  0.56535  1.0000
+  Au  Au3       1.0  0.48941  0.97882  0.45424  1.0000
+  Au  Au4       1.0  0.73281  0.46562  0.65688  1.0000
+  Au  Au5       1.0  0.51059  0.02118  0.54576  1.0000
+  Au  Au6       1.0  0.28837  0.57673  0.43465  1.0000
+  Ca  Ca1       1.0  0.08923  0.17847  0.61431  1.0000
+  Ca  Ca2       1.0  0.86701  0.73402  0.50320  1.0000
+  Ca  Ca3       1.0  0.64479  0.28958  0.39208  1.0000
+  Ca  Ca4       1.0  0.91077  0.82153  0.38569  1.0000
+  Ca  Ca5       1.0  0.35521  0.71042  0.60792  1.0000
+  Ca  Ca6       1.0  0.13299  0.26598  0.49680  1.0000

@@ -1,0 +1,39 @@
+data_image0
+_chemical_formula_structural       Ni6Sn8
+_chemical_formula_sum              "Ni6 Sn8"
+_cell_length_a       5.19283
+_cell_length_b       6.37717
+_cell_length_c       30.6215
+_cell_angle_alpha    92.3547
+_cell_angle_beta     93.7862
+_cell_angle_gamma    104.395
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.50893  0.01786  0.50893  1.0000
+  Ni  Ni2       1.0  0.94345  0.64562  0.60695  1.0000
+  Ni  Ni3       1.0  0.19941  0.64009  0.53591  1.0000
+  Ni  Ni4       1.0  0.38393  0.76786  0.38393  1.0000
+  Ni  Ni5       1.0  0.81845  0.39562  0.48195  1.0000
+  Ni  Ni6       1.0  0.07441  0.39009  0.41091  1.0000
+  Sn  Sn1       1.0  0.26784  0.01733  0.58039  1.0000
+  Sn  Sn2       1.0  0.87502  0.26838  0.56246  1.0000
+  Sn  Sn3       1.0  0.42467  0.56856  0.61245  1.0000
+  Sn  Sn4       1.0  0.71819  0.71716  0.53041  1.0000
+  Sn  Sn5       1.0  0.14284  0.76733  0.45539  1.0000
+  Sn  Sn6       1.0  0.75002  0.01838  0.43746  1.0000
+  Sn  Sn7       1.0  0.29967  0.31856  0.48745  1.0000
+  Sn  Sn8       1.0  0.59319  0.46716  0.40541  1.0000

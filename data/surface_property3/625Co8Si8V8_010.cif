@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       V4Co4Si4V4Co4Si4
+_chemical_formula_sum              "V8 Co8 Si8"
+_cell_length_a       3.51089
+_cell_length_b       6.7541
+_cell_length_c       35.3632
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.75000  0.32197  0.40695  1.0000
+  V   V2        1.0  0.25000  0.82197  0.48194  1.0000
+  V   V3        1.0  0.75000  0.17803  0.49028  1.0000
+  V   V4        1.0  0.25000  0.67803  0.39861  1.0000
+  Co  Co1       1.0  0.25000  0.06093  0.37897  1.0000
+  Co  Co2       1.0  0.25000  0.43907  0.46231  1.0000
+  Co  Co3       1.0  0.75000  0.56093  0.34325  1.0000
+  Co  Co4       1.0  0.75000  0.93907  0.42658  1.0000
+  Si  Si1       1.0  0.25000  0.37621  0.35828  1.0000
+  Si  Si2       1.0  0.25000  0.12379  0.44162  1.0000
+  Si  Si3       1.0  0.75000  0.62379  0.44727  1.0000
+  Si  Si4       1.0  0.75000  0.87621  0.36394  1.0000
+  V   V5        1.0  0.75000  0.32197  0.57361  1.0000
+  V   V6        1.0  0.25000  0.82197  0.64861  1.0000
+  V   V7        1.0  0.75000  0.17803  0.65695  1.0000
+  V   V8        1.0  0.25000  0.67803  0.56528  1.0000
+  Co  Co5       1.0  0.25000  0.06093  0.54564  1.0000
+  Co  Co6       1.0  0.25000  0.43907  0.62897  1.0000
+  Co  Co7       1.0  0.75000  0.56093  0.50991  1.0000
+  Co  Co8       1.0  0.75000  0.93907  0.59325  1.0000
+  Si  Si5       1.0  0.25000  0.37621  0.52495  1.0000
+  Si  Si6       1.0  0.25000  0.12379  0.60828  1.0000
+  Si  Si7       1.0  0.75000  0.62379  0.61394  1.0000
+  Si  Si8       1.0  0.75000  0.87621  0.53060  1.0000

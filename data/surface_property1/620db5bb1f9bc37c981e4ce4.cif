@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Dy2Mg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.69704700
+_cell_length_b   5.47816800
+_cell_length_c   51.30137900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2Mg
+_chemical_formula_sum   'Dy16 Mg8'
+_cell_volume   1039.00911538
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.50000000  0.25000000  0.36391500  1
+  Dy  Dy1  1  0.00000000  0.25000000  0.42404600  1
+  Dy  Dy2  1  0.00000000  0.75000000  0.46941900  1
+  Dy  Dy3  1  0.50000000  0.75000000  0.40928700  1
+  Dy  Dy4  1  0.00000000  0.25000000  0.19724800  1
+  Dy  Dy5  1  0.50000000  0.25000000  0.25737900  1
+  Dy  Dy6  1  0.50000000  0.75000000  0.30275200  1
+  Dy  Dy7  1  0.00000000  0.75000000  0.24262100  1
+  Dy  Dy8  1  0.50000000  0.25000000  0.69724800  1
+  Dy  Dy9  1  0.00000000  0.25000000  0.75737900  1
+  Dy  Dy10  1  0.00000000  0.75000000  0.80275200  1
+  Dy  Dy11  1  0.50000000  0.75000000  0.74262100  1
+  Dy  Dy12  1  0.00000000  0.25000000  0.53058100  1
+  Dy  Dy13  1  0.50000000  0.25000000  0.59071300  1
+  Dy  Dy14  1  0.50000000  0.75000000  0.63608500  1
+  Dy  Dy15  1  0.00000000  0.75000000  0.57595400  1
+  Mg  Mg16  1  0.50000000  0.25000000  0.47765400  1
+  Mg  Mg17  1  0.00000000  0.75000000  0.35567900  1
+  Mg  Mg18  1  0.00000000  0.25000000  0.31098800  1
+  Mg  Mg19  1  0.50000000  0.75000000  0.18901200  1
+  Mg  Mg20  1  0.50000000  0.25000000  0.81098800  1
+  Mg  Mg21  1  0.00000000  0.75000000  0.68901200  1
+  Mg  Mg22  1  0.00000000  0.25000000  0.64432100  1
+  Mg  Mg23  1  0.50000000  0.75000000  0.52234600  1

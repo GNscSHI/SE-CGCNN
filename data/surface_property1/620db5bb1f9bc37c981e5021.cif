@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Pm8Mg3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81728300
+_cell_length_b   5.62611600
+_cell_length_c   52.19210500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pm8Mg3
+_chemical_formula_sum   'Pm16 Mg6'
+_cell_volume   1120.90254067
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pm  Pm0  1  1.00000000  0.75000000  0.16828400  1
+  Pm  Pm1  1  0.50000000  0.75000000  0.22891600  1
+  Pm  Pm2  1  0.50000000  0.25000000  0.27616000  1
+  Pm  Pm3  1  0.00000000  0.25000000  0.21552800  1
+  Pm  Pm4  1  0.50000000  0.75000000  0.33495100  1
+  Pm  Pm5  1  0.00000000  0.75000000  0.39558300  1
+  Pm  Pm6  1  1.00000000  0.25000000  0.44282700  1
+  Pm  Pm7  1  0.50000000  0.25000000  0.38219500  1
+  Pm  Pm8  1  1.00000000  0.75000000  0.50161800  1
+  Pm  Pm9  1  0.50000000  0.75000000  0.56225000  1
+  Pm  Pm10  1  0.50000000  0.25000000  0.60949400  1
+  Pm  Pm11  1  1.00000000  0.25000000  0.54886100  1
+  Pm  Pm12  1  0.50000000  0.75000000  0.66828400  1
+  Pm  Pm13  1  1.00000000  0.75000000  0.72891600  1
+  Pm  Pm14  1  1.00000000  0.25000000  0.77616000  1
+  Pm  Pm15  1  0.50000000  0.25000000  0.71552800  1
+  Mg  Mg16  1  0.00000000  0.75000000  0.28249000  1
+  Mg  Mg17  1  0.50000000  0.25000000  0.49528800  1
+  Mg  Mg18  1  0.50000000  0.75000000  0.44915700  1
+  Mg  Mg19  1  1.00000000  0.25000000  0.32862100  1
+  Mg  Mg20  1  1.00000000  0.75000000  0.61582300  1
+  Mg  Mg21  1  0.00000000  0.25000000  0.66195500  1

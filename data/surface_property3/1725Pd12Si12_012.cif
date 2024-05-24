@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Si12Pd12
+_chemical_formula_sum              "Si12 Pd12"
+_cell_length_a       3.43298
+_cell_length_b       12.6807
+_cell_length_c       33.0144
+_cell_angle_alpha    103.57
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Si  Si1       1.0  0.75000  0.53472  0.43137  1.0000
+  Si  Si2       1.0  0.75000  0.20139  0.51470  1.0000
+  Si  Si3       1.0  0.75000  0.86806  0.59803  1.0000
+  Si  Si4       1.0  0.25000  0.13194  0.56863  1.0000
+  Si  Si5       1.0  0.25000  0.79861  0.40197  1.0000
+  Si  Si6       1.0  0.25000  0.46528  0.48530  1.0000
+  Si  Si7       1.0  0.75000  0.25015  0.41408  1.0000
+  Si  Si8       1.0  0.75000  0.91682  0.49741  1.0000
+  Si  Si9       1.0  0.75000  0.58348  0.58075  1.0000
+  Si  Si10      1.0  0.25000  0.41652  0.58592  1.0000
+  Si  Si11      1.0  0.25000  0.08318  0.41925  1.0000
+  Si  Si12      1.0  0.25000  0.74985  0.50259  1.0000
+  Pd  Pd1       1.0  0.75000  0.27105  0.59280  1.0000
+  Pd  Pd2       1.0  0.75000  0.93772  0.42613  1.0000
+  Pd  Pd3       1.0  0.75000  0.60439  0.50947  1.0000
+  Pd  Pd4       1.0  0.25000  0.39561  0.40720  1.0000
+  Pd  Pd5       1.0  0.25000  0.06228  0.49053  1.0000
+  Pd  Pd6       1.0  0.25000  0.72895  0.57387  1.0000
+  Pd  Pd7       1.0  0.75000  0.06510  0.61483  1.0000
+  Pd  Pd8       1.0  0.75000  0.73177  0.44816  1.0000
+  Pd  Pd9       1.0  0.75000  0.39844  0.53149  1.0000
+  Pd  Pd10      1.0  0.25000  0.60156  0.38517  1.0000
+  Pd  Pd11      1.0  0.25000  0.26823  0.46851  1.0000
+  Pd  Pd12      1.0  0.25000  0.93490  0.55184  1.0000

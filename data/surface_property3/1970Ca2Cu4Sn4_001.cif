@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Ca2Cu4Sn4
+_chemical_formula_sum              "Ca2 Cu4 Sn4"
+_cell_length_a       4.18468
+_cell_length_b       5.80435
+_cell_length_c       32.0065
+_cell_angle_alpha    90.926
+_cell_angle_beta     90
+_cell_angle_gamma    111.13
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.57143  0.14286  0.57143  1.0000
+  Ca  Ca2       1.0  0.42857  0.85714  0.42857  1.0000
+  Cu  Cu1       1.0  0.28913  0.57827  0.55239  1.0000
+  Cu  Cu2       1.0  0.85372  0.70744  0.59047  1.0000
+  Cu  Cu3       1.0  0.14628  0.29256  0.40953  1.0000
+  Cu  Cu4       1.0  0.71087  0.42173  0.44761  1.0000
+  Sn  Sn1       1.0  0.86672  0.73345  0.50974  1.0000
+  Sn  Sn2       1.0  0.27613  0.55226  0.63312  1.0000
+  Sn  Sn3       1.0  0.72387  0.44774  0.36688  1.0000
+  Sn  Sn4       1.0  0.13328  0.26655  0.49026  1.0000

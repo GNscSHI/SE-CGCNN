@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Ca8Zn16
+_chemical_formula_sum              "Ca8 Zn16"
+_cell_length_a       5.52652
+_cell_length_b       10.2601
+_cell_length_c       41.0404
+_cell_angle_alpha    65.1825
+_cell_angle_beta     105.624
+_cell_angle_gamma    74.3761
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.66667  0.86258  0.39794  1.0000
+  Ca  Ca2       1.0  0.66667  0.36258  0.52294  1.0000
+  Ca  Ca3       1.0  0.33333  0.94591  0.50210  1.0000
+  Ca  Ca4       1.0  0.33333  0.44591  0.37710  1.0000
+  Ca  Ca5       1.0  0.33333  0.13742  0.54998  1.0000
+  Ca  Ca6       1.0  0.33333  0.63742  0.42498  1.0000
+  Ca  Ca7       1.0  0.66667  0.05409  0.44581  1.0000
+  Ca  Ca8       1.0  0.66667  0.55409  0.57081  1.0000
+  Zn  Zn1       1.0  0.00000  0.00000  0.59896  1.0000
+  Zn  Zn2       1.0  0.00000  0.50000  0.47396  1.0000
+  Zn  Zn3       1.0  0.00000  0.25000  0.41146  1.0000
+  Zn  Zn4       1.0  0.00000  0.75000  0.53646  1.0000
+  Zn  Zn5       1.0  0.66593  0.70852  0.48433  1.0000
+  Zn  Zn6       1.0  0.66593  0.20852  0.60933  1.0000
+  Zn  Zn7       1.0  0.83297  0.29148  0.46359  1.0000
+  Zn  Zn8       1.0  0.83297  0.79148  0.58859  1.0000
+  Zn  Zn9       1.0  0.83297  0.04203  0.52595  1.0000
+  Zn  Zn10      1.0  0.83297  0.54203  0.40095  1.0000
+  Zn  Zn11      1.0  0.16703  0.95797  0.42197  1.0000
+  Zn  Zn12      1.0  0.16703  0.45797  0.54697  1.0000
+  Zn  Zn13      1.0  0.16703  0.70852  0.48433  1.0000
+  Zn  Zn14      1.0  0.16703  0.20852  0.60933  1.0000
+  Zn  Zn15      1.0  0.33407  0.29148  0.46359  1.0000
+  Zn  Zn16      1.0  0.33407  0.79148  0.58859  1.0000

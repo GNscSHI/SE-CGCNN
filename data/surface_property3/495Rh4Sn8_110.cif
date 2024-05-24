@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Rh4Sn8
+_chemical_formula_sum              "Rh4 Sn8"
+_cell_length_a       5.33718
+_cell_length_b       5.33718
+_cell_length_c       36.1234
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    115.565
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rh  Rh1       1.0  0.25000  0.25000  0.39583  1.0000
+  Rh  Rh2       1.0  0.75000  0.75000  0.52083  1.0000
+  Rh  Rh3       1.0  0.75000  0.75000  0.39583  1.0000
+  Rh  Rh4       1.0  0.25000  0.25000  0.52083  1.0000
+  Sn  Sn1       1.0  0.25000  0.75000  0.62384  1.0000
+  Sn  Sn2       1.0  0.75000  0.25000  0.49884  1.0000
+  Sn  Sn3       1.0  0.58799  0.41201  0.58333  1.0000
+  Sn  Sn4       1.0  0.08799  0.91201  0.45833  1.0000
+  Sn  Sn5       1.0  0.91201  0.08799  0.58333  1.0000
+  Sn  Sn6       1.0  0.41201  0.58799  0.45833  1.0000
+  Sn  Sn7       1.0  0.75000  0.25000  0.41783  1.0000
+  Sn  Sn8       1.0  0.25000  0.75000  0.54283  1.0000

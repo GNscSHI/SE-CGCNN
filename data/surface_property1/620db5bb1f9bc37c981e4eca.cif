@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ho9Mg2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.50036600
+_cell_length_b   3.50036600
+_cell_length_c   47.66669900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho9Mg2
+_chemical_formula_sum   'Ho9 Mg2'
+_cell_volume   584.03919122
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.50000000  0.50000000  0.32717500  1
+  Ho  Ho1  1  0.00000000  0.00000000  0.27500000  1
+  Ho  Ho2  1  0.50000000  0.50000000  0.22282500  1
+  Ho  Ho3  1  0.50000000  0.50000000  0.52717500  1
+  Ho  Ho4  1  0.00000000  0.00000000  0.47500000  1
+  Ho  Ho5  1  0.50000000  0.50000000  0.42282500  1
+  Ho  Ho6  1  0.50000000  0.50000000  0.72717500  1
+  Ho  Ho7  1  0.00000000  0.00000000  0.67500000  1
+  Ho  Ho8  1  0.50000000  0.50000000  0.62282500  1
+  Mg  Mg9  1  0.00000000  0.00000000  0.37500000  1
+  Mg  Mg10  1  0.00000000  0.00000000  0.57500000  1

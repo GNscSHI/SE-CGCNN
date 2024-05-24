@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Fe8Ge16
+_chemical_formula_sum              "Fe8 Ge16"
+_cell_length_a       4.774
+_cell_length_b       8.22212
+_cell_length_c       33.4456
+_cell_angle_alpha    90
+_cell_angle_beta     91.1052
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.08333  0.50000  0.45833  1.0000
+  Fe  Fe2       1.0  0.83333  0.00000  0.52083  1.0000
+  Fe  Fe3       1.0  0.33333  0.00000  0.39583  1.0000
+  Fe  Fe4       1.0  0.58333  0.50000  0.58333  1.0000
+  Fe  Fe5       1.0  0.83333  0.50000  0.52083  1.0000
+  Fe  Fe6       1.0  0.58333  0.00000  0.58333  1.0000
+  Fe  Fe7       1.0  0.08333  0.00000  0.45833  1.0000
+  Fe  Fe8       1.0  0.33333  0.50000  0.39583  1.0000
+  Ge  Ge1       1.0  0.81759  0.25000  0.47785  1.0000
+  Ge  Ge2       1.0  0.56759  0.75000  0.54035  1.0000
+  Ge  Ge3       1.0  0.06759  0.75000  0.41535  1.0000
+  Ge  Ge4       1.0  0.31759  0.25000  0.60285  1.0000
+  Ge  Ge5       1.0  0.58333  0.59383  0.45833  1.0000
+  Ge  Ge6       1.0  0.33333  0.09383  0.52083  1.0000
+  Ge  Ge7       1.0  0.83333  0.09383  0.39583  1.0000
+  Ge  Ge8       1.0  0.08333  0.59383  0.58333  1.0000
+  Ge  Ge9       1.0  0.33333  0.40617  0.52083  1.0000
+  Ge  Ge10      1.0  0.08333  0.90617  0.58333  1.0000
+  Ge  Ge11      1.0  0.58333  0.90617  0.45833  1.0000
+  Ge  Ge12      1.0  0.83333  0.40617  0.39583  1.0000
+  Ge  Ge13      1.0  0.84907  0.25000  0.56381  1.0000
+  Ge  Ge14      1.0  0.59907  0.75000  0.62631  1.0000
+  Ge  Ge15      1.0  0.09907  0.75000  0.50131  1.0000
+  Ge  Ge16      1.0  0.34907  0.25000  0.43881  1.0000

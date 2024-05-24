@@ -1,0 +1,39 @@
+data_image0
+_chemical_formula_structural       Al12Fe2
+_chemical_formula_sum              "Al12 Fe2"
+_cell_length_a       4.88343
+_cell_length_b       4.88343
+_cell_length_c       34.9998
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    98.0474
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.32282  0.67718  0.53571  1.0000
+  Al  Al2       1.0  0.85345  0.85345  0.38631  1.0000
+  Al  Al3       1.0  0.32282  0.67718  0.41071  1.0000
+  Al  Al4       1.0  0.14655  0.14655  0.43511  1.0000
+  Al  Al5       1.0  0.97115  0.60747  0.47321  1.0000
+  Al  Al6       1.0  0.67718  0.32282  0.41071  1.0000
+  Al  Al7       1.0  0.85345  0.85345  0.56011  1.0000
+  Al  Al8       1.0  0.02885  0.39253  0.59821  1.0000
+  Al  Al9       1.0  0.39253  0.02885  0.59821  1.0000
+  Al  Al10      1.0  0.60747  0.97115  0.47321  1.0000
+  Al  Al11      1.0  0.14655  0.14655  0.51131  1.0000
+  Al  Al12      1.0  0.67718  0.32282  0.53571  1.0000
+  Fe  Fe1       1.0  0.53983  0.53983  0.59821  1.0000
+  Fe  Fe2       1.0  0.46017  0.46017  0.47321  1.0000

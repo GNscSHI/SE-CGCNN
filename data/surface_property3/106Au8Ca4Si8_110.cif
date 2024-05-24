@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Au8Ca4Si8
+_chemical_formula_sum              "Au8 Ca4 Si8"
+_cell_length_a       5.83354
+_cell_length_b       5.83354
+_cell_length_c       36.5868
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    116.98
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.00000  0.50000  0.35000  1.0000
+  Au  Au2       1.0  0.50000  0.00000  0.43333  1.0000
+  Au  Au3       1.0  0.50000  0.00000  0.35000  1.0000
+  Au  Au4       1.0  0.00000  0.50000  0.43333  1.0000
+  Au  Au5       1.0  0.00000  0.50000  0.51667  1.0000
+  Au  Au6       1.0  0.50000  0.00000  0.60000  1.0000
+  Au  Au7       1.0  0.50000  0.00000  0.51667  1.0000
+  Au  Au8       1.0  0.00000  0.50000  0.60000  1.0000
+  Ca  Ca1       1.0  0.50000  0.50000  0.39167  1.0000
+  Ca  Ca2       1.0  0.00000  0.00000  0.47500  1.0000
+  Ca  Ca3       1.0  0.50000  0.50000  0.55833  1.0000
+  Ca  Ca4       1.0  0.00000  0.00000  0.64167  1.0000
+  Si  Si1       1.0  0.38502  0.61498  0.47500  1.0000
+  Si  Si2       1.0  0.88502  0.11498  0.39167  1.0000
+  Si  Si3       1.0  0.11498  0.88502  0.39167  1.0000
+  Si  Si4       1.0  0.61498  0.38502  0.47500  1.0000
+  Si  Si5       1.0  0.38502  0.61498  0.64167  1.0000
+  Si  Si6       1.0  0.88502  0.11498  0.55833  1.0000
+  Si  Si7       1.0  0.11498  0.88502  0.55833  1.0000
+  Si  Si8       1.0  0.61498  0.38502  0.64167  1.0000

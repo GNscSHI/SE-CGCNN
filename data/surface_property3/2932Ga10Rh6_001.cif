@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Ga10Rh6
+_chemical_formula_sum              "Ga10 Rh6"
+_cell_length_a       4.94759
+_cell_length_b       6.62345
+_cell_length_c       31.4441
+_cell_angle_alpha    100.937
+_cell_angle_beta     104.734
+_cell_angle_gamma    101.401
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.77696  0.54700  0.47865  1.0000
+  Ga  Ga2       1.0  0.22304  0.45300  0.45885  1.0000
+  Ga  Ga3       1.0  0.91357  0.17801  0.60514  1.0000
+  Ga  Ga4       1.0  0.08643  0.82199  0.58236  1.0000
+  Ga  Ga5       1.0  0.55135  0.14286  0.41228  1.0000
+  Ga  Ga6       1.0  0.44865  0.85714  0.52522  1.0000
+  Ga  Ga7       1.0  0.68062  0.47360  0.56178  1.0000
+  Ga  Ga8       1.0  0.31938  0.52640  0.37572  1.0000
+  Ga  Ga9       1.0  0.04115  0.90623  0.43036  1.0000
+  Ga  Ga10      1.0  0.95885  0.09377  0.50714  1.0000
+  Rh  Rh1       1.0  0.84787  0.51378  0.39985  1.0000
+  Rh  Rh2       1.0  0.15213  0.48622  0.53765  1.0000
+  Rh  Rh3       1.0  0.63520  0.82698  0.60620  1.0000
+  Rh  Rh4       1.0  0.36480  0.17302  0.58130  1.0000
+  Rh  Rh5       1.0  0.54435  0.80481  0.44920  1.0000
+  Rh  Rh6       1.0  0.45565  0.19519  0.48830  1.0000

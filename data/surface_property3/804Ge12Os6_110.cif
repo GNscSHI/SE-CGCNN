@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       Ge12Os6
+_chemical_formula_sum              "Ge12 Os6"
+_cell_length_a       4.76591
+_cell_length_b       6.93018
+_cell_length_c       28.9032
+_cell_angle_alpha    86.7151
+_cell_angle_beta     88.7094
+_cell_angle_gamma    79.9292
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ge  Ge1       1.0  0.43989  0.06556  0.40228  1.0000
+  Ge  Ge2       1.0  0.89345  0.10110  0.43105  1.0000
+  Ge  Ge3       1.0  0.55951  0.51179  0.37674  1.0000
+  Ge  Ge4       1.0  0.97383  0.75488  0.35659  1.0000
+  Ge  Ge5       1.0  0.23989  0.96556  0.50228  1.0000
+  Ge  Ge6       1.0  0.69345  0.00110  0.53105  1.0000
+  Ge  Ge7       1.0  0.35951  0.41179  0.47674  1.0000
+  Ge  Ge8       1.0  0.77383  0.65488  0.45659  1.0000
+  Ge  Ge9       1.0  0.03989  0.86556  0.60228  1.0000
+  Ge  Ge10      1.0  0.49345  0.90110  0.63105  1.0000
+  Ge  Ge11      1.0  0.15951  0.31179  0.57674  1.0000
+  Ge  Ge12      1.0  0.57383  0.55488  0.55659  1.0000
+  Os  Os1       1.0  0.24325  0.76887  0.43209  1.0000
+  Os  Os2       1.0  0.09008  0.39779  0.40125  1.0000
+  Os  Os3       1.0  0.04325  0.66887  0.53209  1.0000
+  Os  Os4       1.0  0.89008  0.29779  0.50125  1.0000
+  Os  Os5       1.0  0.84325  0.56887  0.63209  1.0000
+  Os  Os6       1.0  0.69008  0.19779  0.60125  1.0000

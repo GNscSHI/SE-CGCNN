@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       As8Cu8Zn8
+_chemical_formula_sum              "As8 Cu8 Zn8"
+_cell_length_a       4.14593
+_cell_length_b       7.09772
+_cell_length_c       33.4029
+_cell_angle_alpha    93.4956
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.22709  0.13663  0.44995  1.0000
+  As  As2       1.0  0.22709  0.43663  0.34995  1.0000
+  As  As3       1.0  0.77291  0.63663  0.44995  1.0000
+  As  As4       1.0  0.77291  0.93663  0.34995  1.0000
+  As  As5       1.0  0.22709  0.53663  0.64995  1.0000
+  As  As6       1.0  0.22709  0.83663  0.54995  1.0000
+  As  As7       1.0  0.77291  0.03663  0.64995  1.0000
+  As  As8       1.0  0.77291  0.33663  0.54995  1.0000
+  Cu  Cu1       1.0  0.72546  0.26635  0.32562  1.0000
+  Cu  Cu2       1.0  0.72546  0.96635  0.42562  1.0000
+  Cu  Cu3       1.0  0.27454  0.46635  0.42562  1.0000
+  Cu  Cu4       1.0  0.27454  0.76635  0.32562  1.0000
+  Cu  Cu5       1.0  0.72546  0.66635  0.52562  1.0000
+  Cu  Cu6       1.0  0.72546  0.36635  0.62562  1.0000
+  Cu  Cu7       1.0  0.27454  0.86635  0.62562  1.0000
+  Cu  Cu8       1.0  0.27454  0.16635  0.52562  1.0000
+  Zn  Zn1       1.0  0.26667  0.80799  0.47443  1.0000
+  Zn  Zn2       1.0  0.26667  0.10799  0.37443  1.0000
+  Zn  Zn3       1.0  0.73333  0.30799  0.47443  1.0000
+  Zn  Zn4       1.0  0.73333  0.60799  0.37443  1.0000
+  Zn  Zn5       1.0  0.26667  0.20799  0.67443  1.0000
+  Zn  Zn6       1.0  0.26667  0.50799  0.57443  1.0000
+  Zn  Zn7       1.0  0.73333  0.70799  0.67443  1.0000
+  Zn  Zn8       1.0  0.73333  0.00799  0.57443  1.0000

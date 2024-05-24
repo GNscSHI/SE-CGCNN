@@ -1,0 +1,43 @@
+data_image0
+_chemical_formula_structural       As12Nb6
+_chemical_formula_sum              "As12 Nb6"
+_cell_length_a       4.96781
+_cell_length_b       7.04972
+_cell_length_c       30.7092
+_cell_angle_alpha    92.537
+_cell_angle_beta     93.3144
+_cell_angle_gamma    91.805
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.63176  0.91014  0.56129  1.0000
+  As  As2       1.0  0.96824  0.88986  0.63871  1.0000
+  As  As3       1.0  0.44369  0.26339  0.62983  1.0000
+  As  As4       1.0  0.15631  0.53661  0.57017  1.0000
+  As  As5       1.0  0.83176  0.01014  0.46129  1.0000
+  As  As6       1.0  0.16824  0.98986  0.53871  1.0000
+  As  As7       1.0  0.64369  0.36339  0.52983  1.0000
+  As  As8       1.0  0.35631  0.63661  0.47017  1.0000
+  As  As9       1.0  0.03176  0.11014  0.36129  1.0000
+  As  As10      1.0  0.36824  0.08986  0.43871  1.0000
+  As  As11      1.0  0.84369  0.46339  0.42983  1.0000
+  As  As12      1.0  0.55631  0.73661  0.37017  1.0000
+  Nb  Nb1       1.0  0.67436  0.59214  0.60391  1.0000
+  Nb  Nb2       1.0  0.92564  0.20786  0.59609  1.0000
+  Nb  Nb3       1.0  0.87436  0.69214  0.50391  1.0000
+  Nb  Nb4       1.0  0.12564  0.30786  0.49609  1.0000
+  Nb  Nb5       1.0  0.07436  0.79214  0.40391  1.0000
+  Nb  Nb6       1.0  0.32564  0.40786  0.39609  1.0000

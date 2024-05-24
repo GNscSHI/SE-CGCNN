@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       As8Si4Zn4
+_chemical_formula_sum              "As8 Si4 Zn4"
+_cell_length_a       6.74352
+_cell_length_b       6.74352
+_cell_length_c       31.7002
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    108.026
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.13154  0.88154  0.40788  1.0000
+  As  As2       1.0  0.63154  0.38154  0.53288  1.0000
+  As  As3       1.0  0.61846  0.86846  0.59538  1.0000
+  As  As4       1.0  0.11846  0.36846  0.47038  1.0000
+  As  As5       1.0  0.13154  0.38154  0.59212  1.0000
+  As  As6       1.0  0.63154  0.88154  0.46712  1.0000
+  As  As7       1.0  0.11846  0.86846  0.52962  1.0000
+  As  As8       1.0  0.61846  0.36846  0.40462  1.0000
+  Si  Si1       1.0  0.50000  0.00000  0.40625  1.0000
+  Si  Si2       1.0  0.00000  0.50000  0.53125  1.0000
+  Si  Si3       1.0  0.00000  0.00000  0.46875  1.0000
+  Si  Si4       1.0  0.50000  0.50000  0.59375  1.0000
+  Zn  Zn1       1.0  0.00000  0.50000  0.40625  1.0000
+  Zn  Zn2       1.0  0.50000  0.00000  0.53125  1.0000
+  Zn  Zn3       1.0  0.00000  0.00000  0.59375  1.0000
+  Zn  Zn4       1.0  0.50000  0.50000  0.46875  1.0000

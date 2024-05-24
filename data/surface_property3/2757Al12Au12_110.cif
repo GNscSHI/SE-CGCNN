@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Al4Au4Al4Au4Al4Au4
+_chemical_formula_sum              "Al12 Au12"
+_cell_length_a       6.36637
+_cell_length_b       7.16182
+_cell_length_c       33.6384
+_cell_angle_alpha    61.9858
+_cell_angle_beta     90
+_cell_angle_gamma    87.7999
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.82029  0.95044  0.37996  1.0000
+  Al  Al2       1.0  0.17971  0.04956  0.42004  1.0000
+  Al  Al3       1.0  0.31934  0.57839  0.41716  1.0000
+  Al  Al4       1.0  0.68066  0.42161  0.38284  1.0000
+  Au  Au1       1.0  0.47784  0.19235  0.35576  1.0000
+  Au  Au2       1.0  0.52216  0.80765  0.44424  1.0000
+  Au  Au3       1.0  0.00318  0.31142  0.44386  1.0000
+  Au  Au4       1.0  0.99682  0.68858  0.35614  1.0000
+  Al  Al5       1.0  0.82029  0.95044  0.47996  1.0000
+  Al  Al6       1.0  0.17971  0.04956  0.52004  1.0000
+  Al  Al7       1.0  0.31934  0.57839  0.51716  1.0000
+  Al  Al8       1.0  0.68066  0.42161  0.48284  1.0000
+  Au  Au5       1.0  0.47784  0.19235  0.45576  1.0000
+  Au  Au6       1.0  0.52216  0.80765  0.54424  1.0000
+  Au  Au7       1.0  0.00318  0.31142  0.54386  1.0000
+  Au  Au8       1.0  0.99682  0.68858  0.45614  1.0000
+  Al  Al9       1.0  0.82029  0.95044  0.57996  1.0000
+  Al  Al10      1.0  0.17971  0.04956  0.62004  1.0000
+  Al  Al11      1.0  0.31934  0.57839  0.61716  1.0000
+  Al  Al12      1.0  0.68066  0.42161  0.58284  1.0000
+  Au  Au9       1.0  0.47784  0.19235  0.55576  1.0000
+  Au  Au10      1.0  0.52216  0.80765  0.64424  1.0000
+  Au  Au11      1.0  0.00318  0.31142  0.64386  1.0000
+  Au  Au12      1.0  0.99682  0.68858  0.55614  1.0000

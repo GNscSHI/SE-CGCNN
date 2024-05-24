@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Fe5Ni5Fe5Ni5
+_chemical_formula_sum              "Fe10 Ni10"
+_cell_length_a       5.40615
+_cell_length_b       4.21633
+_cell_length_c       34.0223
+_cell_angle_alpha    72.721
+_cell_angle_beta     77.1464
+_cell_angle_gamma    75.1411
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.40000  0.80000  0.37857  1.0000
+  Fe  Fe2       1.0  0.80000  0.60000  0.40714  1.0000
+  Fe  Fe3       1.0  0.00000  0.00000  0.49286  1.0000
+  Fe  Fe4       1.0  0.20000  0.40000  0.43571  1.0000
+  Fe  Fe5       1.0  0.60000  0.20000  0.46429  1.0000
+  Ni  Ni1       1.0  0.40000  0.80000  0.45000  1.0000
+  Ni  Ni2       1.0  0.80000  0.60000  0.47857  1.0000
+  Ni  Ni3       1.0  0.00000  0.00000  0.42143  1.0000
+  Ni  Ni4       1.0  0.20000  0.40000  0.36429  1.0000
+  Ni  Ni5       1.0  0.60000  0.20000  0.39286  1.0000
+  Fe  Fe6       1.0  0.40000  0.80000  0.52143  1.0000
+  Fe  Fe7       1.0  0.80000  0.60000  0.55000  1.0000
+  Fe  Fe8       1.0  0.00000  0.00000  0.63571  1.0000
+  Fe  Fe9       1.0  0.20000  0.40000  0.57857  1.0000
+  Fe  Fe10      1.0  0.60000  0.20000  0.60714  1.0000
+  Ni  Ni6       1.0  0.40000  0.80000  0.59286  1.0000
+  Ni  Ni7       1.0  0.80000  0.60000  0.62143  1.0000
+  Ni  Ni8       1.0  0.00000  0.00000  0.56429  1.0000
+  Ni  Ni9       1.0  0.20000  0.40000  0.50714  1.0000
+  Ni  Ni10      1.0  0.60000  0.20000  0.53571  1.0000

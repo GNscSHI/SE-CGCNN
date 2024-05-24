@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Sn16V8
+_chemical_formula_sum              "Sn16 V8"
+_cell_length_a       5.44442
+_cell_length_b       10.3643
+_cell_length_c       33.5735
+_cell_angle_alpha    96.6776
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sn  Sn1       1.0  0.75000  0.29178  0.39589  1.0000
+  Sn  Sn2       1.0  0.75000  0.45822  0.47911  1.0000
+  Sn  Sn3       1.0  0.00000  0.95822  0.47911  1.0000
+  Sn  Sn4       1.0  0.00000  0.79178  0.39589  1.0000
+  Sn  Sn5       1.0  0.75000  0.49908  0.58349  1.0000
+  Sn  Sn6       1.0  0.75000  0.75092  0.54151  1.0000
+  Sn  Sn7       1.0  0.00000  0.25092  0.54151  1.0000
+  Sn  Sn8       1.0  0.00000  0.99908  0.58349  1.0000
+  Sn  Sn9       1.0  0.25000  0.54178  0.52089  1.0000
+  Sn  Sn10      1.0  0.25000  0.70822  0.60411  1.0000
+  Sn  Sn11      1.0  0.50000  0.20822  0.60411  1.0000
+  Sn  Sn12      1.0  0.50000  0.04178  0.52089  1.0000
+  Sn  Sn13      1.0  0.25000  0.24908  0.45849  1.0000
+  Sn  Sn14      1.0  0.25000  0.50092  0.41651  1.0000
+  Sn  Sn15      1.0  0.50000  0.00092  0.41651  1.0000
+  Sn  Sn16      1.0  0.50000  0.74908  0.45849  1.0000
+  V   V1        1.0  0.75000  0.56638  0.40560  1.0000
+  V   V2        1.0  0.25000  0.43362  0.59440  1.0000
+  V   V3        1.0  0.00000  0.68362  0.46940  1.0000
+  V   V4        1.0  0.50000  0.31638  0.53060  1.0000
+  V   V5        1.0  0.25000  0.81638  0.53060  1.0000
+  V   V6        1.0  0.75000  0.18362  0.46940  1.0000
+  V   V7        1.0  0.50000  0.93362  0.59440  1.0000
+  V   V8        1.0  0.00000  0.06638  0.40560  1.0000

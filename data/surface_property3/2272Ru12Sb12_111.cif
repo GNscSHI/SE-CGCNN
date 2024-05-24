@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Sb12Ru12
+_chemical_formula_sum              "Sb12 Ru12"
+_cell_length_a       6.9766
+_cell_length_b       7.56948
+_cell_length_c       38.3465
+_cell_angle_alpha    66.3031
+_cell_angle_beta     72.115
+_cell_angle_gamma    74.552
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sb  Sb1       1.0  0.75647  0.53677  0.60456  1.0000
+  Sb  Sb2       1.0  0.08981  0.87010  0.52123  1.0000
+  Sb  Sb3       1.0  0.42314  0.20343  0.43789  1.0000
+  Sb  Sb4       1.0  0.57686  0.79657  0.49961  1.0000
+  Sb  Sb5       1.0  0.91019  0.12990  0.41627  1.0000
+  Sb  Sb6       1.0  0.24353  0.46323  0.58294  1.0000
+  Sb  Sb7       1.0  0.30981  0.93009  0.59123  1.0000
+  Sb  Sb8       1.0  0.64314  0.26342  0.50789  1.0000
+  Sb  Sb9       1.0  0.97648  0.59676  0.42456  1.0000
+  Sb  Sb10      1.0  0.02352  0.40324  0.51294  1.0000
+  Sb  Sb11      1.0  0.35686  0.73658  0.42961  1.0000
+  Sb  Sb12      1.0  0.69019  0.06991  0.59627  1.0000
+  Ru  Ru1       1.0  0.00997  0.22302  0.58950  1.0000
+  Ru  Ru2       1.0  0.34330  0.55635  0.50616  1.0000
+  Ru  Ru3       1.0  0.67663  0.88968  0.42283  1.0000
+  Ru  Ru4       1.0  0.32337  0.11032  0.51467  1.0000
+  Ru  Ru5       1.0  0.65670  0.44365  0.43134  1.0000
+  Ru  Ru6       1.0  0.99003  0.77698  0.59800  1.0000
+  Ru  Ru7       1.0  0.64730  0.44835  0.55516  1.0000
+  Ru  Ru8       1.0  0.98064  0.78168  0.47183  1.0000
+  Ru  Ru9       1.0  0.31397  0.11501  0.38850  1.0000
+  Ru  Ru10      1.0  0.68603  0.88499  0.54900  1.0000
+  Ru  Ru11      1.0  0.01936  0.21832  0.46567  1.0000
+  Ru  Ru12      1.0  0.35270  0.55165  0.38234  1.0000

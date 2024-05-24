@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Ce5Mg6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.48032000
+_cell_length_b   5.83029931
+_cell_length_c   51.57883300
+_cell_angle_alpha   92.73522403
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce5Mg6
+_chemical_formula_sum   'Ce10 Mg12'
+_cell_volume   1045.40958362
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.50000000  0.13349900  0.30401100  1
+  Ce  Ce1  1  0.00000000  0.13059800  0.34598900  1
+  Ce  Ce2  1  0.50000000  0.53349900  0.50401100  1
+  Ce  Ce3  1  1.00000000  0.53059800  0.54598900  1
+  Ce  Ce4  1  1.00000000  0.83349900  0.40401100  1
+  Ce  Ce5  1  0.50000000  0.83059800  0.44598900  1
+  Ce  Ce6  1  0.50000000  0.93349900  0.70401100  1
+  Ce  Ce7  1  1.00000000  0.93059800  0.74598900  1
+  Ce  Ce8  1  1.00000000  0.23349900  0.60401100  1
+  Ce  Ce9  1  0.50000000  0.23059800  0.64598900  1
+  Mg  Mg10  1  0.50000000  0.63264300  0.34931200  1
+  Mg  Mg11  1  1.00000000  0.63145400  0.30068800  1
+  Mg  Mg12  1  1.00000000  0.93264300  0.24931200  1
+  Mg  Mg13  1  0.50000000  0.33145400  0.40068800  1
+  Mg  Mg14  1  0.50000000  0.03264300  0.54931200  1
+  Mg  Mg15  1  1.00000000  0.03145400  0.50068800  1
+  Mg  Mg16  1  1.00000000  0.33264300  0.44931200  1
+  Mg  Mg17  1  0.50000000  0.73145400  0.60068800  1
+  Mg  Mg18  1  0.50000000  0.43264300  0.74931200  1
+  Mg  Mg19  1  1.00000000  0.43145400  0.70068800  1
+  Mg  Mg20  1  0.00000000  0.73264300  0.64931200  1
+  Mg  Mg21  1  0.50000000  0.13145400  0.80068800  1

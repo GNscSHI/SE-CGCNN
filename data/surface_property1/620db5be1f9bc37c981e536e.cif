@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Mg9Rh4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.23900894
+_cell_length_b   5.43415178
+_cell_length_c   43.13269700
+_cell_angle_alpha   87.57775069
+_cell_angle_beta   87.84821079
+_cell_angle_gamma   72.66107501
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg9Rh4
+_chemical_formula_sum   'Mg18 Rh8'
+_cell_volume   723.79602919
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.34189200  0.50820700  0.80800800  1
+  Mg  Mg1  1  0.61200500  0.98876100  0.78723000  1
+  Mg  Mg2  1  0.27046400  0.72249300  0.73657900  1
+  Mg  Mg3  1  0.54057600  0.20304700  0.71580200  1
+  Mg  Mg4  1  0.19903500  0.93677900  0.66515100  1
+  Mg  Mg5  1  0.46914700  0.41733200  0.64437300  1
+  Mg  Mg6  1  0.12760700  0.15106500  0.59372200  1
+  Mg  Mg7  1  0.39771900  0.63161800  0.57294400  1
+  Mg  Mg8  1  0.05617800  0.36535000  0.52229400  1
+  Mg  Mg9  1  0.32629000  0.84590400  0.50151600  1
+  Mg  Mg10  1  0.98474900  0.57963600  0.45086500  1
+  Mg  Mg11  1  0.25486200  0.06018900  0.43008700  1
+  Mg  Mg12  1  0.91332100  0.79392200  0.37943700  1
+  Mg  Mg13  1  0.18343300  0.27447500  0.35865900  1
+  Mg  Mg14  1  0.84189200  0.00820700  0.30800800  1
+  Mg  Mg15  1  0.11200500  0.48876100  0.28723000  1
+  Mg  Mg16  1  0.77046400  0.22249300  0.23657900  1
+  Mg  Mg17  1  0.04057600  0.70304700  0.21580200  1
+  Rh  Rh18  1  0.94123400  0.35562700  0.76190500  1
+  Rh  Rh19  1  0.86980600  0.56991300  0.69047600  1
+  Rh  Rh20  1  0.79837700  0.78419800  0.61904800  1
+  Rh  Rh21  1  0.72694800  0.99848400  0.54761900  1
+  Rh  Rh22  1  0.65552000  0.21277000  0.47619000  1
+  Rh  Rh23  1  0.58409100  0.42705600  0.40476200  1
+  Rh  Rh24  1  0.51266300  0.64134100  0.33333300  1
+  Rh  Rh25  1  0.44123400  0.85562700  0.26190500  1

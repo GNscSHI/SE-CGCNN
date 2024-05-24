@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Ir20
+_chemical_formula_sum              "Ir20"
+_cell_length_a       2.71011
+_cell_length_b       8.13032
+_cell_length_c       38.4224
+_cell_angle_alpha    94.0447
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ir  Ir1       1.0  0.00000  0.75833  0.64167  1.0000
+  Ir  Ir2       1.0  0.00000  0.19167  0.60833  1.0000
+  Ir  Ir3       1.0  0.00000  0.49167  0.50833  1.0000
+  Ir  Ir4       1.0  0.00000  0.62500  0.57500  1.0000
+  Ir  Ir5       1.0  0.00000  0.05833  0.54167  1.0000
+  Ir  Ir6       1.0  0.50000  0.90833  0.59167  1.0000
+  Ir  Ir7       1.0  0.50000  0.34167  0.55833  1.0000
+  Ir  Ir8       1.0  0.50000  0.47500  0.62500  1.0000
+  Ir  Ir9       1.0  0.50000  0.77500  0.52500  1.0000
+  Ir  Ir10      1.0  0.50000  0.04167  0.65833  1.0000
+  Ir  Ir11      1.0  0.00000  0.92500  0.47500  1.0000
+  Ir  Ir12      1.0  0.00000  0.35833  0.44167  1.0000
+  Ir  Ir13      1.0  0.00000  0.65833  0.34167  1.0000
+  Ir  Ir14      1.0  0.00000  0.79167  0.40833  1.0000
+  Ir  Ir15      1.0  0.00000  0.22500  0.37500  1.0000
+  Ir  Ir16      1.0  0.50000  0.07500  0.42500  1.0000
+  Ir  Ir17      1.0  0.50000  0.50833  0.39167  1.0000
+  Ir  Ir18      1.0  0.50000  0.64167  0.45833  1.0000
+  Ir  Ir19      1.0  0.50000  0.94167  0.35833  1.0000
+  Ir  Ir20      1.0  0.50000  0.20833  0.49167  1.0000

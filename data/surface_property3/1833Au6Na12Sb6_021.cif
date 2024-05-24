@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Au6Na12Sb6
+_chemical_formula_sum              "Au6 Na12 Sb6"
+_cell_length_a       7.45441
+_cell_length_b       8.30682
+_cell_length_c       32.7039
+_cell_angle_alpha    84.5402
+_cell_angle_beta     90
+_cell_angle_gamma    116.66
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.00000  0.00000  0.49306  1.0000
+  Au  Au2       1.0  0.33333  0.66667  0.38194  1.0000
+  Au  Au3       1.0  0.66667  0.33333  0.60417  1.0000
+  Au  Au4       1.0  0.83333  0.66667  0.54861  1.0000
+  Au  Au5       1.0  0.16667  0.33333  0.43750  1.0000
+  Au  Au6       1.0  0.50000  0.00000  0.65972  1.0000
+  Na  Na1       1.0  0.64581  0.61970  0.44962  1.0000
+  Na  Na2       1.0  0.97915  0.28637  0.33851  1.0000
+  Na  Na3       1.0  0.31248  0.95304  0.56073  1.0000
+  Na  Na4       1.0  0.02085  0.71363  0.64760  1.0000
+  Na  Na5       1.0  0.35419  0.38030  0.53649  1.0000
+  Na  Na6       1.0  0.68752  0.04696  0.42538  1.0000
+  Na  Na7       1.0  0.52611  0.38030  0.36982  1.0000
+  Na  Na8       1.0  0.85945  0.04696  0.59204  1.0000
+  Na  Na9       1.0  0.19278  0.71363  0.48093  1.0000
+  Na  Na10      1.0  0.14055  0.95304  0.39407  1.0000
+  Na  Na11      1.0  0.47389  0.61970  0.61629  1.0000
+  Na  Na12      1.0  0.80722  0.28637  0.50518  1.0000
+  Sb  Sb1       1.0  0.38146  0.16667  0.46528  1.0000
+  Sb  Sb2       1.0  0.71479  0.83333  0.35417  1.0000
+  Sb  Sb3       1.0  0.04813  0.50000  0.57639  1.0000
+  Sb  Sb4       1.0  0.61854  0.83333  0.52083  1.0000
+  Sb  Sb5       1.0  0.95187  0.50000  0.40972  1.0000
+  Sb  Sb6       1.0  0.28521  0.16667  0.63194  1.0000

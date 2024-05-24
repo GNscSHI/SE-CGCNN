@@ -1,0 +1,41 @@
+data_image0
+_chemical_formula_structural       Al4Pt4Al4Pt4
+_chemical_formula_sum              "Al8 Pt8"
+_cell_length_a       4.86787
+_cell_length_b       4.86787
+_cell_length_c       34.0751
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.84402  0.84402  0.44200  1.0000
+  Al  Al2       1.0  0.15598  0.34402  0.41514  1.0000
+  Al  Al3       1.0  0.65598  0.15598  0.37057  1.0000
+  Al  Al4       1.0  0.34402  0.65598  0.48657  1.0000
+  Pt  Pt1       1.0  0.15487  0.15487  0.48641  1.0000
+  Pt  Pt2       1.0  0.84513  0.65487  0.37073  1.0000
+  Pt  Pt3       1.0  0.34513  0.84513  0.41498  1.0000
+  Pt  Pt4       1.0  0.65487  0.34513  0.44216  1.0000
+  Al  Al5       1.0  0.84402  0.84402  0.58486  1.0000
+  Al  Al6       1.0  0.15598  0.34402  0.55800  1.0000
+  Al  Al7       1.0  0.65598  0.15598  0.51343  1.0000
+  Al  Al8       1.0  0.34402  0.65598  0.62943  1.0000
+  Pt  Pt5       1.0  0.15487  0.15487  0.62927  1.0000
+  Pt  Pt6       1.0  0.84513  0.65487  0.51359  1.0000
+  Pt  Pt7       1.0  0.34513  0.84513  0.55784  1.0000
+  Pt  Pt8       1.0  0.65487  0.34513  0.58502  1.0000

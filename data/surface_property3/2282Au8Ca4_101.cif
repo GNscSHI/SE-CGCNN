@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Au8Ca4
+_chemical_formula_sum              "Au8 Ca4"
+_cell_length_a       5.82894
+_cell_length_b       5.82894
+_cell_length_c       31.9691
+_cell_angle_alpha    89.1035
+_cell_angle_beta     89.1035
+_cell_angle_gamma    73.6234
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Au  Au1       1.0  0.20793  0.78491  0.45774  1.0000
+  Au  Au2       1.0  0.04207  0.46509  0.41726  1.0000
+  Au  Au3       1.0  0.78491  0.20793  0.45774  1.0000
+  Au  Au4       1.0  0.46509  0.04207  0.41726  1.0000
+  Au  Au5       1.0  0.95793  0.53491  0.58274  1.0000
+  Au  Au6       1.0  0.79207  0.21509  0.54226  1.0000
+  Au  Au7       1.0  0.53491  0.95793  0.58274  1.0000
+  Au  Au8       1.0  0.21509  0.79207  0.54226  1.0000
+  Ca  Ca1       1.0  0.52952  0.52952  0.37992  1.0000
+  Ca  Ca2       1.0  0.72048  0.72048  0.49508  1.0000
+  Ca  Ca3       1.0  0.27952  0.27952  0.50492  1.0000
+  Ca  Ca4       1.0  0.47048  0.47048  0.62008  1.0000

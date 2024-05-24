@@ -1,0 +1,49 @@
+data_image0
+_chemical_formula_structural       Cu18Ge6
+_chemical_formula_sum              "Cu18 Ge6"
+_cell_length_a       6.13227
+_cell_length_b       6.70195
+_cell_length_c       32.2753
+_cell_angle_alpha    79.2507
+_cell_angle_beta     86.7855
+_cell_angle_gamma    64.9289
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.61223  0.94389  0.49320  1.0000
+  Cu  Cu2       1.0  0.94556  0.27722  0.40986  1.0000
+  Cu  Cu3       1.0  0.27889  0.61055  0.57653  1.0000
+  Cu  Cu4       1.0  0.05444  0.22278  0.54847  1.0000
+  Cu  Cu5       1.0  0.38777  0.55611  0.46514  1.0000
+  Cu  Cu6       1.0  0.72111  0.88945  0.38180  1.0000
+  Cu  Cu7       1.0  0.64031  0.55434  0.52783  1.0000
+  Cu  Cu8       1.0  0.97364  0.88768  0.44450  1.0000
+  Cu  Cu9       1.0  0.30698  0.22101  0.61116  1.0000
+  Cu  Cu10      1.0  0.47298  0.88901  0.56966  1.0000
+  Cu  Cu11      1.0  0.80631  0.22235  0.48633  1.0000
+  Cu  Cu12      1.0  0.13964  0.55568  0.40300  1.0000
+  Cu  Cu13      1.0  0.02636  0.61232  0.51384  1.0000
+  Cu  Cu14      1.0  0.35969  0.94566  0.43050  1.0000
+  Cu  Cu15      1.0  0.69302  0.27899  0.59717  1.0000
+  Cu  Cu16      1.0  0.86036  0.94432  0.55534  1.0000
+  Cu  Cu17      1.0  0.19369  0.27765  0.47200  1.0000
+  Cu  Cu18      1.0  0.52702  0.61099  0.38867  1.0000
+  Ge  Ge1       1.0  0.88434  0.55783  0.58971  1.0000
+  Ge  Ge2       1.0  0.21767  0.89117  0.50638  1.0000
+  Ge  Ge3       1.0  0.55100  0.22450  0.42304  1.0000
+  Ge  Ge4       1.0  0.78233  0.60883  0.45196  1.0000
+  Ge  Ge5       1.0  0.11566  0.94217  0.61862  1.0000
+  Ge  Ge6       1.0  0.44900  0.27550  0.53529  1.0000

@@ -1,0 +1,45 @@
+data_image0
+_chemical_formula_structural       Mo8As12
+_chemical_formula_sum              "Mo8 As12"
+_cell_length_a       3.22174
+_cell_length_b       11.1596
+_cell_length_c       38.375
+_cell_angle_alpha    79.4403
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mo  Mo1       1.0  0.50000  0.74803  0.50591  1.0000
+  Mo  Mo2       1.0  0.50000  0.25197  0.44409  1.0000
+  Mo  Mo3       1.0  0.50000  0.85053  0.42107  1.0000
+  Mo  Mo4       1.0  0.50000  0.14947  0.52893  1.0000
+  Mo  Mo5       1.0  0.00000  0.24803  0.38091  1.0000
+  Mo  Mo6       1.0  0.00000  0.75197  0.56909  1.0000
+  Mo  Mo7       1.0  0.00000  0.35053  0.54607  1.0000
+  Mo  Mo8       1.0  0.00000  0.64947  0.40393  1.0000
+  As  As1       1.0  0.50000  0.62727  0.45494  1.0000
+  As  As2       1.0  0.50000  0.37273  0.49506  1.0000
+  As  As3       1.0  0.50000  0.91461  0.54275  1.0000
+  As  As4       1.0  0.50000  0.08539  0.40725  1.0000
+  As  As5       1.0  0.00000  0.10464  0.48104  1.0000
+  As  As6       1.0  0.00000  0.89536  0.46896  1.0000
+  As  As7       1.0  0.00000  0.12727  0.57994  1.0000
+  As  As8       1.0  0.00000  0.87273  0.62006  1.0000
+  As  As9       1.0  0.00000  0.41461  0.41775  1.0000
+  As  As10      1.0  0.00000  0.58539  0.53225  1.0000
+  As  As11      1.0  0.50000  0.60464  0.60604  1.0000
+  As  As12      1.0  0.50000  0.39536  0.59396  1.0000

@@ -1,0 +1,39 @@
+data_image0
+_chemical_formula_structural       AlAsPt5AlAsPt5
+_chemical_formula_sum              "Al2 As2 Pt10"
+_cell_length_a       3.94046
+_cell_length_b       6.95312
+_cell_length_c       31.5237
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.50000  0.00000  0.40179  1.0000
+  As  As1       1.0  0.00000  0.50000  0.46429  1.0000
+  Pt  Pt1       1.0  0.50000  0.27323  0.46429  1.0000
+  Pt  Pt2       1.0  0.50000  0.72677  0.46429  1.0000
+  Pt  Pt3       1.0  0.00000  0.27323  0.40179  1.0000
+  Pt  Pt4       1.0  0.00000  0.72677  0.40179  1.0000
+  Pt  Pt5       1.0  0.00000  0.00000  0.46429  1.0000
+  Al  Al2       1.0  0.50000  0.00000  0.52679  1.0000
+  As  As2       1.0  0.00000  0.50000  0.58929  1.0000
+  Pt  Pt6       1.0  0.50000  0.27323  0.58929  1.0000
+  Pt  Pt7       1.0  0.50000  0.72677  0.58929  1.0000
+  Pt  Pt8       1.0  0.00000  0.27323  0.52679  1.0000
+  Pt  Pt9       1.0  0.00000  0.72677  0.52679  1.0000
+  Pt  Pt10      1.0  0.00000  0.00000  0.58929  1.0000
