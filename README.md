@@ -13,6 +13,7 @@ The package provides three major functions:
   - [Define a customized dataset](#define-a-customized-dataset)
   - [Train a SE-CGCNN model](#train-a-se-cgcnn-model)
   - [Predict material properties with a pre-trained SE-CGCNN model](#predict-material-properties-with-a-pre-trained-se-cgcnn-model)
+  - [Transfer the pre-trained model to customized datasets](#transfer-the-pre-trained-model-to-customized-datasets)
 - [Data](#data)
 - [Authors](#authors)
 - [License](#license)
@@ -36,8 +37,12 @@ The following packages are required:
 It has no differences with the original CGCNN in some cases, but we make some **extensions**.
 
 - Multiple properties are allowed in `id_prop.csv`, and the model will make corresponding adjustments.
-- The flag of `--depth`, `--mode`, `--fine-tuning` etc. are availiable for different needs.
-
+- The flag of `--depth`, `--mode`, `--fine-tuning` etc. are availiable for different needs, you can check by typing: 
+  ```bash
+  python main.py -h
+  ```
+  in directory `cgcnn`.
+  
 ### Define a customized dataset 
 
 To input crystal structures to CGCNN, you will need to define a customized dataset. Note that this is required for both training and predicting. 
@@ -118,6 +123,25 @@ python predict.py pre-trained.pth.tar root_dir
 After predicting, you will get one file in `cgcnn` directory:
 
 - `test_results.csv`: stores the `ID`, target values and predicted values for each crystal in test set. Here the target values are the numbers that you set while defining the dataset in `id_prop.csv`, which is not important.
+
+### Transfer the pre-trained model to customized datasets
+
+Before conducting transfer learning, you will need to:
+
+- [Define a customized dataset](#define-a-customized-dataset) at `root_dir` for all the crystal structures that you want to predict.
+- Obtain a [pre-trained CGCNN model](pre-trained) named `pre-trained.pth.tar`.
+
+Then, in directory `cgcnn`, you can conduct a fine-tuning based transfer learning in `root_dir`:
+
+```bash
+python main.py root_dir --resume pre-trained.pth.tar --fine-tuning
+```
+
+you can also fix the parameters in convolutional layers:
+
+```bash
+python main.py root_dir --resume pre-trained.pth.tar --fix-conv-param
+```
 
 ## Data
 
