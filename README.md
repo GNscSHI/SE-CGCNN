@@ -11,7 +11,7 @@ The package provides three major functions:
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
   - [Define a customized dataset](#define-a-customized-dataset)
-  - [Train a SE-CGCNN model](#train-a-se--cgcnn-model)
+  - [Train a SE-CGCNN model](#train-a-se-cgcnn-model)
   - [Predict material properties with a pre-trained CGCNN model](#predict-material-properties-with-a-pre-trained-cgcnn-model)
 - [Data](#data)
 - [Authors](#authors)
