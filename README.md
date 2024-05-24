@@ -12,7 +12,7 @@ The package provides three major functions:
 - [Usage](#usage)
   - [Define a customized dataset](#define-a-customized-dataset)
   - [Train a SE-CGCNN model](#train-a-se-cgcnn-model)
-  - [Predict material properties with a pre-trained CGCNN model](#predict-material-properties-with-a-pre-trained-cgcnn-model)
+  - [Predict material properties with a pre-trained SE-CGCNN model](#predict-material-properties-with-a-pre-trained-se-cgcnn-model)
 - [Data](#data)
 - [Authors](#authors)
 - [License](#license)
@@ -33,6 +33,10 @@ The following packages are required:
 - [pymatgen](http://pymatgen.org)
 
 ## Usage
+It has no differences with the original CGCNN in some cases, but we make some **extensions**.
+
+- Multiple properties are allowed in `id_prop.csv`, and the model will make corresponding adjustments.
+- The flag of `--depth`, `--mode`, `--fine-tuning` etc. are availiable for different needs.
 
 ### Define a customized dataset 
 
@@ -40,12 +44,12 @@ To input crystal structures to CGCNN, you will need to define a customized datas
 
 Before defining a customized dataset, you will need:
 
-- [CIF](https://en.wikipedia.org/wiki/Crystallographic_Information_File) files recording the structure of the crystals that you are interested in
+- [CIF](https://en.wikipedia.org/wiki/Crystallographic_Information_File) files recode the structure of the crystals that you are interested in
 - The target properties for each crystal (not needed for predicting, but you need to put some random numbers in `id_prop.csv`)
 
 You can create a customized dataset by creating a directory `root_dir` with the following files: 
 
-1. `id_prop.csv`: a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file with **two or more** columns. The first column recodes a unique `ID` for each crystal, and the remaining columns record the values of target properties. If you want to predict material properties with `predict.py`, you can put any number in the remaining column. (The second column is still needed to identify the properties to predict.)
+1. `id_prop.csv`: a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file with **two or more** columns. The first column recodes a unique `ID` for each crystal, and the remaining columns recode the values of target properties. If you want to predict material properties with `predict.py`, you can put any number in the remaining column.
 
 2. `atom_init.json`: a [JSON](https://en.wikipedia.org/wiki/JSON) file that stores the initialization vector for each element. An example of `atom_init.json` is `data/sample-regression/atom_init.json`, which should be good for most applications.
 
@@ -62,7 +66,7 @@ root_dir
 ├── ...
 ```
 
-There are two examples of customized datasets in the repository: `data/sample-regression` for regression and `data/sample-classification` for classification. 
+There are two examples of customized datasets in the repository: `data/sample-single` and `data/sample-multi` for regression (classification is not supported by far).
 
 **For advanced PyTorch users**
 
@@ -80,29 +84,25 @@ Then, in directory `cgcnn`, you can train a CGCNN model for your customized data
 python main.py root_dir
 ```
 
-You can set the number of training, validation, and test data with labels `--train-size`, `--val-size`, and `--test-size`. Alternatively, you may use the flags `--train-ratio`, `--val-ratio`, `--test-ratio` instead. Note that the ratio flags cannot be used with the size flags simultaneously. For instance, `data/sample-regression` has 10 data points in total. You can train a model by:
+You can set the number of training, validation, and test data with labels `--train-size`, `--val-size`, and `--test-size`. Alternatively, you may use the flags `--train-ratio`, `--val-ratio`, `--test-ratio` instead. Note that the ratio flags cannot be used with the size flags simultaneously. For instance, `data/sample-multi` has 10 data points in total. You can train a model by:
 
 ```bash
-python main.py --train-size 6 --val-size 2 --test-size 2 data/sample-regression
+python main.py --train-size 6 --val-size 2 --test-size 2 data/sample-multi
 ```
 or alternatively
 ```bash
-python main.py --train-ratio 0.6 --val-ratio 0.2 --test-ratio 0.2 data/sample-regression
+python main.py --train-ratio 0.6 --val-ratio 0.2 --test-ratio 0.2 data/sample-multi
 ```
-
-You can also train a classification model with label `--task classification`. For instance, you can use `data/sample-classification` by:
-
-```bash
-python main.py --task classification --train-size 5 --val-size 2 --test-size 3 data/sample-classification
-```
+*(It would be the same with the original CGCNN if you use the dataset of `data/sample-single`)*
 
 After training, you will get three files in `cgcnn` directory.
 
 - `model_best.pth.tar`: stores the CGCNN model with the best validation accuracy.
 - `checkpoint.pth.tar`: stores the CGCNN model at the last epoch.
 - `test_results.csv`: stores the `ID`, target value, and predicted value for each crystal in test set.
+- `epoch_info.csv`: stores the evaluation results on training/validation/test set in all epoches.
 
-### Predict material properties with a pre-trained CGCNN model
+### Predict material properties with a pre-trained SE-CGCNN model
 
 Before predicting the material properties, you will need to:
 
@@ -115,35 +115,10 @@ Then, in directory `cgcnn`, you can predict the properties of the crystals in `r
 python predict.py pre-trained.pth.tar root_dir
 ```
 
-For instace, you can predict the formation energies of the crystals in `data/sample-regression`:
-
-```bash
-python predict.py pre-trained/formation-energy-per-atom.pth.tar data/sample-regression
-```
-
-And you can also predict if the crystals in `data/sample-classification` are metal (1) or semiconductors (0):
-
-```bash
-python predict.py pre-trained/semi-metal-classification.pth.tar data/sample-classification
-```
-
-Note that for classification, the predicted values in `test_results.csv` is a probability between 0 and 1 that the crystal can be classified as 1 (metal in the above example).
-
 After predicting, you will get one file in `cgcnn` directory:
 
-- `test_results.csv`: stores the `ID`, target value, and predicted value for each crystal in test set. Here the target value is just any number that you set while defining the dataset in `id_prop.csv`, which is not important.
+- `test_results.csv`: stores the `ID`, target values and predicted values for each crystal in test set. Here the target values are the numbers that you set while defining the dataset in `id_prop.csv`, which is not important.
 
 ## Data
 
-To reproduce our paper, you can download the corresponding datasets following the [instruction](data/material-data).
-
-## Authors
-
-This software was primarily written by [Tian Xie](http://txie.me) who was advised by [Prof. Jeffrey Grossman](https://dmse.mit.edu/faculty/profile/grossman). 
-
-## License
-
-CGCNN is released under the MIT License.
-
-
-
+To reproduce our work, you can extract the corresponding dataset following the [instruction](data/surface-properties).
