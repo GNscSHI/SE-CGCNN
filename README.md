@@ -1,5 +1,5 @@
 # Suface-emphasized Crystal Graph Convolutional Neural Networks
-(SE-CGCNN) This is the repository for our work on surface property prediction of crystals. The ideas of Crystal Graph Convolutional Neural Network, surface embedding and GradNorm algorithm (for multi-task learning) are combined to predict surface properties with higher accuracy and efficiency.
+(SE-CGCNN) This is the repository for our work on surface property prediction of crystals. The ideas of Crystal Graph Convolutional Neural Network, surface embedding and GradNorm algorithm (for multi-task learning) are combined to predict materials properties with higher accuracy and efficiency.
 
 The package provides three major functions:
 - Train a SE-CGCNN model with a customized dataset for single/multiple targets.
