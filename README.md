@@ -38,9 +38,11 @@ It has no differences with the original CGCNN in some cases, but we make some **
 
 - Multiple properties are allowed in `id_prop.csv`, and the model will make corresponding adjustments.
 - The flag of `--depth`, `--mode`, `--fine-tuning` etc. are availiable for different needs, you can check by typing: 
+
   ```bash
   python main.py -h
   ```
+
   in directory `cgcnn`.
   
 ### Define a customized dataset 
