@@ -1,5 +1,5 @@
 ## Dataset description 
-the folders here are some datasets as examples for SE-CGCNN to work on, which can act as `root_dir` 
+The folders here are some datasets as examples for SE-CGCNN to work on, which can act as `root_dir` 
 - sample-single and sample-multi are two toy datasets for a quick test.
 - surface_property1 is the dataset of facets of binary Mg intermetallic
 (can be generated with [instruction](original_dataset))
