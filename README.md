@@ -1,9 +1,9 @@
-# Suface-emphasized Crystal Graph Convolutional Neural Networks
-(SE-CGCNN) This is the repository for our work on surface property prediction of crystals. The ideas of Crystal Graph Convolutional Neural Network, surface embedding and GradNorm algorithm (for multi-task learning) are combined to predict materials properties with higher accuracy and efficiency.
+# Suface Emphasized Multi-task Crystal Graph Convolutional Neural Networks
+(SEM-CGCNN) This is the repository for our work on surface property prediction of crystals. The ideas of Crystal Graph Convolutional Neural Network, surface embedding and GradNorm algorithm (for multi-task learning) are combined to predict materials properties with higher accuracy and efficiency.
 
 The package provides three major functions:
-- Train a SE-CGCNN model with a customized dataset for single/multiple targets.
-- Predict material properties of new crystals with a pre-trained SE-CGCNN model.
+- Train a SEM-CGCNN model with a customized dataset for single/multiple targets.
+- Predict material properties of new crystals with a pre-trained SEM-CGCNN model.
 - Transfer the pre-trained model to customized datasets.
 
 ![sketch](cgcnn/sketch.png)
@@ -14,8 +14,8 @@ The package provides three major functions:
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
   - [Define a customized dataset](#define-a-customized-dataset)
-  - [Train a SE-CGCNN model](#train-a-se-cgcnn-model)
-  - [Predict material properties with a pre-trained SE-CGCNN model](#predict-material-properties-with-a-pre-trained-se-cgcnn-model)
+  - [Train a SEM-CGCNN model](#train-a-sem-cgcnn-model)
+  - [Predict material properties with a pre-trained SEM-CGCNN model](#predict-material-properties-with-a-pre-trained-sem-cgcnn-model)
   - [Transfer the pre-trained model to customized datasets](#transfer-the-pre-trained-model-to-customized-datasets)
 - [Data](#data)
 - [Authors](#authors)
@@ -82,7 +82,7 @@ There are two examples of customized datasets in the repository: `data/sample-si
 
 The above method of creating a customized dataset uses the `CIFData` class in `cgcnn.data`. If you want a more flexible way to input crystal structures, PyTorch has a great [Tutorial](http://pytorch.org/tutorials/beginner/data_loading_tutorial.html#sphx-glr-beginner-data-loading-tutorial-py) for writing your own dataset class.
 
-### Train a SE-CGCNN model
+### Train a SEM-CGCNN model
 
 Before training a new CGCNN model, you will need to:
 
@@ -112,7 +112,7 @@ After training, you will get three files in `cgcnn` directory.
 - `test_results.csv`: stores the `ID`, target value, and predicted value for each crystal in test set.
 - `epoch_info.csv`: stores the evaluation results on training/validation/test set in all epoches.
 
-### Predict material properties with a pre-trained SE-CGCNN model
+### Predict material properties with a pre-trained SEM-CGCNN model
 
 Before predicting the material properties, you will need to:
 
