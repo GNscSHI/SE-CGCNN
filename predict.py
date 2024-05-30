@@ -30,9 +30,6 @@ parser.add_argument('--disable-cuda', action='store_true',
 parser.add_argument('--print-freq', '-p', default=10, type=int,
                     metavar='N', help='print frequency (default: 10)')
 
-parser.add_argument('--depth', type=float, default=2, 
-                    help='threshold depth for surface atoms')
-parser.add_argument('--consolidate', action='store_true')
 
 args = parser.parse_args(sys.argv[1:])
 if os.path.isfile(args.modelpath):

@@ -83,8 +83,8 @@ parser.add_argument('--mode', '-m', choices=('grad_norm', 'equal_weight'), defau
 parser.add_argument('--alpha', '-a', type=float, default=1.5, 
                     help='hyper-parameter of gradnorm, constraint on balancing the training speed')
 
-parser.add_argument('--depth', type=float, default=0, 
-                    help='threshold depth for surface atoms (default: 0)')
+parser.add_argument('--depth', type=float, default=-1, 
+                    help='threshold depth for surface atoms, ignore if set to -1  (default: -1)')
 
 parser.add_argument('--fix-conv-param', action='store_true',
                     help='fix parameters in convolution layers for transfer learning')

@@ -337,8 +337,9 @@ class CIFData(Dataset):
     
     
         ## attach atom_fea with location info(if it's on surface)
-        surface_fea = slab_operation(crystal).surface_atom(depth=0)
-        atom_fea = np.concatenate((atom_fea, surface_fea[:, np.newaxis]), axis=1)
+        if self.depth != -1:
+            surface_fea = slab_operation(crystal).surface_atom(depth=self.depth)
+            atom_fea = np.concatenate((atom_fea, surface_fea[:, np.newaxis]), axis=1)
         ## modify complete
         
         
