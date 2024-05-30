@@ -6,7 +6,7 @@ The package provides three major functions:
 - Predict material properties of new crystals with a pre-trained SE-CGCNN model.
 - Transfer the pre-trained model to customized datasets.
 
-![sketch](cgcnn//sketch.png)
+![sketch](cgcnn/sketch.png)
 
 ## Table of Contents
 

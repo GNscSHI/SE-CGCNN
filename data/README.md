@@ -2,7 +2,7 @@
 The folders here are some datasets as examples for SE-CGCNN to work on, which can act as `root_dir` 
 - sample-single and sample-multi are two toy datasets for a quick test.
 - surface_property1 is the dataset of facets of binary Mg intermetallic
-(can be generated with [instruction](..//original_dataset))
+(can be generated with [instruction](../original_dataset))
 - surface_property2 is the dataset of facets of pure Mg metals
 (downloaded from [Materials Project](https://www.materialsproject.org/))
 - surface_property3 is the dataset of facets of various intermetallics
