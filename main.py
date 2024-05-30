@@ -322,7 +322,7 @@ def train(train_loader, model, criterion, optimizer, epoch, **normalizers):
             loss = []
             for i in range(n_tasks):
                 exec(f'loss.append(criterion(outputs[i], target_var[i]))')
-            total_loss = sum(loss) / n_tasks
+            total_loss = sum(loss)
 
             # compute gradient and do SGD step
             optimizer.zero_grad()
@@ -525,7 +525,7 @@ def validate(val_loader, model, criterion, test=False, **normalizers):
             loss = []
             for i in range(n_tasks):
                 exec(f'loss.append(criterion(outputs[i], target{i+1}_var))')
-            total_loss = sum(loss) / n_tasks
+            total_loss = sum(loss)
             
             # measure accuracy and record loss
             if args.task == 'regression':

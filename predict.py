@@ -174,7 +174,7 @@ def validate(val_loader, model, criterion, test=False, **normalizers):
         loss = []
         for i in range(n_tasks):
             exec(f'loss.append(criterion(outputs[i], target{i+1}_var))')
-        total_loss = sum(loss) / n_tasks
+        total_loss = sum(loss)
         
         if args.consolidate:
             # ewc loss is 0 if there's no consolidated parameters.
